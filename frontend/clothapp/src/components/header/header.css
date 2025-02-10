@@ -4,6 +4,7 @@
     background-color: whitesmoke;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding: 20px 40px;
+    z-index: 9999;
 }
 
 .headerparent{
@@ -138,6 +139,10 @@ display: none;
 .headerrespcontainer-cstmsecond{
     display: none;
 }
+.headerchildfirst h1{
+    font-family: "Roboto", serif; 
+    font-weight: 900; 
+}
 
 @media screen and (max-width: 1199px) {
     .headerchildfirst{
@@ -228,6 +233,11 @@ display: none;
 
     .searchiconcstmthird{
         display: none;
+    }
+
+    .h1textcstm{
+        font-family: "Roboto", serif; 
+        font-weight: 900; 
     }
 
 

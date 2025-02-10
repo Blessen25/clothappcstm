@@ -22,7 +22,8 @@
 
 .containerdiv{
     padding: 20px 40px;
-    border: 2px solid black;
+    margin-top: 2px;
+    background-color: whitesmoke;
 }
 
 @media screen and (max-width: 767px) {
