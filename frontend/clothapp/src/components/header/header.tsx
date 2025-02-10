@@ -24,10 +24,11 @@ const Header = () =>{
                 </div>
                 <div className="headerchildthird">
                     <input type="Search" className="searchbar" placeholder="Search For Products..."/>
+                    <Search className="searchiconcstmthird"/>
                 </div>
                 <div className="headerchildfourth">
-                    <ShoppingCart className="headericonclass"/>
-                    <FaRegUserCircle className="headericonclass"/>
+                    <a href="#"><ShoppingCart className="headericonclass"/></a>
+                    <a href="#"><FaRegUserCircle className="headericonclass"/></a>
                 </div>
                 <div className="headerrespcontainer-cstmone">
                     <FaBars className="fabarsicon"/>
@@ -40,16 +41,16 @@ const Header = () =>{
                             <input type="search" className="searchbarcstm" placeholder="Search For Products..."/>
                             <Search className="headericonclass searchbariconcstm" onClick={handleSearchBarChange}/>
                         </div>
-                        <ShoppingCart className="headericonclass"/>
-                        <FaRegUserCircle className="headericonclass"/>
+                        <a href="#"><ShoppingCart className="headericonclass"/></a>
+                        <a href="#"><FaRegUserCircle className="headericonclass"/></a>
                     </div>
                     </>
                 ) : (
                 <>
                     <div className="headerrespcontainer-cstmsecond">
                         <Search className="headericonclass searchbariconcustom" onClick={handleSearchBarChange}/>
-                        <ShoppingCart className="headericonclass"/>
-                        <FaRegUserCircle className="headericonclass"/>
+                        <a href="#"><ShoppingCart className="headericonclass"/></a>
+                        <a href="#"><FaRegUserCircle className="headericonclass"/></a>
                     </div>
                 </>
             ) }
