@@ -22,11 +22,11 @@ const Header = () =>{
                     <a href="#">Product</a>
                     <a href="#">Category</a>
                 </div>
-                <div className="headerchildthird">
-                    <input type="Search" className="searchbar" placeholder="Search For Products..."/>
-                    <Search className="searchiconcstmthird"/>
-                </div>
                 <div className="headerchildfourth">
+                    <div className="headerchildthird">
+                        <input type="Search" className="searchbar" placeholder="Search For Products..."/>
+                        <Search className="searchiconcstmthird"/>
+                    </div>
                     <a href="#"><ShoppingCart className="headericonclass"/></a>
                     <a href="#"><FaRegUserCircle className="headericonclass"/></a>
                 </div>

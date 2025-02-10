@@ -14,9 +14,9 @@
 }
 
 .headerchildfirst{
-    width: 16%;
+    width: 202px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-self: center;
     font-size: 28px;
 
@@ -65,7 +65,7 @@
 }
 
 .headerchildthird{
-    width: 28%;
+    width: 90%;
     display: flex;
     align-items: center;
     position: relative;
@@ -78,7 +78,7 @@
 }
 
 .headerchildfourth{
-    width: 10%;
+    width: 36%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,16 +177,16 @@ display: none;
         display: flex;
         gap: 20px;
         align-items: center;
-        padding: 0px 20px;
+        /* padding: 0px 20px; */
 
     }
     .headerrespcontainer-cstmtwo{
         display: block;
-        width: 370px;
+        width: 330px;
         display: flex;
         gap: 20px;
         align-items: center;
-        padding: 0px 20px;
+        /* padding: 0px 20px; */
     }
 
     .headericonclass{
@@ -220,7 +220,7 @@ display: none;
         top: 10px;
     }
     .headerrespcontainer-cstmsecond{
-        width: 120px;
+        width: 100px;
         display: flex;
         align-items: center;
         gap: 20px;
@@ -257,7 +257,7 @@ display: none;
     }
 
     .headerrespcontainer-cstmtwo {
-        width: 325px;
+        width: 272px;
     }
     
     .searchbariconcstm{
@@ -270,7 +270,7 @@ display: none;
         width: 200px;
     }
     .headerrespcontainer-cstmsecond{
-        width: 121px;
+        width: 88px;
     }
 }
 
@@ -287,12 +287,11 @@ display: none;
         display: none;
     }
     .headerrespcontainer-cstmtwo {
-        width: 110px;
+        width: 68px;
     }
 
     .headerrespcontainer-cstmsecond{
-        width: 88px;
-        padding: 0 20px;
+        width: 48px;
     }
 
     .headericonclass{
@@ -309,7 +308,7 @@ display: none;
         height: 14px;
     }
     #Header{
-        padding: 10px;
+        padding: 15px;
         height: 70px;
     }
 }

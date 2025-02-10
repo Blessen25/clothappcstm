@@ -20,14 +20,26 @@
     color: #0445cf;
 }
 
+.containerdiv{
+    padding: 20px 40px;
+    border: 2px solid black;
+}
+
 @media screen and (max-width: 767px) {
     .homefrontbanddiv{
         font-size: 13px;
+    }
+    .containerdiv{
+        padding: 20px;
     }
 }
 
 @media screen and (max-width: 575px) {
     .homefrontbanddiv{
         font-size: 10px;
+    }
+
+    .containerdiv{
+        padding: 15px;
     }
 }
