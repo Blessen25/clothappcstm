@@ -1,11 +1,11 @@
 import React from 'react';
 import './home.css';
-import Homefrontband from '../../components/home.tsx';
+import Homefrontband from '../../components/headerbandsale.tsx';
 
 const Home = () => {
     return (
         <>
-        <Homefrontband />
+        <h1>Home Page</h1>
         </>
     )
 }
