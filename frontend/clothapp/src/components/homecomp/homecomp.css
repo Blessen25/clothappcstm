@@ -76,13 +76,13 @@
 }
 
 .homeintropagechildone a:hover{
-    box-shadow: inset 200px 0px 0px 0px #6b6b6b;
+    box-shadow: inset 0px 70px 0px 0px #6b6b6b;
     border-color: #6b6b6b;
     outline: none;
 }
 
 .brandsproductscustomer{
-    width: 100%;
+    width: 550px;
     height: 150px;
     display: flex;
     justify-content: start;
@@ -123,7 +123,7 @@
     }
 }
 
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
     .homeintropagechildtwo{
         width: 60%;
     }
@@ -147,17 +147,200 @@
     .numberplustextdiv p{
         font-size: 12px;
     }
+    .brandsproductscustomer{
+        width: 435px;
+    }
+
+    .borderline{
+        height: 70px;
+    }
 }
 
 @media screen and (max-width: 1199px) {
     .homeintropageparent{
         flex-wrap: wrap;
-        height: 100%;
+        height: 1000px;
     }
     .homeintropagechildone{
         width: 100%;
+        height: 500px;
+    }
+    .homeintropagechildtwo{
+        width: 848px;
+        height: 480px;
+    }
+    .vectorimgtwo{
+        display: block;
+        right: 590px;
+    }
+    .h1text{
+        margin-top: 20px;
+    }
+    .vectorimgone{
+        right: 50px;
+        top: 70px;
+    }
+    .homeintropagechildone a{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .h1text{
+        font-size: 57px;
+    }
+
+    .paratext{
+        font-size: 14px;
+    }
+
+    .numberplustextdiv h1{
+        font-size: 32px;
+    }
+
+    .numberplustextdiv p{
+        font-size: 14px;
     }
     .homeintropagechildtwo{
         width: 100%;
+    }
+
+    .brandsproductscustomer{
+        width: 496px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .h1text{
+        font-size: 40px;
+    }
+
+    .paratext{
+        font-size: 12px;
+    }
+
+    .numberplustextdiv h1{
+        font-size: 28px;
+    }
+
+    .numberplustextdiv p{
+        font-size: 12px;
+    }
+
+    .brandsproductscustomer{
+        width: 440px;
+        height: 100px;
+    }
+
+    .homeintropagechildone a{
+        font-size: 12px;
+        height: 40px;
+    }
+
+    .vectorimgtwo{
+        display: none;
+    }
+
+    .homeintropagechildone{
+        height: 360px;
+    }
+
+    .homeintropagechildtwo{
+        height: 440px;
+    }
+
+    .homeintropageparent{
+        height: 820px;
+        padding: 20px 20px 0px 20px;
+    }
+    .borderline{
+        height: 70px;
+    }
+    
+}
+
+@media screen and (max-width: 575px) {
+        .h1text{
+            font-size: 30px;
+        }
+
+        .paratext{
+            font-size: 10px;
+        }
+
+        .homeintropagechildone a{
+            height: 30px;
+            font-size: 10px;
+        }
+
+        .numberplustextdiv h1{
+            font-size: 22px;
+        }
+        
+        .numberplustextdiv p{
+            font-size: 10px;
+        }
+
+        .brandsproductscustomer{
+            width: 380px;
+        }
+        
+        .homeintropagechildtwo{
+            height: 350px;
+        }
+
+        .vectorimgone{
+            height: 30px;
+        }
+
+        .vectorimgtwo{
+            display: block;
+            height: 20px;
+            right: 410px;
+            top: 275px;
+        }
+
+        .homeintropageparent{
+            height: 725px;
+            padding: 15px 15px 0px 15px;
+        }
+
+        .borderline{
+            height: 60px;
+        }
+}
+
+@media screen and (max-width: 470px) {
+    .vectorimgtwo{
+        height: 10px;
+        top: 190px;
+        right: 270px;
+    }
+
+    .homeintropagechildtwo{
+        height: 240px;
+    }
+
+    .homeintropageparent{
+        height: 616px;
+    }
+
+    .vectorimgone{
+        height: 15px;
+        right: 50px;
+        top: 40px;
+    }
+
+    .brandsproductscustomer{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+    .numberplustextdiv{
+        width: 100px;
+    }
+
+    .h1text{
+        font-size: 22px;
     }
 }
