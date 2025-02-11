@@ -116,6 +116,77 @@
     opacity: .6;
 }
 
+.slidinglogoparent{
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.slidinglogoparent p{
+    width: 100%;
+    display: inline-block;
+    /* animation: slideText 10s linear infinite; */
+    color: white;
+    font-size: 28px;
+}
+
+.slidinglogochild{
+    width: 100%;
+    display: flex;
+    gap: 90px;
+    animation: slideText 30s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* KEY FRAMES FOR ANIMATIONS */
+
+
+@keyframes slideText {
+    from{
+        transform: translateX(0%);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   MEDIA QUERIES FOR RESPONSIVENESS */
+
+
+
+
 
 @media screen and (max-width: 1499px) {
     .vectorimgtwo{
@@ -185,6 +256,12 @@
     }
 }
 
+@media screen and (max-width: 1099px) {
+    .slidinglogochild{
+        gap: 70px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .h1text{
         font-size: 57px;
@@ -208,6 +285,7 @@
     .brandsproductscustomer{
         width: 496px;
     }
+    
 }
 
 @media screen and (max-width: 767px) {
@@ -255,6 +333,16 @@
     }
     .borderline{
         height: 70px;
+    }
+
+    .slidinglogoparent{
+        height: 80px;
+    }
+
+    .slidinglogoimg{
+        object-fit: cover;
+        width: 200px;
+        height: 20px;
     }
     
 }
@@ -308,6 +396,18 @@
         .borderline{
             height: 60px;
         }
+
+        .slidinglogoparent{
+            height: 50px;
+        }
+
+        .slidinglogochild{
+            /* gap: 20px; */
+            /* width: max-content; */
+            gap: 40px;
+            animation: slideText 10s linear infinite;
+        }
+
 }
 
 @media screen and (max-width: 470px) {
@@ -343,4 +443,5 @@
     .h1text{
         font-size: 22px;
     }
+
 }

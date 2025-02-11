@@ -40,3 +40,73 @@ export const Numberplustext:React.FC<numberplustextProps> = (Props) =>{
     )
 
 }
+
+export const Slidinglogo = () => {
+    return(
+        <>
+            <div className="slidinglogoparent">
+                <div className="slidinglogochild">
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                </div>
+            </div>
+        </>
+    )
+}
