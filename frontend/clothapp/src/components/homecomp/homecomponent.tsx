@@ -119,8 +119,8 @@ export const HomepageNewarrivals:React.FC<HomepageNewarrivalsProps> = (Props) =>
             <div className="newarrivalsparent">
                 <h1>{Props.text}</h1>
                 <div className="clothdetailsdiv">
-                    {Props.clothdata.map((item, index) => (
-                        <ClothdetailsCard key={index} imglink={item.imglink} clothname={item.clothname} star={item.star} price={item.price} offerprice={item.offerprice}/>
+                    {Props.clothdata?.map((item, index) => (
+                        <ClothdetailsCard key={index} imglink={item?.imglink} clothname={item?.clothname} star={item?.star} price={item?.price} offerprice={item?.offerprice}/>
                     ))}
                 </div>
             </div>
