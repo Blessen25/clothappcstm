@@ -151,6 +151,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    background-color: whitesmoke;
 }
 
 .newarrivalsparent h1{
@@ -236,6 +237,7 @@
 }
 
 .pricediv span{
+    
     max-width: 50%;
     font-size: 30px;
     font-weight: 600;
@@ -246,12 +248,14 @@
 }
 
 .priceoffer{
+    
     opacity: .7;
     font-size: 20px !important;
     text-decoration: line-through;
 }
 
 .buttoncenterdiv{
+    
     width: 100%;
     display: flex;
     justify-content: center;
@@ -259,10 +263,92 @@
 }
 
 .browseclothdiv{
-    border: 2px solid black;
+    
     width: 100%;
     padding: 20px 40px;
+    background-color: whitesmoke;
 }
+
+.browseclothdiv h1{
+    
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.browsediffsectiondiv{
+
+    width: 1030px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 60px;
+    gap: 15px;
+}
+
+.browsediffsectiondiv a{
+    display: block;
+}
+
+.diffsectionone{
+
+    width: 38%;
+    height: 280px;
+    background-image: url('../../../public/assets/Images/Casual.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.diffsectiontwo{
+
+    width: 60%;
+    height: 280px;
+    background-image: url('../../../public/assets/Images/Formal.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.diffsectionthree{
+
+    width: 60%;
+    height: 280px;
+    background-image: url('../../../public/assets/Images/Party.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.diffsectionfour{
+
+    width: 38%;
+    height: 280px;
+    background-image: url('../../../public/assets/Images/Gym.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.diffsectiontext{
+
+    position: absolute;
+    color: black;
+    font-size: 32px;
+    font-weight: 800;
+    top: 30px;
+    left: 30px;
+}
+
+
+
+
 
 
 /* KEY FRAMES FOR ANIMATIONS */
@@ -373,6 +459,11 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
+    .browsediffsectiondiv {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 1099px) {
@@ -402,11 +493,41 @@
     }
 
     .brandsproductscustomer{
+
         width: 496px;
     }
 
     .clothcardcstm{
+
         width: 40%;
+    }
+
+    .diffsectionone{
+
+        width: 37%;
+        height: 236px;        
+
+    }
+
+    .diffsectiontwo{
+
+        width: 59%;
+        height: 236px;        
+
+    }
+
+    .diffsectionthree{
+
+        width: 59%;
+        height: 236px;        
+
+    }
+
+    .diffsectionfour{
+
+        width: 37%;
+        height: 236px;        
+
     }
     
 }
@@ -493,6 +614,34 @@
 
     .browseclothdiv{
         padding: 20px;
+    }
+    
+    .browseclothdiv h1{
+        font-size: 40px;
+    }
+
+    .diffsectiontext{
+        font-size: 26px;
+    }
+
+    .diffsectionone{
+        
+        height: 186px;        
+    }
+
+    .diffsectiontwo{
+        
+        height: 186px;        
+    }
+
+    .diffsectionthree{
+        
+        height: 186px;        
+    }
+
+    .diffsectionfour{
+
+        height: 186px;        
     }
     
 }
@@ -594,6 +743,49 @@
 
         .browseclothdiv{
             padding: 15px;
+        }
+
+        .browseclothdiv h1{
+            font-size: 22px;
+            margin-top: 15px;
+        }
+
+        .diffsectionone{
+
+            width: 100%;
+            height: 236px;        
+    
+        }
+    
+        .diffsectiontwo{
+    
+            width: 100%;
+            height: 236px;        
+    
+        }
+    
+        .diffsectionthree{
+    
+            width: 100%;
+            height: 236px;        
+    
+        }
+    
+        .diffsectionfour{
+    
+            width: 100%;
+            height: 236px;        
+    
+        }
+
+        .diffsectiontext{
+
+            font-size: 22px;
+        }
+        
+        .browsediffsectiondiv{
+            margin-top: 30px;
+            gap: 25px;
         }
 }
 

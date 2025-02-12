@@ -246,8 +246,29 @@ export const BrowseClothSection = () => {
     return(
         <>
             <div className="browseclothdiv">
-
+                <h1>BROWSE BY DRESS STYLE</h1>
+                <div className="browsediffsectiondiv">
+                    <a href="#" className="diffsectionone">
+                        <p className="diffsectiontext">Casual</p>
+                    </a>
+                    <a href="#"  className="diffsectiontwo">
+                        <p className="diffsectiontext">Formal</p>
+                    </a>
+                    <a href="#" className="diffsectionthree">
+                        <p className="diffsectiontext">Party</p>
+                    </a>
+                    <a href="#" className="diffsectionfour">
+                        <p className="diffsectiontext">Gym</p>
+                    </a>
+                </div>
             </div>
+
         </>
+    )
+}
+
+export const HappyCustomerCmntSection = () => {
+    return(
+        <h1>HAPPY CUSTOMERS</h1>
     )
 }
