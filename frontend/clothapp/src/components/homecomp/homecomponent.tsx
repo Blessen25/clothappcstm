@@ -3,6 +3,7 @@ import './homecomp.css';
 import { ClothdetailsCardProps, HomepageNewarrivalsProps, numberplustextProps } from "../../interface/interface";
 import { faStar, faStarHalf, faStarHalfAlt, faStarHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ButtonTextOnly from "../button/button.tsx";
 export const HomeIntropage = () => {
     return(
         <React.Fragment>
@@ -17,7 +18,6 @@ export const HomeIntropage = () => {
                             <Numberplustext number={"2,000"} text={"High-Quality Products"} />
                             <div className="borderline"></div>
                             <Numberplustext number={"30,000"} text={"Happy Customers"} />
-
                         </div>
                 </div>
                 <div className="homeintropagechildtwo">
@@ -122,6 +122,9 @@ export const HomepageNewarrivals:React.FC<HomepageNewarrivalsProps> = (Props) =>
                     {Props.clothdata?.map((item, index) => (
                         <ClothdetailsCard key={index} imglink={item?.imglink} clothname={item?.clothname} star={item?.star} price={item?.price} offerprice={item?.offerprice}/>
                     ))}
+                </div>
+                <div className="buttoncenterdiv">
+                    <ButtonTextOnly buttonlabel="View All" fullwidth={false}/>
                 </div>
             </div>
         </>

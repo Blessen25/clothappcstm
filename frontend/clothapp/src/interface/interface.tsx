@@ -21,3 +21,14 @@ export interface ClothdetailsCardProps{
     
 
 }
+
+export interface ButtonTextOnlyProps{
+    buttonlabel : string;
+    fullwidth : boolean;
+    route ?: string;
+    onClick ?: () => void;
+    type ?: "button" | "submit" | "reset";
+    disabled ?: boolean;
+    className ?: string;
+    style ?: React.CSSProperties;
+}

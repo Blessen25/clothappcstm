@@ -251,6 +251,12 @@
     text-decoration: line-through;
 }
 
+.buttoncenterdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* KEY FRAMES FOR ANIMATIONS */
 
@@ -550,6 +556,7 @@
         }
         .newarrivalsparent h1{
             font-size: 22px;
+            margin-top: 15px;
         }
 
         .clothcardcstm p{
