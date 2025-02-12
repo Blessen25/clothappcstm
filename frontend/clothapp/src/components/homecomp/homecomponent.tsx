@@ -1,7 +1,7 @@
 import React from "react";
 import './homecomp.css';
 import { ClothdetailsCardProps, HomepageNewarrivalsProps, numberplustextProps } from "../../interface/interface";
-import { faStar, faStarHalf, faStarHalfAlt, faStarHalfStroke } from '@fortawesome/free-solid-svg-icons';
+import { faStar, faStarHalf, faStarHalfAlt, faStarHalfStroke, faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ButtonTextOnly from "../button/button.tsx";
 export const HomeIntropage = () => {
@@ -269,6 +269,14 @@ export const BrowseClothSection = () => {
 
 export const HappyCustomerCmntSection = () => {
     return(
-        <h1>HAPPY CUSTOMERS</h1>
+        <div className="happycustomerdiv">
+            <div className="h1andslidericon">
+                <h1 className="h1customertext">OUR HAPPY CUSTOMERS</h1>
+                <div className="slidericons">
+                       <FontAwesomeIcon icon={faArrowLeft} className="slidericoncstm"/>
+                       <FontAwesomeIcon icon={faArrowRight} className="slidericoncstm"/>
+                </div>
+            </div>
+        </div>
     )
 }
