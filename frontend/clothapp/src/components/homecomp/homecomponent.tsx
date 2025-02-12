@@ -1,7 +1,8 @@
 import React from "react";
 import './homecomp.css';
-import { numberplustextProps } from "../../interface/interface";
-
+import { ClothdetailsCardProps, HomepageNewarrivalsProps, numberplustextProps } from "../../interface/interface";
+import { faStar, faStarHalf, faStarHalfAlt, faStarHalfStroke } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export const HomeIntropage = () => {
     return(
         <React.Fragment>
@@ -106,6 +107,59 @@ export const Slidinglogo = () => {
                     <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
                     <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
                 </div>
+            </div>
+        </>
+    )
+}
+
+
+export const HomepageNewarrivals:React.FC<HomepageNewarrivalsProps> = (Props) =>{
+    return(
+        <>
+            <div className="newarrivalsparent">
+                <h1>{Props.text}</h1>
+                <div className="clothdetailsdiv">
+                    {Props.clothdata.map((item, index) => (
+                        <ClothdetailsCard key={index} imglink={item.imglink} clothname={item.clothname} star={item.star} price={item.price} offerprice={item.offerprice}/>
+                    ))}
+                </div>
+            </div>
+        </>
+    )
+}
+
+export const ClothdetailsCard:React.FC<ClothdetailsCardProps> = (Props) =>{
+    return(
+        <>
+            <div className="clothcardcstm">
+                <div className="shirtimage">
+                    <img src={Props.imglink} alt="Shirt Image" className="shirtimagesrc"/>
+                </div>
+                <p>{Props.clothname}</p>
+                <div className="stardiv">
+                    <div className="stardivchildone">
+                        <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                        <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                        <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                        <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                        <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+                    </div>
+                    <div className="stardivchildtwo">
+                        <p>{Props.star}/5</p>
+                    </div>
+                </div>
+                {Props.offerprice ? (<> 
+                    <div className="pricediv">
+                        <span>${Props.offerprice}</span>
+                        <span className="priceoffer">${Props.price}</span>
+                    </div>
+                </>) : (
+                    <>
+                        <div className="pricediv">
+                            <span>${Props.price}</span>
+                        </div>
+                    </>
+                )}
             </div>
         </>
     )

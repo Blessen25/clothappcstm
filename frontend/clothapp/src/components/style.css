@@ -44,3 +44,9 @@
         padding: 15px;
     }
 }
+
+@media screen and (max-width: 470px) {
+    .homefrontbanddiv {
+        font-size: 8px;
+    }
+}

@@ -145,14 +145,111 @@
     animation: slideText 30s linear infinite;
 }
 
+.newarrivalsparent{
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
+.newarrivalsparent h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+}
 
+.clothdetailsdiv{
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
 
+.clothcardcstm{
+    width: 22%;
+    /* height: 470px; */
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
 
+.shirtimage{
+    width: 100%;
+    height: 300px;
+}
 
+.shirtimagesrc{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 
+.clothcardcstm p{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 700;
+    font-size: 18px;
 
+}
 
+.stardiv{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.starcstmicon{
+    font-size: 20px;
+    color: rgb(255, 145, 0);
+}
+
+.stardivchildone{
+    display: flex;
+    gap: 3px;
+}
+
+.stardivchildtwo{
+    min-width: 34px;
+    max-width: 50px;
+    height: 24px;
+    display: flex;
+    padding-top: 1px;
+    opacity: .6;
+}
+
+.pricediv{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.pricediv span{
+    max-width: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.priceoffer{
+    opacity: .7;
+    font-size: 20px !important;
+    text-decoration: line-through;
+}
 
 
 /* KEY FRAMES FOR ANIMATIONS */
@@ -254,6 +351,15 @@
     .homeintropagechildone a{
         width: 100%;
     }
+
+    .clothcardcstm{
+        width: 33%;
+    }
+
+    .clothdetailsdiv{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (max-width: 1099px) {
@@ -284,6 +390,10 @@
 
     .brandsproductscustomer{
         width: 496px;
+    }
+
+    .clothcardcstm{
+        width: 36%;
     }
     
 }
@@ -343,6 +453,29 @@
         object-fit: cover;
         width: 200px;
         height: 20px;
+    }
+
+    .clothcardcstm{
+        width: 46%;
+    }
+
+    .newarrivalsparent h1{
+        font-size: 40px;
+    }
+
+    .clothcardcstm  p{
+        font-size: 16px;
+    }
+
+    .starcstmicon{
+        font-size: 18px;
+    } 
+    .stardivchildtwo {
+        padding-top: 3px;
+    }
+
+    .pricediv span {
+        font-size: 26px;
     }
     
 }
@@ -408,6 +541,38 @@
             animation: slideText 10s linear infinite;
         }
 
+        .clothcardcstm{
+            width: 100%;
+            gap: 10px;
+        }
+        .shirtimagesrc{
+            object-fit: contain;
+        }
+        .newarrivalsparent h1{
+            font-size: 22px;
+        }
+
+        .clothcardcstm p{
+            font-size: 12px;
+        }
+
+        .starcstmicon{
+            font-size: 14px;
+        }
+
+        .stardiv{
+            height: 20px;
+        }
+        .stardivchildtwo {
+            padding-top: 5px;
+        }
+
+        .pricediv span{
+            font-size: 20px;
+        }
+        .newarrivalsparent {
+            padding: 15px;
+        }
 }
 
 @media screen and (max-width: 470px) {
@@ -443,5 +608,7 @@
     .h1text{
         font-size: 22px;
     }
-
+    .homefrontbanddiv {
+        font-size: 8px;
+    }
 }
