@@ -258,6 +258,13 @@
     align-items: center;
 }
 
+.browseclothdiv{
+    border: 2px solid black;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+
 /* KEY FRAMES FOR ANIMATIONS */
 
 
@@ -483,6 +490,10 @@
     .pricediv span {
         font-size: 26px;
     }
+
+    .browseclothdiv{
+        padding: 20px;
+    }
     
 }
 
@@ -578,6 +589,10 @@
             font-size: 20px;
         }
         .newarrivalsparent {
+            padding: 15px;
+        }
+
+        .browseclothdiv{
             padding: 15px;
         }
 }

@@ -1,7 +1,7 @@
 import { ClothdetailsCardProps } from "./interface/interface";
 
 export const newArrivalsData: ClothdetailsCardProps[] = [
-      { imglink: "assets/Images/Tshirttapedetails.png", clothname: "T-shirt with Tape Details", star: 4, price: 120 },
+      { imglink: "assets/Images/Tshirttapedetails.png", clothname: "T-shirt with Tape Details", star: 3.5, price: 120 },
       { imglink: "assets/Images/Skinnyfitjeans.png", clothname: "Skinny Fit Jeans", star: 3, price: 260, offerprice: 240 },
       { imglink: "assets/Images/Sleevestripesshirt.png", clothname: "Sleeve Strip Shirt", star: 4, price: 180 },
       { imglink: "assets/Images/Checkeredshirt.png", clothname: "Checkered Shirt", star: 5, price: 160, offerprice: 130 },

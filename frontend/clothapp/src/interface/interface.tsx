@@ -15,7 +15,7 @@ export interface HomepageNewarrivalsProps {
 export interface ClothdetailsCardProps{
     imglink : string;
     clothname : string;
-    star : 1 | 1.5 | 2 | 2.5 | 3 | 3.5 | 4 | 4.5 | 5;
+    star : .5 | 0.5 | 1 | 1.5 | 2 | 2.5 | 3 | 3.5 | 4 | 4.5 | 5;
     price : number;
     offerprice ?: number;
     

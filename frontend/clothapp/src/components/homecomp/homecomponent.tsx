@@ -141,11 +141,85 @@ export const ClothdetailsCard:React.FC<ClothdetailsCardProps> = (Props) =>{
                 <p>{Props.clothname}</p>
                 <div className="stardiv">
                     <div className="stardivchildone">
-                        <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                        <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                        <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                        <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                        <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+                        {Props.star === 5 && (
+                            <>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                            </>
+                        )}
+                        {Props.star === 4 && (
+                            <>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+
+                            </>
+                        )}
+                        {Props.star === 3 && (
+                            <>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+
+                            </>
+                        )}
+                        {Props.star === 2 && (
+                            <>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+
+                            </>
+                        )}
+                        {Props.star === 1 && (
+                            <>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                            </>
+                        )}
+                        
+                        {Props.star === 0.5 && (
+                            <>
+                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+                            </>
+                        )}
+
+                        {Props.star === 1.5 && (
+                            <>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+
+                            </>
+                        )}
+                        {Props.star === 2.5 && (
+                            <>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+
+                            </>
+                        )}
+                        {Props.star === 3.5 && (
+                            <>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+
+                            </>
+                        )}
+                        {Props.star === 4.5 && (
+                            <>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+
+                            </>
+                        )}
                     </div>
                     <div className="stardivchildtwo">
                         <p>{Props.star}/5</p>
@@ -163,6 +237,16 @@ export const ClothdetailsCard:React.FC<ClothdetailsCardProps> = (Props) =>{
                         </div>
                     </>
                 )}
+            </div>
+        </>
+    )
+}
+
+export const BrowseClothSection = () => {
+    return(
+        <>
+            <div className="browseclothdiv">
+
             </div>
         </>
     )
