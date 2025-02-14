@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './screens/home/home.tsx';
 import Header from './components/header/header.tsx';
 import Homefrontband from './components/headerbandsale.tsx';
+import { Footer } from './components/footer/footer.tsx';
 
 const App = () =>{
   return(
@@ -15,6 +16,7 @@ const App = () =>{
             <Homefrontband/>
             <Header/>
             <Home/>
+            <Footer />
           </>
         }/>
         </Routes>

@@ -298,17 +298,13 @@ export const HappyCustomerCmntSection = () => {
 
     useEffect(()=>{
         if(sliderRef.current){
-            console.log("Slider Ref",sliderRef.current)
             let scrollAmount = 0;
-            console.log("Scroll Amount before",scrollAmount)
             const speed = .5;
 
             const scrollSlider = () => {
                 if(sliderRef.current){
                     scrollAmount -= speed;
-                    console.log("Scroll Amount after",scrollAmount)
                     sliderRef.current.style.transform = `translateX(${scrollAmount}px)`;
-                    console.log(sliderRef.current.style.transform = 'translateX(${scrollAmount}px)')
 
                 if (Math.abs(scrollAmount) >= sliderRef.current.scrollWidth / 2) {
                         scrollAmount = 0;
