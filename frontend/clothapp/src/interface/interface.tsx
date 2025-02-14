@@ -32,3 +32,13 @@ export interface ButtonTextOnlyProps{
     className ?: string;
     style ?: React.CSSProperties;
 }
+
+export interface CommentCardCompProps{
+    star : .5 | 1 | 1.5 | 2 | 2.5 | 3 | 3.5 | 4 | 4.5 | 5 ;
+    personname : string;
+    description: string;
+}
+
+export interface PropsstarsectionProps {
+    star : .5 | 1 | 1.5 | 2 | 2.5 | 3 | 3.5 | 4 | 4.5 | 5 ;
+}

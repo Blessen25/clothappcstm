@@ -13,3 +13,15 @@ export const topSellingData: ClothdetailsCardProps[] = [
       { imglink: "assets/Images/Loosefitbermudashorts.png", clothname: "Loose Fit Bermuda Shorts", star: 3, price: 80 },
       { imglink: "assets/Images/Fadedskinnyjeans.png", clothname: "Faded Skinny Jeans", star: 4.5, price: 210 },
     ];
+
+
+export const comments = [
+  { id: 1, name: "Alex M", text: "I'm blown away by the quality and style of the clothes I received from Shop.Cloth." },
+  { id: 2, name: "Sarah L", text: "The customer service was fantastic! Highly recommended." },
+  { id: 3, name: "John D", text: "Superb quality and fast delivery. Very satisfied." },
+  { id: 4, name: "Emma W", text: "Love the variety of outfits! Stylish and comfortable." },
+  { id: 5, name: "Chris B", text: "Absolutely amazing! Will shop again." },
+  { id: 6, name: "Sophia T", text: "Great deals and top-notch fabric!" },
+  { id: 7, name: "Michael R", text: "Everything fit perfectly! Really happy with my purchase." },
+  { id: 8, name: "Jessica K", text: "Fast shipping and great customer support!" }
+];

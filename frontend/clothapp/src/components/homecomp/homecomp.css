@@ -1,4 +1,8 @@
-.homeintropageparent{
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.homeintropageparent {
     height: 650px;
     width: 100%;
     display: flex;
@@ -8,7 +12,7 @@
 }
 
 
-.homeintropagechildone{
+.homeintropagechildone {
     width: 50%;
     z-index: 999;
     background-color: whitesmoke;
@@ -17,7 +21,7 @@
     gap: 30px;
 }
 
-.homeintropagechildtwo{
+.homeintropagechildtwo {
     width: 50%;
     background-image: url('../../../public/assets/Images/mainimage.png');
     background-repeat: no-repeat;
@@ -26,14 +30,14 @@
     position: relative;
 }
 
-.vectorimgone{
+.vectorimgone {
     position: absolute;
     right: 100px;
     top: 100px;
     object-fit: cover;
 }
 
-.vectorimgtwo{
+.vectorimgtwo {
     position: absolute;
     right: 653px;
     top: 380px;
@@ -41,17 +45,17 @@
     object-fit: cover;
 }
 
-.h1text{
+.h1text {
     font-weight: 900;
     font-size: 64px;
-    font-family: "Roboto", serif;    
+    font-family: "Roboto", serif;
     width: 90%;
     margin-top: 60px;
     line-height: 1;
 
 }
 
-.paratext{
+.paratext {
     width: 96%;
     font-size: 16px;
     opacity: .6;
@@ -61,7 +65,7 @@
 
 }
 
-.homeintropagechildone a{
+.homeintropagechildone a {
     text-decoration: none;
     background-color: black;
     color: white;
@@ -75,13 +79,13 @@
     border-color: black;
 }
 
-.homeintropagechildone a:hover{
+.homeintropagechildone a:hover {
     box-shadow: inset 0px 70px 0px 0px #6b6b6b;
     border-color: #6b6b6b;
     outline: none;
 }
 
-.brandsproductscustomer{
+.brandsproductscustomer {
     width: 550px;
     height: 150px;
     display: flex;
@@ -91,7 +95,7 @@
     gap: 20px;
 }
 
-.borderline{
+.borderline {
     border: 1px solid black;
     width: 1px;
     height: 100px;
@@ -99,24 +103,24 @@
     opacity: .6;
 }
 
-.numberplustextdiv{
+.numberplustextdiv {
     width: 180px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.numberplustextdiv h1{
+.numberplustextdiv h1 {
     font-size: 38px;
 }
 
-.numberplustextdiv p{
+.numberplustextdiv p {
     font-size: 16px;
     font-weight: 400;
     opacity: .6;
 }
 
-.slidinglogoparent{
+.slidinglogoparent {
     height: 130px;
     width: 100%;
     background-color: black;
@@ -130,7 +134,7 @@
 }
 
 
-.slidinglogoparent p{
+.slidinglogoparent p {
     width: 100%;
     display: inline-block;
     /* animation: slideText 10s linear infinite; */
@@ -138,14 +142,14 @@
     font-size: 28px;
 }
 
-.slidinglogochild{
+.slidinglogochild {
     width: 100%;
     display: flex;
     gap: 90px;
     animation: slideText 30s linear infinite;
 }
 
-.newarrivalsparent{
+.newarrivalsparent {
     width: 100%;
     padding: 20px 40px;
     display: flex;
@@ -154,23 +158,23 @@
     background-color: whitesmoke;
 }
 
-.newarrivalsparent h1{
+.newarrivalsparent h1 {
     font-size: 50px;
     font-weight: 900;
     text-align: center;
     margin-top: 40px;
 }
 
-.clothdetailsdiv{
+.clothdetailsdiv {
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
     gap: 20px;
     justify-content: space-between;
-    
+
 }
 
-.clothcardcstm{
+.clothcardcstm {
     width: 22%;
     /* height: 470px; */
     padding: 20px 15px;
@@ -178,20 +182,21 @@
     flex-direction: column;
     gap: 15px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
 }
 
-.shirtimage{
+.shirtimage {
     width: 100%;
     height: 300px;
 }
 
-.shirtimagesrc{
+.shirtimagesrc {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.clothcardcstm p{
+.clothcardcstm p {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -201,7 +206,7 @@
 
 }
 
-.stardiv{
+.stardiv {
     height: 30px;
     display: flex;
     justify-content: space-between;
@@ -209,17 +214,17 @@
     flex-direction: row;
 }
 
-.starcstmicon{
+.starcstmicon {
     font-size: 20px;
     color: rgb(255, 145, 0);
 }
 
-.stardivchildone{
+.stardivchildone {
     display: flex;
     gap: 3px;
 }
 
-.stardivchildtwo{
+.stardivchildtwo {
     min-width: 34px;
     max-width: 50px;
     height: 24px;
@@ -228,7 +233,7 @@
     opacity: .6;
 }
 
-.pricediv{
+.pricediv {
     width: 100%;
     height: 40px;
     display: flex;
@@ -236,8 +241,8 @@
     align-items: center;
 }
 
-.pricediv span{
-    
+.pricediv span {
+
     max-width: 50%;
     font-size: 30px;
     font-weight: 600;
@@ -247,37 +252,37 @@
     text-overflow: ellipsis;
 }
 
-.priceoffer{
-    
+.priceoffer {
+
     opacity: .7;
     font-size: 20px !important;
     text-decoration: line-through;
 }
 
-.buttoncenterdiv{
-    
+.buttoncenterdiv {
+
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.browseclothdiv{
-    
+.browseclothdiv {
+
     width: 100%;
     padding: 20px 40px;
     background-color: whitesmoke;
 }
 
-.browseclothdiv h1{
-    
+.browseclothdiv h1 {
+
     font-size: 50px;
     font-weight: 900;
     text-align: center;
     margin-top: 40px;
 }
 
-.browsediffsectiondiv{
+.browsediffsectiondiv {
 
     width: 1030px;
     display: flex;
@@ -287,11 +292,11 @@
     gap: 15px;
 }
 
-.browsediffsectiondiv a{
+.browsediffsectiondiv a {
     display: block;
 }
 
-.diffsectionone{
+.diffsectionone {
 
     width: 38%;
     height: 280px;
@@ -302,7 +307,8 @@
     position: relative;
 
 }
-.diffsectiontwo{
+
+.diffsectiontwo {
 
     width: 60%;
     height: 280px;
@@ -313,7 +319,8 @@
     position: relative;
 
 }
-.diffsectionthree{
+
+.diffsectionthree {
 
     width: 60%;
     height: 280px;
@@ -324,7 +331,8 @@
     position: relative;
 
 }
-.diffsectionfour{
+
+.diffsectionfour {
 
     width: 38%;
     height: 280px;
@@ -336,7 +344,7 @@
 
 }
 
-.diffsectiontext{
+.diffsectiontext {
 
     position: absolute;
     color: black;
@@ -347,27 +355,28 @@
 }
 
 
-.happycustomerdiv{
+.happycustomerdiv {
 
     width: 100%;
     padding: 20px 40px;
-    border: 2px solid black;
 
 }
 
-.h1andslidericon{
+.h1andslidericon {
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
     align-items: center;
 }
 
-.h1customertext{
+.h1customertext {
+
     font-size: 50px;
     font-weight: 900;
 }
 
-.slidericons{
+.slidericons {
+
     width: 80px;
     height: 50px;
     display: flex;
@@ -375,9 +384,76 @@
     align-items: center;
 }
 
-.slidericoncstm{
+.slidericoncstm {
+
     font-size: 24px;
+    cursor: pointer;
 }
+
+.commentscardparent {
+
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+
+}
+
+.slidercomponentdiv{
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease-in-out;
+    width: max-content;
+    /* animation: slideText 600s linear infinite; */
+    width: max-content;
+    transition: transform .1s linear,
+    
+}
+
+.commentscarddiv{
+
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+
+.cmntstrscstm{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.commentscarddiv p{
+    font-size: 20px;
+    font-weight: 800;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.commentscarddiv span{
+    text-align: justify;
+    opacity: .5;
+    font-size: 17px;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: .3px;
+}
+
+
+
 
 
 
@@ -385,11 +461,11 @@
 
 
 @keyframes slideText {
-    from{
+    from {
         transform: translateX(0%);
     }
 
-    to{
+    to {
         transform: translateX(-100%);
     }
 }
@@ -415,77 +491,84 @@
 
 
 @media screen and (max-width: 1499px) {
-    .vectorimgtwo{
+    .vectorimgtwo {
         display: none;
     }
 }
 
 @media screen and (max-width: 1399px) and (min-width: 1200px) {
-    .homeintropagechildtwo{
+    .homeintropagechildtwo {
         width: 60%;
     }
 
-    .homeintropagechildone{
+    .homeintropagechildone {
         width: 40%;
     }
 
-    .h1text{
+    .h1text {
         font-size: 50px;
     }
 
-    .paratext{
+    .paratext {
         font-size: 12px;
     }
 
-    .numberplustextdiv h1{
+    .numberplustextdiv h1 {
         font-size: 28px;
     }
-    
-    .numberplustextdiv p{
+
+    .numberplustextdiv p {
         font-size: 12px;
     }
-    .brandsproductscustomer{
+
+    .brandsproductscustomer {
         width: 435px;
     }
 
-    .borderline{
+    .borderline {
         height: 70px;
     }
 }
 
 @media screen and (max-width: 1199px) {
-    .homeintropageparent{
+    .homeintropageparent {
         flex-wrap: wrap;
         height: 1000px;
     }
-    .homeintropagechildone{
+
+    .homeintropagechildone {
         width: 100%;
         height: 500px;
     }
-    .homeintropagechildtwo{
+
+    .homeintropagechildtwo {
         width: 848px;
         height: 480px;
     }
-    .vectorimgtwo{
+
+    .vectorimgtwo {
         display: block;
         right: 590px;
     }
-    .h1text{
+
+    .h1text {
         margin-top: 20px;
     }
-    .vectorimgone{
+
+    .vectorimgone {
         right: 50px;
         top: 70px;
     }
-    .homeintropagechildone a{
+
+    .homeintropagechildone a {
         width: 100%;
     }
 
-    .clothcardcstm{
+    .clothcardcstm {
         width: 33%;
     }
 
-    .clothdetailsdiv{
+    .clothdetailsdiv {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
@@ -494,146 +577,162 @@
         width: 100%;
     }
 
+    .commentscarddiv {
+
+        width: 30%;
+    }
+
+    /* .slidercomponentdiv{
+        justify-content: space-between;
+    } */
+
+    .commentscarddiv{
+        width: 400px;
+    }
+
 }
 
 @media screen and (max-width: 1099px) {
-    .slidinglogochild{
+    .slidinglogochild {
         gap: 70px;
     }
 }
 
 @media screen and (max-width: 991px) {
-    .h1text{
+    .h1text {
         font-size: 57px;
     }
 
-    .paratext{
+    .paratext {
         font-size: 14px;
     }
 
-    .numberplustextdiv h1{
+    .numberplustextdiv h1 {
         font-size: 32px;
     }
 
-    .numberplustextdiv p{
+    .numberplustextdiv p {
         font-size: 14px;
     }
-    .homeintropagechildtwo{
+
+    .homeintropagechildtwo {
         width: 100%;
     }
 
-    .brandsproductscustomer{
+    .brandsproductscustomer {
 
         width: 496px;
     }
 
-    .clothcardcstm{
+    .clothcardcstm {
 
         width: 40%;
     }
 
-    .diffsectionone{
+    .diffsectionone {
 
         width: 37%;
-        height: 236px;        
+        height: 236px;
 
     }
 
-    .diffsectiontwo{
+    .diffsectiontwo {
 
         width: 59%;
-        height: 236px;        
+        height: 236px;
 
     }
 
-    .diffsectionthree{
+    .diffsectionthree {
 
         width: 59%;
-        height: 236px;        
+        height: 236px;
 
     }
 
-    .diffsectionfour{
+    .diffsectionfour {
 
         width: 37%;
-        height: 236px;        
+        height: 236px;
 
     }
-    
+
 }
 
 @media screen and (max-width: 767px) {
-    .h1text{
+    .h1text {
         font-size: 40px;
     }
 
-    .paratext{
+    .paratext {
         font-size: 12px;
     }
 
-    .numberplustextdiv h1{
+    .numberplustextdiv h1 {
         font-size: 28px;
     }
 
-    .numberplustextdiv p{
+    .numberplustextdiv p {
         font-size: 12px;
     }
 
-    .brandsproductscustomer{
+    .brandsproductscustomer {
         width: 440px;
         height: 100px;
     }
 
-    .homeintropagechildone a{
+    .homeintropagechildone a {
         font-size: 12px;
         height: 40px;
     }
 
-    .vectorimgtwo{
+    .vectorimgtwo {
         display: none;
     }
 
-    .homeintropagechildone{
+    .homeintropagechildone {
         height: 360px;
     }
 
-    .homeintropagechildtwo{
+    .homeintropagechildtwo {
         height: 440px;
     }
 
-    .homeintropageparent{
+    .homeintropageparent {
         height: 820px;
         padding: 20px 20px 0px 20px;
     }
-    .borderline{
+
+    .borderline {
         height: 70px;
     }
 
-    .slidinglogoparent{
+    .slidinglogoparent {
         height: 80px;
     }
 
-    .slidinglogoimg{
+    .slidinglogoimg {
         object-fit: cover;
         width: 200px;
         height: 20px;
     }
 
-    .clothcardcstm{
+    .clothcardcstm {
         width: 46%;
     }
 
-    .newarrivalsparent h1{
+    .newarrivalsparent h1 {
         font-size: 40px;
     }
 
-    .clothcardcstm  p{
+    .clothcardcstm p {
         font-size: 16px;
     }
 
-    .starcstmicon{
+    .starcstmicon {
         font-size: 18px;
-    } 
+    }
+
     .stardivchildtwo {
         padding-top: 3px;
     }
@@ -642,260 +741,297 @@
         font-size: 26px;
     }
 
-    .browseclothdiv{
+    .browseclothdiv {
         padding: 20px;
     }
 
-    
-    .browseclothdiv h1{
+
+    .browseclothdiv h1 {
         font-size: 40px;
     }
 
-    .diffsectiontext{
+    .diffsectiontext {
         font-size: 26px;
     }
 
-    .diffsectionone{
-        
-        height: 186px;        
+    .diffsectionone {
+
+        height: 186px;
     }
 
-    .diffsectiontwo{
-        
-        height: 186px;        
+    .diffsectiontwo {
+
+        height: 186px;
     }
 
-    .diffsectionthree{
-        
-        height: 186px;        
+    .diffsectionthree {
+
+        height: 186px;
     }
 
-    .diffsectionfour{
+    .diffsectionfour {
 
-        height: 186px;        
+        height: 186px;
     }
 
-    .happycustomerdiv{
+    .happycustomerdiv {
         padding: 20px
     }
 
-    .h1customertext{
+    .h1customertext {
 
         font-size: 38px
     }
 
-    
-    .slidericoncstm{
+
+    .slidericoncstm {
         font-size: 18px;
     }
-    
-    .slidericons{
+
+    .slidericons {
         width: 60px;
     }
-    
+
+    .cmntstrscstm{
+        width: 102px;
+    }
+
+    .commentscarddiv p{
+        font-size: 18px;
+    }
+
+    .commentscarddiv span{
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width: 575px) {
-        .h1text{
-            font-size: 30px;
-        }
+    .h1text {
+        font-size: 30px;
+    }
 
-        .paratext{
-            font-size: 10px;
-        }
+    .paratext {
+        font-size: 10px;
+    }
 
-        .homeintropagechildone a{
-            height: 30px;
-            font-size: 10px;
-        }
+    .homeintropagechildone a {
+        height: 30px;
+        font-size: 10px;
+    }
 
-        .numberplustextdiv h1{
-            font-size: 22px;
-        }
-        
-        .numberplustextdiv p{
-            font-size: 10px;
-        }
+    .numberplustextdiv h1 {
+        font-size: 22px;
+    }
 
-        .brandsproductscustomer{
-            width: 380px;
-        }
-        
-        .homeintropagechildtwo{
-            height: 350px;
-        }
+    .numberplustextdiv p {
+        font-size: 10px;
+    }
 
-        .vectorimgone{
-            height: 30px;
-        }
+    .brandsproductscustomer {
+        width: 380px;
+    }
 
-        .vectorimgtwo{
-            display: block;
-            height: 20px;
-            right: 410px;
-            top: 275px;
-        }
+    .homeintropagechildtwo {
+        height: 350px;
+    }
 
-        .homeintropageparent{
-            height: 725px;
-            padding: 15px 15px 0px 15px;
-        }
+    .vectorimgone {
+        height: 30px;
+    }
 
-        .borderline{
-            height: 60px;
-        }
+    .vectorimgtwo {
+        display: block;
+        height: 20px;
+        right: 410px;
+        top: 275px;
+    }
 
-        .slidinglogoparent{
-            height: 50px;
-        }
+    .homeintropageparent {
+        height: 725px;
+        padding: 15px 15px 0px 15px;
+    }
 
-        .slidinglogochild{
-            /* gap: 20px; */
-            /* width: max-content; */
-            gap: 40px;
-            animation: slideText 10s linear infinite;
-        }
+    .borderline {
+        height: 60px;
+    }
 
-        .clothcardcstm{
-            width: 100%;
-            gap: 10px;
-        }
-        .shirtimagesrc{
-            object-fit: contain;
-        }
-        .newarrivalsparent h1{
-            font-size: 22px;
-            margin-top: 15px;
-        }
+    .slidinglogoparent {
+        height: 50px;
+    }
 
-        .clothcardcstm p{
-            font-size: 12px;
-        }
+    .slidinglogochild {
+        /* gap: 20px; */
+        /* width: max-content; */
+        gap: 40px;
+        animation: slideText 10s linear infinite;
+    }
 
-        .starcstmicon{
-            font-size: 14px;
-        }
+    .clothcardcstm {
+        width: 100%;
+        gap: 10px;
+    }
 
-        .stardiv{
-            height: 20px;
-        }
-        .stardivchildtwo {
-            padding-top: 5px;
-        }
+    .shirtimagesrc {
+        object-fit: contain;
+    }
 
-        .pricediv span{
-            font-size: 20px;
-        }
-        .newarrivalsparent {
-            padding: 15px;
-        }
+    .newarrivalsparent h1 {
+        font-size: 22px;
+        margin-top: 15px;
+    }
 
-        .browseclothdiv{
-            padding: 15px;
-        }
+    .clothcardcstm p {
+        font-size: 12px;
+    }
 
-        .browseclothdiv h1{
-            font-size: 22px;
-            margin-top: 15px;
-        }
+    .starcstmicon {
+        font-size: 14px;
+    }
 
-        .diffsectionone{
+    .stardiv {
+        height: 20px;
+    }
 
-            width: 100%;
-            height: 236px;        
-    
-        }
-    
-        .diffsectiontwo{
-    
-            width: 100%;
-            height: 236px;        
-    
-        }
-    
-        .diffsectionthree{
-    
-            width: 100%;
-            height: 236px;        
-    
-        }
-    
-        .diffsectionfour{
-    
-            width: 100%;
-            height: 236px;        
-    
-        }
+    .stardivchildtwo {
+        padding-top: 5px;
+    }
 
-        .diffsectiontext{
+    .pricediv span {
+        font-size: 20px;
+    }
 
-            font-size: 22px;
-        }
-        
-        .browsediffsectiondiv{
-            margin-top: 30px;
-            gap: 25px;
-        }
+    .newarrivalsparent {
+        padding: 15px;
+    }
 
-        .happycustomerdiv{
-            padding: 20px
-        }
+    .browseclothdiv {
+        padding: 15px;
+    }
 
-        .h1andslidericon{
+    .browseclothdiv h1 {
+        font-size: 22px;
+        margin-top: 15px;
+    }
 
-            margin-top: 15px;
-        }
+    .diffsectionone {
 
-        .h1customertext{
+        width: 100%;
+        height: 236px;
 
-            font-size: 18px
-        }
+    }
 
-        .slidericons{
-            width: 50px;
-            height: 28px;
-        }
-        
-        .slidericoncstm{
-        
-            font-size: 14px;
-        }
+    .diffsectiontwo {
+
+        width: 100%;
+        height: 236px;
+
+    }
+
+    .diffsectionthree {
+
+        width: 100%;
+        height: 236px;
+
+    }
+
+    .diffsectionfour {
+
+        width: 100%;
+        height: 236px;
+
+    }
+
+    .diffsectiontext {
+
+        font-size: 22px;
+    }
+
+    .browsediffsectiondiv {
+        margin-top: 30px;
+        gap: 25px;
+    }
+
+    .happycustomerdiv {
+        padding: 20px
+    }
+
+    .h1andslidericon {
+
+        margin-top: 15px;
+    }
+
+    .h1customertext {
+
+        font-size: 18px
+    }
+
+    .slidericons {
+        width: 50px;
+        height: 28px;
+    }
+
+    .slidericoncstm {
+
+        font-size: 14px;
+    }
+
+    .commentscarddiv{
+        width: 400px;
+        gap: 10px;
+    }
+
+    .commentscarddiv p{
+        font-size: 15px;
+    }
+
+    .commentscarddiv span{
+        font-size: 12px;
+    }
+    .slidercomponentdiv {
+        /* animation: slideText 1000s linear infinite; */
+    }
 }
 
 @media screen and (max-width: 470px) {
-    .vectorimgtwo{
+    .vectorimgtwo {
         height: 10px;
         top: 190px;
         right: 270px;
     }
 
-    .homeintropagechildtwo{
+    .homeintropagechildtwo {
         height: 240px;
     }
 
-    .homeintropageparent{
+    .homeintropageparent {
         height: 616px;
     }
 
-    .vectorimgone{
+    .vectorimgone {
         height: 15px;
         right: 50px;
         top: 40px;
     }
 
-    .brandsproductscustomer{
+    .brandsproductscustomer {
         width: 300px;
         flex-wrap: wrap;
     }
 
-    .numberplustextdiv{
+    .numberplustextdiv {
         width: 100px;
     }
 
-    .h1text{
+    .h1text {
         font-size: 22px;
     }
+
     .homefrontbanddiv {
         font-size: 8px;
+    }
+
+    .commentscarddiv{
+        width: 300px;
     }
 }

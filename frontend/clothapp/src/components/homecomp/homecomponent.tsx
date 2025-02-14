@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import './homecomp.css';
-import { ClothdetailsCardProps, HomepageNewarrivalsProps, numberplustextProps } from "../../interface/interface";
+import { ClothdetailsCardProps, CommentCardCompProps, HomepageNewarrivalsProps, numberplustextProps, PropsstarsectionProps } from "../../interface/interface";
 import { faStar, faStarHalf, faStarHalfAlt, faStarHalfStroke, faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ButtonTextOnly from "../button/button.tsx";
+import { comments } from "../../data.tsx";
+
 export const HomeIntropage = () => {
     return(
         <React.Fragment>
@@ -141,85 +143,7 @@ export const ClothdetailsCard:React.FC<ClothdetailsCardProps> = (Props) =>{
                 <p>{Props.clothname}</p>
                 <div className="stardiv">
                     <div className="stardivchildone">
-                        {Props.star === 5 && (
-                            <>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                            </>
-                        )}
-                        {Props.star === 4 && (
-                            <>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-
-                            </>
-                        )}
-                        {Props.star === 3 && (
-                            <>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-
-                            </>
-                        )}
-                        {Props.star === 2 && (
-                            <>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-
-                            </>
-                        )}
-                        {Props.star === 1 && (
-                            <>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                            </>
-                        )}
-                        
-                        {Props.star === 0.5 && (
-                            <>
-                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
-                            </>
-                        )}
-
-                        {Props.star === 1.5 && (
-                            <>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
-
-                            </>
-                        )}
-                        {Props.star === 2.5 && (
-                            <>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
-
-                            </>
-                        )}
-                        {Props.star === 3.5 && (
-                            <>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
-
-                            </>
-                        )}
-                        {Props.star === 4.5 && (
-                            <>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
-
-                            </>
-                        )}
+                        <Propsstarsection star={Props.star} />
                     </div>
                     <div className="stardivchildtwo">
                         <p>{Props.star}/5</p>
@@ -238,6 +162,92 @@ export const ClothdetailsCard:React.FC<ClothdetailsCardProps> = (Props) =>{
                     </>
                 )}
             </div>
+        </>
+    )
+}
+
+export const Propsstarsection:React.FC<PropsstarsectionProps> = (Props) =>{
+    return(
+        <>
+        {Props.star === 5 && (
+            <>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+            </>
+        )}
+        {Props.star === 4 && (
+            <>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+
+            </>
+        )}
+        {Props.star === 3 && (
+            <>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+
+            </>
+        )}
+        {Props.star === 2 && (
+            <>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+
+            </>
+        )}
+        {Props.star === 1 && (
+            <>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+            </>
+        )}
+        
+        {Props.star === 0.5 && (
+            <>
+                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+            </>
+        )}
+
+        {Props.star === 1.5 && (
+            <>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+
+            </>
+        )}
+        {Props.star === 2.5 && (
+            <>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+
+            </>
+        )}
+        {Props.star === 3.5 && (
+            <>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+
+            </>
+        )}
+        {Props.star === 4.5 && (
+            <>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+
+            </>
+        )}
         </>
     )
 }
@@ -268,15 +278,94 @@ export const BrowseClothSection = () => {
 }
 
 export const HappyCustomerCmntSection = () => {
+    const [index, setIndex] = useState(0);
+    const itemsPerSlide = 4;
+    const totalSlides = Math.ceil(comments.length / itemsPerSlide);
+
+    const nextSlide = () =>{
+        if (index / itemsPerSlide + 1 < totalSlides) {
+            setIndex(index + itemsPerSlide);
+          }
+    };
+
+    const prevSlide = () => {
+        if (index > 0) {
+            setIndex(index - itemsPerSlide);
+          }
+    }
+
+    const sliderRef = useRef<HTMLDivElement>(null);
+
+    useEffect(()=>{
+        if(sliderRef.current){
+            console.log("Slider Ref",sliderRef.current)
+            let scrollAmount = 0;
+            console.log("Scroll Amount before",scrollAmount)
+            const speed = .5;
+
+            const scrollSlider = () => {
+                if(sliderRef.current){
+                    scrollAmount -= speed;
+                    console.log("Scroll Amount after",scrollAmount)
+                    sliderRef.current.style.transform = `translateX(${scrollAmount}px)`;
+                    console.log(sliderRef.current.style.transform = 'translateX(${scrollAmount}px)')
+
+                if (Math.abs(scrollAmount) >= sliderRef.current.scrollWidth / 2) {
+                        scrollAmount = 0;
+                  }
+                }
+
+                requestAnimationFrame(scrollSlider);
+            };
+          scrollSlider();  
+        }
+    },[]);
     return(
         <div className="happycustomerdiv">
             <div className="h1andslidericon">
                 <h1 className="h1customertext">OUR HAPPY CUSTOMERS</h1>
-                <div className="slidericons">
-                       <FontAwesomeIcon icon={faArrowLeft} className="slidericoncstm"/>
-                       <FontAwesomeIcon icon={faArrowRight} className="slidericoncstm"/>
+                {/* <div className="slidericons">
+                       <FontAwesomeIcon icon={faArrowLeft} className={`slidericoncstm ${index === 0 ? "disabled" : ""}`} onClick={prevSlide} />
+                       <FontAwesomeIcon icon={faArrowRight} className={`slidericoncstm ${index / itemsPerSlide + 1 >= totalSlides ? "disabled" : ""}`} onClick={nextSlide}/>
+                </div> */}
+            </div>
+            <div className="commentscardparent">
+                <div className="slidercomponentdiv" ref={sliderRef}>
+
+                <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
+                <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."}/>
+                <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."}/>
+                <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."}/>
+                
+                <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
+                <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."}/>
+                <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."}/>
+                <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."}/>
+                
+                <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
+                <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."}/>
+                <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."}/>
+                <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."}/>
+
+                <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
+                <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."}/>
+                <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."}/>
+                <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."}/>
                 </div>
             </div>
         </div>
     )
 }
+
+export const CommentCardComp:React.FC<CommentCardCompProps> = (Props) =>{
+    return(
+            <div className="commentscarddiv">
+                    <div className="cmntstrscstm">
+                        <Propsstarsection star={Props.star} />
+                    </div>
+                    <p>{Props.personname}</p>
+                    <span>{Props.description}</span>
+            </div>
+    )
+}
+
