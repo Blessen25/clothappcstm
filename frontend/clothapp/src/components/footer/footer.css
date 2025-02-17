@@ -73,8 +73,68 @@
     box-shadow: inset 0px 70px 0px 0px #6b6b6b;
     color: white;
 }
+.footerbottomdiv{
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.footerbottomchildone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+    width: 260px;
+}
 
+.footerbottomchildtwo{
+    border: 2px solid black;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+} 
+.footerbottomchildthree{
+    border: 2px solid black;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footerbottomchildfour{
+    border: 2px solid black;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footerbottomchildfive{
+    border: 2px solid black;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.socialmedialogos{
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.twitterdiv{
+    position: relative;
+}
+.twitterlogoimg{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
 @media screen and (max-width: 1199px) {
     .staytextdiv{
         width: 490px;
@@ -101,6 +161,7 @@
     .stayemailandsubmitdiv{
         width: 40%;
     }
+    
 }
 
 
@@ -174,6 +235,8 @@
     .stayemailandsubmitdiv{
         margin-top: 10px;
     }
-    
+    .footerbottomdiv{
+        margin-top: 15px;
+    }
 }
 
