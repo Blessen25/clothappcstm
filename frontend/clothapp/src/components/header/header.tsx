@@ -2,9 +2,17 @@ import React, { useState } from "react";
 import './header.css'
 import { FaBars, FaRegUserCircle, FaSearch, } from "react-icons/fa";
 import { Search, ShoppingCart, } from "react-feather";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () =>{
 
+    const handleSidebarChange = () => {
+        setSideBarActive(!isSideBarActive)
+    }
+
+
+    const [isSideBarActive, setSideBarActive] = useState(false)
     const [isSearchBarActive, setIsSearchBarActive] = useState(false)
     const handleSearchBarChange = () =>{
         setIsSearchBarActive(!isSearchBarActive)
@@ -31,7 +39,7 @@ const Header = () =>{
                     <a href="#"><FaRegUserCircle className="headericonclass"/></a>
                 </div>
                 <div className="headerrespcontainer-cstmone">
-                    <FaBars className="fabarsicon"/>
+                    <FaBars className="fabarsicon" onClick={handleSidebarChange}/>
                     <h1 className="h1textcstm">Shop.Cloth</h1>
                 </div>
                 {isSearchBarActive ? (
@@ -56,9 +64,20 @@ const Header = () =>{
             ) }
             </div>
         </section>
-        <div className="sidebar"></div>
-        <div className="outlaysidebar">
-        </div>
+        {isSideBarActive && (<> 
+            <div className="outlaysidebar"></div>
+            <div className="sidebar">
+                <div className="searchbardivsidebarcstm">
+                    <input type="Search" placeholder="Search For Products..." className="cstmsearchsidebar"/>
+                    <FontAwesomeIcon icon={faSearch} className="searchiconsidebarcstm"/>
+                </div>
+                <a href="/" onClick={handleSidebarChange}>Home</a>
+                <a href="#" onClick={handleSidebarChange}>About</a>
+                <a href="#" onClick={handleSidebarChange}>Product</a>
+                <a href="#" onClick={handleSidebarChange}>Category</a>
+            </div>
+        </>)}
+        
         </>
     )
 }

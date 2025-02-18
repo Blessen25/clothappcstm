@@ -143,6 +143,9 @@ display: none;
     font-family: "Roboto", serif; 
     font-weight: 900; 
 }
+.searchbardivsidebarcstm{
+    display: none;
+}
 
 @media screen and (max-width: 1199px) {
     .headerchildfirst{
@@ -239,7 +242,51 @@ display: none;
         font-family: "Roboto", serif; 
         font-weight: 900; 
     }
+    .sidebar{
+        display: block;
+        padding: 20px;
+        position: absolute;
+        width: 100%;
+        background-color: whitesmoke;
+        z-index: 9999999;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
 
+    .sidebar a{
+        height: 50px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        opacity: .7;
+        transition: all .7s;
+    }
+
+    .sidebar a:hover{
+        opacity: 1;
+    }
+
+    .outlaysidebar{
+        display: block;
+        position: fixed;
+        top: 0px;
+        border: 2px solid black;
+        width: 100%;
+        height: 500%;
+        z-index: 99999;
+        background-color: black;
+        opacity: .5;
+    }
+
+    #Header{
+        position: relative;
+        z-index: 9999999;
+    }
 
 }
 
@@ -282,6 +329,11 @@ display: none;
     .headerrespcontainer-cstmsecond{
         width: 88px;
     }
+
+    .sidebar a{
+        font-size: 13px;
+        height: 40px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -320,5 +372,37 @@ display: none;
     #Header{
         padding: 15px;
         height: 70px;
+    }
+    .sidebar a{
+        font-size: 11px;
+        height: 30px;
+    }
+    .searchbardivsidebarcstm{
+        display: block;
+        width: 100%;
+        height: 40px;
+        position: relative;
+
+    }
+    .cstmsearchsidebar{
+        height: 30px;
+        width: 100%;
+        font-size: 11px;
+        padding: 15px;
+        padding-right: 25px;
+        border-radius: 5px;
+        border: 1px solid #6b6b6b;
+        outline: none;
+    }
+    .cstmsearchsidebar::placeholder{
+        font-size: 11px;
+    }
+
+    .searchiconsidebarcstm{
+        position: absolute;
+        right: 15px;
+        top: 9px;
+        width: 12px;
+        height: 12px;
     }
 }
