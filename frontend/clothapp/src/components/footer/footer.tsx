@@ -49,7 +49,7 @@ export const Footer = () => {
                      <div className="footerbottomchildtwo">
                         <p>Pages</p>
                         <a href="/">Home</a>
-                        <a href="#">About</a>
+                        <a href="/Aboutus">About</a>
                         <a href="#">Product</a>
                         <a href="#">Category</a>
                      </div>

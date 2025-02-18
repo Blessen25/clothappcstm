@@ -19,6 +19,12 @@ const App = () =>{
             <Footer />
           </>
         }/>
+        <Route path='/Aboutus' element={
+          <>
+            <Header />
+            <Footer />
+          </>
+        } />
         </Routes>
       </Router>
     </>
