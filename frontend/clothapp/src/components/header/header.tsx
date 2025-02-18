@@ -17,7 +17,7 @@ const Header = () =>{
                     <h1>Shop.Cloth</h1>
                 </div>
                 <div className="headerchildsecond">
-                    <a href="#" >Home</a>
+                    <a href="/" >Home</a>
                     <a href="#">About</a>
                     <a href="#">Product</a>
                     <a href="#">Category</a>

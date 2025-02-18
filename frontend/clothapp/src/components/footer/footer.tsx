@@ -31,29 +31,29 @@ export const Footer = () => {
                         <div className="socialmedialogos">
                             <div className="twitterdiv">
                                 <a href="#">
-                                    <img src="assets/Logo/Twittterround.png" alt="Twitter Round" />
+                                    <img src="assets/Logo/Twittterround.png" alt="Twitter Round" className="twitterroundimg"/>
                                     <img src="assets/Logo/Twitter.png" alt="Twitter" className="twitterlogoimg"/>
                                 </a>
                             </div>
                             <a href="#">
-                                <img src="assets/Logo/Facebooklogo.png" alt="Facebook" />
+                                <img src="assets/Logo/Facebooklogo.png" alt="Facebook" className="facebooklogoimg"/>
                             </a>
                             <a href="#">
-                                <img src="assets/Logo/Instagramlogo.png" alt="Instagram" />
+                                <img src="assets/Logo/Instagramlogo.png" alt="Instagram" className="instalogoimg"/>
                             </a>
                             <a href="#">
-                                <img src="assets/Logo/Githublogo.png" alt="Github" />
+                                <img src="assets/Logo/Githublogo.png" alt="Github" className="githublogoimg" />
                             </a>
                         </div>
                      </div>
                      <div className="footerbottomchildtwo">
-                        <p>COMPANY</p>
+                        <p>Pages</p>
+                        <a href="/">Home</a>
                         <a href="#">About</a>
-                        <a href="#">Features</a>
-                        <a href="#">Works</a>
-                        <a href="#">Career</a>
+                        <a href="#">Product</a>
+                        <a href="#">Category</a>
                      </div>
-                     <div className="footerbottomchildthree">
+                     <div className="footerbottomchildtwo">
                         <p>HELP</p>
                         <a href="#">Customer Support</a>
                         <a href="#">Delivery Details</a>
@@ -61,20 +61,32 @@ export const Footer = () => {
                         <a href="#">Privacy Policy</a>
                         
                      </div>
-                     <div className="footerbottomchildfour">
+                     <div className="footerbottomchildtwo">
                         <p>FAQ</p>
-                        <a href="#">Account</a>
+                        <span><a href="#">Account</a></span>
                         <a href="#">Manage Deliveries</a>
                         <a href="#">Orders</a>
                         <a href="#">Payments</a>
                      </div>
-                     <div className="footerbottomchildfive">
+                     <div className="footerbottomchildtwo">
                         <p>RESOURCES</p>
                         <a href="#">Free eBooks</a>
                         <a href="#">Development Tutorial</a>
                         <a href="#">How to - Blog</a>
                         <a href="#">Youtube Playlist</a>
                      </div>
+                </div>
+                <hr className="footerhrcstm"/>
+                <div className="footercopyrightdiv">
+                    <p>Shop.Cloth © 2025, All Rights Reserved</p>
+                    {/* <div className="footerpaymentcards">
+                        <img src="assets/Logo/Visalogo.png" alt="" style={{ objectFit:'cover'}}/>
+                        <img src="assets/Logo/googlepaylogo.png" alt="" style={{ objectFit:'cover'}} />
+                        <img src="assets/Logo/paypallogo.png" alt="" style={{ objectFit:'cover'}} />
+                        <img src="assets/Logo/applepaylogo.png" alt="" style={{ objectFit:'cover'}} />
+                        <img src="assets/Logo/paytmlogo.png" alt="" style={{ objectFit:'cover'}} />
+
+                    </div> */}
                 </div>
             </div>
         </>
