@@ -42,3 +42,16 @@ export interface CommentCardCompProps{
 export interface PropsstarsectionProps {
     star : .5 | 1 | 1.5 | 2 | 2.5 | 3 | 3.5 | 4 | 4.5 | 5 ;
 }
+
+export interface FlexCompwithimgProps{
+
+    img: string;
+    htext: string;
+    ptext: string;
+    button : boolean; 
+    buttonlabel?: string;
+    imgclassname?: React.CSSProperties;
+    htextclassname?: React.CSSProperties;
+    ptextclassname?: React.CSSProperties;
+
+}

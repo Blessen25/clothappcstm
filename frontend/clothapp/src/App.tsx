@@ -5,6 +5,7 @@ import Home from './screens/home/home.tsx';
 import Header from './components/header/header.tsx';
 import Homefrontband from './components/headerbandsale.tsx';
 import { Footer } from './components/footer/footer.tsx';
+import AboutusPage from './screens/about/about.tsx';
 
 const App = () =>{
   return(
@@ -22,7 +23,8 @@ const App = () =>{
         <Route path='/Aboutus' element={
           <>
             <Header />
-            <Footer />
+            <AboutusPage />
+            {/* <Footer /> */}
           </>
         } />
         </Routes>

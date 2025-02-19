@@ -26,12 +26,84 @@
     background-color: whitesmoke;
 }
 
+.flexcompwithimgdiv{
+    display: flex;
+    border: 2px solid black;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.revflexcompwithimgdiv{
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+
+.flexcompimgdiv{
+    width: 30%;
+    border: 2px solid black;
+}
+
+.flexcomptextdiv{
+
+    width: 69%;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.flexcompimgcstm{
+
+    object-fit: cover;
+    width: 100%;
+    height: 320px;
+}
+
+@media screen and (max-width: 991px) {
+    
+    .flexcompimgcstm{
+        height: 352px;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
     .homefrontbanddiv{
         font-size: 13px;
     }
     .containerdiv{
         padding: 20px;
+    }
+    
+    .flexcompwithimgdiv{
+        flex-wrap: wrap;
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .flexcompimgdiv{
+        width: 100%;
+    }
+
+    .flexcomptextdiv{
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .revflexcompwithimgdiv{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .flexcompimgcstm{
+        height: 400px;
     }
 }
 
@@ -42,6 +114,14 @@
 
     .containerdiv{
         padding: 15px;
+    }
+
+    .flexcomptextdiv{
+        padding: 15px 0px;
+        gap: 10px;
+    }
+    .flexcompimgcstm{
+        height: 320px;
     }
 }
 

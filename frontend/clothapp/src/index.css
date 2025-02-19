@@ -1,6 +1,87 @@
 *{
+
   margin: 0px ;
   padding: 0px ;
   box-sizing: border-box;
   font-family: "Roboto", serif;
+}
+
+.mainheadingcstm {
+
+  font-size: 50px;
+}
+
+.mainparacstm{
+
+  font-size: 17px;
+  text-align: justify;
+  opacity: .7;
+}
+
+.smallparacstm{
+
+  font-size: 16px;
+  text-align: justify;
+  opacity: .7;
+}
+
+.maindivcstmeverypage{
+  
+  padding: 20px 40px;
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .smallparacstm{
+
+    font-size: 14px;
+  }
+
+  .mainheadingcstm {
+
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    .mainheadingcstm{
+
+      font-size: 30px;
+    }
+
+    .mainparacstm{
+      
+      font-size: 15px;
+    }
+
+    .smallparacstm{
+  
+      font-size: 12px;
+    }
+    .maindivcstmeverypage{
+  
+      padding: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .mainheadingcstm{
+
+      font-size: 22px;
+    }
+
+    .mainparacstm{
+
+      font-size: 12px;
+    }
+
+    .smallparacstm{
+  
+      font-size: 10px;
+    }
+
+    .maindivcstmeverypage{
+  
+      padding: 15px;
+    }
 }

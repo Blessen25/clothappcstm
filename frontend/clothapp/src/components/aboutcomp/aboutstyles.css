@@ -1,0 +1,21 @@
+.aboutusintodiv{
+
+    border: 2px solid black;
+    margin-top: 3px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .aboutusintodiv{
+        padding: 20px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .aboutusintodiv{
+        padding: 15px;
+    }
+}
