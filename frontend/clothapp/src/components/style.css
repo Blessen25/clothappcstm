@@ -28,7 +28,6 @@
 
 .flexcompwithimgdiv{
     display: flex;
-    border: 2px solid black;
     margin-top: 40px;
     gap: 20px;
 }
@@ -44,13 +43,11 @@
 
 .flexcompimgdiv{
     width: 30%;
-    border: 2px solid black;
 }
 
 .flexcomptextdiv{
 
     width: 69%;
-    border: 2px solid black;
     padding: 20px;
     display: flex;
     flex-direction: column;

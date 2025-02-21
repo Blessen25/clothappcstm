@@ -4,6 +4,15 @@
     margin-top: 3px;
 }
 
+.aboutusthreefeaturesdiv{
+
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -17,5 +26,9 @@
 @media screen and (max-width: 575px) {
     .aboutusintodiv{
         padding: 15px;
+    }
+
+    .aboutusthreefeaturesdiv{
+        margin-top: 15px;
     }
 }
