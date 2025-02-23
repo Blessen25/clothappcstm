@@ -9,13 +9,14 @@
     justify-content: space-between;
     margin-top: 2px;
     padding: 20px 40px 0px 40px;
+    background-color: #f2f0f1;
 }
 
 
 .homeintropagechildone {
     width: 50%;
     z-index: 999;
-    background-color: whitesmoke;
+    background-color: #f2f0f1;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -155,7 +156,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    background-color: whitesmoke;
+    background-color: #f2f0f1;
 }
 
 .newarrivalsparent h1 {
@@ -271,7 +272,7 @@
 
     width: 100%;
     padding: 20px 40px;
-    background-color: whitesmoke;
+    background-color: #f2f0f1;
 }
 
 .browseclothdiv h1 {
@@ -359,6 +360,7 @@
 
     width: 100%;
     padding: 20px 40px;
+    background-color: #f2f0f1;
 
 }
 
@@ -408,7 +410,7 @@
     width: max-content;
     /* animation: slideText 600s linear infinite; */
     width: max-content;
-    transition: transform .1s linear,
+    transition: transform .1s linear;
     
 }
 
