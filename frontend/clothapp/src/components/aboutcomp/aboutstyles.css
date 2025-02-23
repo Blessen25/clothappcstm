@@ -7,11 +7,18 @@
 .aboutusthreefeaturesdiv{
 
     width: 100%;
-    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 20px;
+}
+
+.mainaboutusthreefeaturesdiv{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
 }
 .aboutusthreecard{
  
@@ -48,14 +55,29 @@
 }
 
 .aboutusthreetextdiv p{
-    opacity: .7;
+    opacity: .5;
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
 }
 
 .aboutusthreeicon{
     font-size: 80px;
     color: #00bf00;
+}
+
+.ourstorydiv{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.whychooseuscompdiv{
+
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 1099px) {
@@ -133,5 +155,20 @@
     .aboutusthreetextdiv p{
         font-size: 12px;
     }
+
+    .ourstorydiv{
+        
+        margin-top: 15px;
+    }
+    .whychooseuscompdiv{
+
+        margin-top: 15px;
+    }
+
+    .mainaboutusthreefeaturesdiv{
+        margin-top: 15px;
+        gap: 15px;
+    }
+
     
 }

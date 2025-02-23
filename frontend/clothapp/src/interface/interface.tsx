@@ -64,3 +64,9 @@ export interface AboutusthreecarddivProps {
     ptext : string;
     icon: IconDefinition;
 }
+
+export interface AboutusthreefeaturesProps{
+
+    title : string;
+    features : AboutusthreecarddivProps[];
+}

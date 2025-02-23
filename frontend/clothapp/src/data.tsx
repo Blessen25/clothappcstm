@@ -1,4 +1,5 @@
-import { ClothdetailsCardProps } from "./interface/interface";
+import { faHeadset, faLeaf, faMoneyCheckDollar, faRulerCombined, faStar, faUndoAlt } from "@fortawesome/free-solid-svg-icons";
+import { AboutusthreecarddivProps, ClothdetailsCardProps } from "./interface/interface";
 
 export const newArrivalsData: ClothdetailsCardProps[] = [
       { imglink: "assets/Images/Tshirttapedetails.png", clothname: "T-shirt with Tape Details", star: 3.5, price: 120 },
@@ -24,4 +25,21 @@ export const comments = [
   { id: 6, name: "Sophia T", text: "Great deals and top-notch fabric!" },
   { id: 7, name: "Michael R", text: "Everything fit perfectly! Really happy with my purchase." },
   { id: 8, name: "Jessica K", text: "Fast shipping and great customer support!" }
+];
+
+export const ourmissionandvaluesdata: AboutusthreecarddivProps[] = [
+
+  { h2text:"Affordability Without Compromise" , ptext : "We believe that great fashion shouldn't come at an outrageous cost. Our goal is to provide stylish and high-quality clothing at prices that remain accessible to everyone." , icon: faMoneyCheckDollar },
+  { h2text:"Sustainability & Ethical Sourcing" , ptext : "Fashion should be both beautiful and responsible. That’s why we prioritize eco-friendly materials, ethical sourcing, and sustainable production practices to minimize our environmental footprint." , icon: faLeaf },
+  { h2text:"Customer-Centric Approach" , ptext : "Your satisfaction is our priority. From the moment you browse our collections to the time you receive your package, we ensure a seamless, enjoyable shopping experience backed by top-notch customer support and hassle-free returns." , icon: faHeadset }
+
+];
+
+
+export const whychooseusdata: AboutusthreecarddivProps[] = [
+
+  { h2text:"Exclusive Collections" , ptext : "Unique styles that you won’t find anywhere else." , icon: faStar },
+  { h2text:"Easy Returns & Hassle-Free Shopping" , ptext : "Because your satisfaction matters." , icon: faUndoAlt },
+  { h2text:" Inclusive Sizing" , ptext : "Fashion for every body type, from petite to plus-size." , icon: faRulerCombined }
+
 ];
