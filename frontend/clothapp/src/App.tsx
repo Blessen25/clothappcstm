@@ -24,7 +24,7 @@ const App = () =>{
           <>
             <Header />
             <AboutusPage />
-            {/* <Footer /> */}
+            <Footer />
           </>
         } />
         </Routes>

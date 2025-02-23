@@ -15,7 +15,7 @@ const Home = () => {
             <HomepageNewarrivals text={'NEW ARRIVALS'} clothdata={newArrivalsData}/>
             <HomepageNewarrivals text={'TOP SELLING'} clothdata={topSellingData}/>
             <BrowseClothSection />
-            <HappyCustomerCmntSection />
+            <HappyCustomerCmntSection title='OUR HAPPY CUSTOMERS'/>
         </>
     )
 }

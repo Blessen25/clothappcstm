@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import './homecomp.css';
-import { ClothdetailsCardProps, CommentCardCompProps, HomepageNewarrivalsProps, numberplustextProps, PropsstarsectionProps } from "../../interface/interface";
+import { ClothdetailsCardProps, CommentCardCompProps, HappyCustomerCmntSectionProps, HomepageNewarrivalsProps, numberplustextProps, PropsstarsectionProps } from "../../interface/interface";
 import { faStar, faStarHalf, faStarHalfAlt, faStarHalfStroke, faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ButtonTextOnly from "../button/button.tsx";
@@ -277,7 +277,7 @@ export const BrowseClothSection = () => {
     )
 }
 
-export const HappyCustomerCmntSection = () => {
+export const HappyCustomerCmntSection:React.FC<HappyCustomerCmntSectionProps> = (props) => {
     const [index, setIndex] = useState(0);
     const itemsPerSlide = 4;
     const totalSlides = Math.ceil(comments.length / itemsPerSlide);
@@ -319,7 +319,7 @@ export const HappyCustomerCmntSection = () => {
     return(
         <div className="happycustomerdiv">
             <div className="h1andslidericon">
-                <h1 className="h1customertext">OUR HAPPY CUSTOMERS</h1>
+                <h1 className="h1customertext">{props.title}</h1>
                 {/* <div className="slidericons">
                        <FontAwesomeIcon icon={faArrowLeft} className={`slidericoncstm ${index === 0 ? "disabled" : ""}`} onClick={prevSlide} />
                        <FontAwesomeIcon icon={faArrowRight} className={`slidericoncstm ${index / itemsPerSlide + 1 >= totalSlides ? "disabled" : ""}`} onClick={nextSlide}/>

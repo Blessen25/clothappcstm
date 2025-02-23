@@ -372,7 +372,6 @@
 .h1customertext {
 
     font-size: 50px;
-    font-weight: 900;
 }
 
 .slidericons {
@@ -657,6 +656,11 @@
 
     }
 
+    .h1customertext{
+        
+        font-size: 38px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -780,7 +784,7 @@
 
     .h1customertext {
 
-        font-size: 38px
+        font-size: 37px;
     }
 
 
@@ -953,7 +957,7 @@
     }
 
     .happycustomerdiv {
-        padding: 20px
+        padding: 15px
     }
 
     .h1andslidericon {
@@ -963,7 +967,7 @@
 
     .h1customertext {
 
-        font-size: 18px
+        font-size: 22px
     }
 
     .slidericons {
@@ -1033,5 +1037,10 @@
 
     .commentscarddiv{
         width: 300px;
+    }
+
+    .h1customertext{
+        
+        font-size: 18px;
     }
 }

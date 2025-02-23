@@ -70,3 +70,8 @@ export interface AboutusthreefeaturesProps{
     title : string;
     features : AboutusthreecarddivProps[];
 }
+
+export interface HappyCustomerCmntSectionProps{
+
+    title : string;
+}

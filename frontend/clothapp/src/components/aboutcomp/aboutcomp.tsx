@@ -5,6 +5,7 @@ import { AboutusthreecarddivProps, AboutusthreefeaturesProps } from "../../inter
 import { faDollarSign, faHeadset, faLeaf, faM, faMoneyBill, faMoneyBill1Wave, faMoneyBillTransfer, faMoneyBillWave, faMoneyCheckDollar, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ourmissionandvaluesdata, whychooseusdata } from "../../data.tsx";
+import { HappyCustomerCmntSection } from "../homecomp/homecomponent.tsx";
 
 export const AboutIntroComp = () =>{
 
@@ -16,8 +17,10 @@ export const AboutIntroComp = () =>{
                 <FlexCompwithimg img={"assets/Images/models_suit_men.jpg"} htext={"QUALITY MEETS STYLE"} ptext={"At Shop.Cloth, we believe that fashion is more than just clothing—it's a statement of individuality, confidence, and self-expression. Our carefully curated collections are designed to bring you the latest trends while maintaining an emphasis on quality and affordability. From timeless classics to bold modern styles, we ensure that every piece is crafted with premium fabrics and attention to detail, so you can look and feel your best—every day."} button={true} buttonlabel="View All"/>
                 <Aboutusthreefeatures title={"OUR MISSION AND VALUES"} features={ourmissionandvaluesdata}/>
                 <AboutusOurStory />
-                <WhychooseusComp />
+                <WhychooseusComp /> 
             </div>
+            <HappyCustomerCmntSection title="WHAT PEOPLE TELL ABOUT US" />
+
         </>
     )
 }
