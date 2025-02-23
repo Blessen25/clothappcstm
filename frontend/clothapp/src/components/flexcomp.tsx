@@ -15,7 +15,7 @@ export const FlexCompwithimg:React.FC<FlexCompwithimgProps> = (Props) =>{
                 <p className={`mainparacstm ${Props.ptextclassname}`}>{Props.ptext}</p>
                 {Props.button && 
                 <>
-                    <ButtonTextOnly buttonlabel={Props.buttonlabel ?? ''} fullwidth={false} />
+                    <ButtonTextOnly buttonlabel={Props.buttonlabel ?? ''} fullwidth={false} className="buttonflexcstmfullwidth"/>
                 </>}
             </div>
         </div>

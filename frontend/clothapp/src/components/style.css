@@ -102,6 +102,9 @@
     .flexcompimgcstm{
         height: 400px;
     }
+    .buttonflexcstmfullwidth{
+        max-width: 100% !important;   
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -120,6 +123,7 @@
     .flexcompimgcstm{
         height: 320px;
     }
+
 }
 
 @media screen and (max-width: 470px) {

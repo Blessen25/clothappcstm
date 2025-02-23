@@ -6,17 +6,15 @@
 
 .aboutusthreefeaturesdiv{
 
-    border: 2px solid black;
     width: 100%;
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     gap: 20px;
 }
 .aboutusthreecard{
  
-    border: 2px solid black;
     width: 30%;
     padding: 15px;
     display: flex;
@@ -24,20 +22,20 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .aboutusthreeimgdiv{
     width: 150px;
-    border: 2px solid black;
     height: 150px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
 }
 
 .aboutusthreetextdiv{
-    border: 2px solid black;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -60,9 +58,54 @@
     color: #00bf00;
 }
 
+@media screen and (max-width: 1099px) {
+    .aboutusthreetextdiv h2{
+        font-size: 14px;
+    }
+
+    .aboutusthreetextdiv p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .aboutusthreefeaturesdiv{
+        flex-wrap: wrap;
+    }
+
+    .aboutusthreecard{
+        width: 100%;
+    }
+
+    .aboutusthreetextdiv h2{
+        font-size: 18px;
+    }
+
+    .aboutusthreetextdiv p{
+        font-size: 17px;
+    }
+
+
+}
+
 @media screen and (max-width: 767px) {
     .aboutusintodiv{
         padding: 20px;
+    }
+
+    .aboutusthreeimgdiv{
+        width: 110px;
+        height: 110px;
+    }
+    .aboutusthreeicon{
+        font-size: 60px;
+    }
+    .aboutusthreetextdiv h2{
+        font-size: 16px;
+    }
+
+    .aboutusthreetextdiv p{
+        font-size: 15px;
     }
 }
 
@@ -75,4 +118,20 @@
     .aboutusthreefeaturesdiv{
         margin-top: 15px;
     }
+
+    .aboutusthreeimgdiv{
+        width: 90px;
+        height: 90px;
+    }
+    .aboutusthreeicon{
+        font-size: 40px;
+    }
+    .aboutusthreetextdiv h2{
+        font-size: 13px;
+    }
+
+    .aboutusthreetextdiv p{
+        font-size: 12px;
+    }
+    
 }
