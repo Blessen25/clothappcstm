@@ -1,3 +1,5 @@
+import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
+
 export interface containerdivProps{
     children: React.ReactNode;
 }
@@ -54,4 +56,11 @@ export interface FlexCompwithimgProps{
     htextclassname?: React.CSSProperties;
     ptextclassname?: React.CSSProperties;
 
+}
+
+export interface AboutusthreecarddivProps {
+
+    h2text : string;
+    ptext : string;
+    icon: IconDefinition;
 }

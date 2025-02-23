@@ -12,9 +12,53 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+}
+.aboutusthreecard{
+ 
+    border: 2px solid black;
+    width: 30%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
+.aboutusthreeimgdiv{
+    width: 150px;
+    border: 2px solid black;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.aboutusthreetextdiv{
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aboutusthreetextdiv h2{
+    font-size: 16px;
+    text-align: center;
+}
+
+.aboutusthreetextdiv p{
+    opacity: .7;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.aboutusthreeicon{
+    font-size: 80px;
+    color: #00bf00;
+}
 
 @media screen and (max-width: 767px) {
     .aboutusintodiv{
