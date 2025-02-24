@@ -24,7 +24,7 @@
 }
 
 .headerchildsecond {
-    width: 42%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -33,7 +33,7 @@
 }
 
 .headerchildsecond a {
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: black;
     position: relative;
@@ -52,7 +52,7 @@
 }
 
 .headerchildsecond a:hover {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .headerchildsecond a:hover::after {
@@ -160,11 +160,11 @@
     }
 
     .headerchildsecond a {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .headerchildsecond a:hover {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .headerchildsecond a:hover::after {
