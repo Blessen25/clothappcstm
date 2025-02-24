@@ -27,7 +27,7 @@ const Header = () => {
                     <div className="headerchildsecond">
                         <a href="/" >Home</a>
                         <a href="/Aboutus">About</a>
-                        <a href="#">Contact</a>
+                        <a href="/Contact">Contact</a>
                         <a href="#">Product</a>
                         <a href="#">Category</a>
                     </div>
@@ -74,7 +74,7 @@ const Header = () => {
                     </div>
                     <a href="/" onClick={handleSidebarChange}>Home</a>
                     <a href="/Aboutus" onClick={handleSidebarChange}>About</a>
-                    <a href="#" onClick={handleSidebarChange}>Contact</a>
+                    <a href="/Contact" onClick={handleSidebarChange}>Contact</a>
                     <a href="#" onClick={handleSidebarChange}>Product</a>
                     <a href="#" onClick={handleSidebarChange}>Category</a>
                 </div>

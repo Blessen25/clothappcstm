@@ -6,6 +6,7 @@ import Header from './components/header/header.tsx';
 import Homefrontband from './components/headerbandsale.tsx';
 import { Footer } from './components/footer/footer.tsx';
 import AboutusPage from './screens/about/about.tsx';
+import ContactPage from './screens/contact/contact.tsx';
 
 const App = () =>{
   return(
@@ -25,6 +26,12 @@ const App = () =>{
             <Header />
             <AboutusPage />
             <Footer />
+          </>
+        } />
+        <Route path='/Contact' element={
+          <>
+            <Header />
+            <ContactPage />
           </>
         } />
         </Routes>

@@ -50,7 +50,7 @@ export const Footer = () => {
                         <p>Pages</p>
                         <a href="/">Home</a>
                         <a href="/Aboutus">About</a>
-                        <a href="#">Contact</a>
+                        <a href="/Contact">Contact</a>
                         <a href="#">Product</a>
                         <a href="#">Category</a>
                     </div>
