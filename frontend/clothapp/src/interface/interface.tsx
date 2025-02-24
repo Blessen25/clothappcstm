@@ -75,3 +75,9 @@ export interface HappyCustomerCmntSectionProps{
 
     title : string;
 }
+
+export interface HeadingwithtitleandhomeProps{
+
+    headingtitle: string;
+    headername: string;
+}

@@ -29,7 +29,6 @@ const Header = () => {
                         <a href="/Aboutus">About</a>
                         <a href="/Contact">Contact</a>
                         <a href="#">Product</a>
-                        <a href="#">Category</a>
                     </div>
                     <div className="headerchildfourth">
                         <div className="headerchildthird">
@@ -76,7 +75,6 @@ const Header = () => {
                     <a href="/Aboutus" onClick={handleSidebarChange}>About</a>
                     <a href="/Contact" onClick={handleSidebarChange}>Contact</a>
                     <a href="#" onClick={handleSidebarChange}>Product</a>
-                    <a href="#" onClick={handleSidebarChange}>Category</a>
                 </div>
             </>)}
 

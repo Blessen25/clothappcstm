@@ -52,7 +52,6 @@ export const Footer = () => {
                         <a href="/Aboutus">About</a>
                         <a href="/Contact">Contact</a>
                         <a href="#">Product</a>
-                        <a href="#">Category</a>
                     </div>
                     <div className="footerbottomchildtwo">
                         <p>HELP</p>

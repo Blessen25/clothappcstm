@@ -1,7 +1,7 @@
 import React from "react";
 import './aboutstyles.css';
 import { FlexCompwithimg, ReverseFlexCompwithimg } from "../flexcomp.tsx";
-import { AboutusthreecarddivProps, AboutusthreefeaturesProps } from "../../interface/interface.tsx";
+import { AboutusthreecarddivProps, AboutusthreefeaturesProps, HeadingwithtitleandhomeProps } from "../../interface/interface.tsx";
 import { faDollarSign, faHeadset, faLeaf, faM, faMoneyBill, faMoneyBill1Wave, faMoneyBillTransfer, faMoneyBillWave, faMoneyCheckDollar, faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ourmissionandvaluesdata, whychooseusdata } from "../../data.tsx";
@@ -12,8 +12,8 @@ export const AboutIntroComp = () =>{
     return(
 
         <>
+            <Headingwithtitleandhome headingtitle={"ABOUT US"} headername={"About"} />
             <div className="maindivcstmeverypage aboutusintodiv">
-                <h1 className="mainheadingcstm">ABOUT US</h1>
                 <FlexCompwithimg img={"assets/Images/models_suit_men.jpg"} htext={"QUALITY MEETS STYLE"} ptext={"At Shop.Cloth, we believe that fashion is more than just clothing—it's a statement of individuality, confidence, and self-expression. Our carefully curated collections are designed to bring you the latest trends while maintaining an emphasis on quality and affordability. From timeless classics to bold modern styles, we ensure that every piece is crafted with premium fabrics and attention to detail, so you can look and feel your best—every day."} button={true} buttonlabel="View All"/>
                 <Aboutusthreefeatures title={"OUR MISSION AND VALUES"} features={ourmissionandvaluesdata}/>
                 <AboutusOurStory />
@@ -74,5 +74,22 @@ export const AboutusOurStory = () =>{
 export const WhychooseusComp = () =>{
     return(
             <Aboutusthreefeatures title={"WHY CHOOSE US?"} features={whychooseusdata}/>
+    )
+}
+
+
+export const Headingwithtitleandhome:React.FC<HeadingwithtitleandhomeProps> = (Props) =>{
+
+    return(
+        <>
+            <div className="headingdivcstm">
+                    <h1>{Props.headingtitle}</h1>
+                    <div className="paradivcstm">
+                        <p>Home</p>
+                        <div className="rounddivcstm"></div>
+                        <p>{Props.headername}</p>
+                    </div>
+            </div>
+        </>
     )
 }

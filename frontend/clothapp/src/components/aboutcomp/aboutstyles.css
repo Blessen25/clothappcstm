@@ -1,6 +1,38 @@
 .aboutusintodiv{
     background-color: #f2f0f1;
-    margin-top: 3px;
+}
+.headingdivcstm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #6e6e6e;
+    align-items: center;
+    height: 200px;
+    background-color: #e0e0e0;
+    gap: 10px;
+}
+.paradivcstm{
+
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.rounddivcstm{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.headingdivcstm h1{
+    font-size: 40px;
 }
 .aboutusthreefeaturesdiv{
 
@@ -127,6 +159,20 @@
     .aboutusthreetextdiv p{
         font-size: 15px;
     }
+
+    .headingdivcstm h1{
+
+        font-size: 30px;
+    }
+    .paradivcstm{
+
+        font-size: 14px;
+    }
+
+    .headingdivcstm{
+
+        height: 150px;
+    }
 }
 
 
@@ -154,6 +200,23 @@
         font-size: 12px;
     }
 
+    .headingdivcstm h1{
+
+        font-size: 22px;
+    }
+
+    .paradivcstm{
+
+        font-size: 12px;
+        gap: 8px;
+    }
+
+    .rounddivcstm{
+
+        width: 5px;
+        height: 5px;
+    }
+
     .ourstorydiv{
         
         margin-top: 15px;
@@ -166,6 +229,11 @@
     .mainaboutusthreefeaturesdiv{
         margin-top: 15px;
         gap: 15px;
+    }
+
+    .headingdivcstm{
+
+        height: 100px;
     }
 
     
