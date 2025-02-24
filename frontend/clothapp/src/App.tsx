@@ -7,6 +7,9 @@ import Homefrontband from './components/headerbandsale.tsx';
 import { Footer } from './components/footer/footer.tsx';
 import AboutusPage from './screens/about/about.tsx';
 import ContactPage from './screens/contact/contact.tsx';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 
 const App = () =>{
   return(
