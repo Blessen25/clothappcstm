@@ -2,6 +2,7 @@ import React from "react";
 import './contactstyles.css'
 import { Headingwithtitleandhome } from "../aboutcomp/aboutcomp.tsx";
 import { FlexCompwithimg } from "../flexcomp";
+import ButtonTextOnly from "../button/button.tsx";
 
 export const Contactpageintro = () =>{
 
@@ -15,7 +16,35 @@ export const Contactpageintro = () =>{
                 <div className="contactpagereachusoutdiv">
                     <h1 className="mainheadingcstm">Get In Touch</h1>
                     <p className="smallparacstm">At Shop.Cloth, we value our customers and are always here to help. Whether you have a question about our products, need assistance with an order, we’d love to hear from you!</p>
-                    
+                    <div className="contactpageinputdiv">
+                        <div className="contactpageinputcstm">
+                            <div className="inputtypediv">
+                                <h1>Name</h1>
+                                <input type="text" placeholder="Name"/>
+                            </div> 
+                            <div className="inputtypediv">
+                                <h1>Email</h1>
+                                <input type="email" placeholder="Email"/>
+                            </div> 
+                        </div> 
+                        <div className="contactpageinputcstm">
+                            <div className="inputtypediv">
+                                <h1>Phone Number</h1>
+                                <input type="number" placeholder="Number"/>
+                            </div> 
+                            <div className="inputtypediv">
+                                <h1>Subject</h1>
+                                <input type="text" placeholder="Subject"/>
+                            </div> 
+                        </div> 
+                        <div className="contactpageinputcstm">
+                            <div className="inputtypemessagediv">
+                                <h1>Message</h1>
+                                <textarea placeholder="Message"/>
+                            </div> 
+                        </div> 
+                        <ButtonTextOnly buttonlabel={"Submit"} fullwidth={false} className="buttongetintouchcstm"/>
+                    </div>
                 </div>
             </div>
         </>
