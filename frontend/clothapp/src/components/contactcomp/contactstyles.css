@@ -88,7 +88,7 @@
 
 .inputtypediv input{
 
-    height: 35px;
+    height: 45px;
     border-radius: 5px;
     outline: none;
     border: 1px solid #6b6b6b;
@@ -99,4 +99,11 @@
 .buttongetintouchcstm{
 
     max-width: 120px;
+}
+
+.contactusimgcstm {
+
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }

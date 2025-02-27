@@ -11,7 +11,7 @@ export const Contactpageintro = () =>{
             <Headingwithtitleandhome headingtitle={"CONTACT US"} headername={"Contact"} />
             <div className="maindivcstmeverypage contactpageintro">
                 <div className="contactpageimgdiv">
-
+                    <img src="assets/Images/Contactus.jpg" alt="Contact us image" className="contactusimgcstm"/>
                 </div>
                 <div className="contactpagereachusoutdiv">
                     <h1 className="mainheadingcstm">Get In Touch</h1>
@@ -19,8 +19,8 @@ export const Contactpageintro = () =>{
                     <div className="contactpageinputdiv">
                         <div className="contactpageinputcstm">
                             <div className="inputtypediv">
-                                <h1>Name</h1>
-                                <input type="text" placeholder="Name"/>
+                                <h1>Full name</h1>
+                                <input type="text" placeholder="Full name"/>
                             </div> 
                             <div className="inputtypediv">
                                 <h1>Email</h1>
@@ -30,7 +30,7 @@ export const Contactpageintro = () =>{
                         <div className="contactpageinputcstm">
                             <div className="inputtypediv">
                                 <h1>Phone Number</h1>
-                                <input type="number" placeholder="Number"/>
+                                <input type="number" placeholder="Phone number"/>
                             </div> 
                             <div className="inputtypediv">
                                 <h1>Subject</h1>
