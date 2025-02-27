@@ -1,6 +1,5 @@
 .contactpageintro{
 
-    border: 2px solid black;
     background-color: #f2f0f1;
     display: flex;
     gap: 20px;
@@ -8,13 +7,11 @@
 
 .contactpageimgdiv{
 
-    border: 2px solid black;
     width: 50%;
 }
 
 .contactpagereachusoutdiv{
 
-    border: 2px solid black;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -23,7 +20,6 @@
 
 .contactuscstmforms{
 
-    border: 2px solid black;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +34,8 @@
     flex-direction: column;
     gap: 15px;
     margin-top: 10px;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .contactpageinputcstm{
@@ -106,4 +104,84 @@
     width: 100%;
     object-fit: cover;
     height: 100%;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .contactpageimgdiv{
+        width: 100%;
+    }
+
+    .contactpagereachusoutdiv{
+
+        width: 100%;
+    }
+
+    .contactpageintro{ 
+
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .inputtypediv h1 { 
+
+        font-size: 16px;
+    }
+
+    .inputtypediv input{
+
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .inputtypemessagediv h1{
+
+        font-size: 16px;
+    }
+
+    .inputtypemessagediv textarea{
+
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+    .inputtypediv h1 { 
+
+        font-size: 12px;
+    }
+
+    .inputtypediv input{
+
+        font-size: 10px;
+        height: 35px;
+    }
+
+    .inputtypemessagediv h1{
+
+        font-size: 12px;
+    }
+
+    .inputtypemessagediv textarea{
+
+        font-size: 10px;
+        height: 110px;
+    }
+
+    .contactpageinputcstm {
+
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .inputtypediv {
+        
+        width: 100%;
+    }
+    
+
 }
