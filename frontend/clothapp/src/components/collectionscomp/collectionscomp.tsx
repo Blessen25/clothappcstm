@@ -53,10 +53,11 @@ export const CollectiondivMainComp: React.FC<CollectiondivMainCompProps> = (Prop
                         <FontAwesomeIcon icon={faArrowLeft} />
                     </button>
                     {[...Array(pageCount).keys()].map((number) => (
-                        <button key={number} onClick={() => handlePageChange(number)}>{number + 1}</button>
+                        <button key={number} onClick={() => handlePageChange(number)}
+                            className={`paginationsquarediv ${currentPage === number ? "paginationsquaredivactive" : ""}`}>{number + 1}</button>
                     ))}
 
-                    <button className="prevButt" disabled={currentPage === pageCount - 1} onClick={() => handlePageChange(currentPage + 1)}>
+                    <button className="nextButt" disabled={currentPage === pageCount - 1} onClick={() => handlePageChange(currentPage + 1)}>
                         <FontAwesomeIcon icon={faArrowRight} />
                     </button>
                 </div>

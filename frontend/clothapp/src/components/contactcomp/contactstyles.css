@@ -3,6 +3,7 @@
     background-color: #f2f0f1;
     display: flex;
     gap: 20px;
+    padding-top: 60px;
 }
 
 .contactpageimgdiv {
@@ -185,6 +186,11 @@
     .inputtypediv {
 
         width: 100%;
+    }
+
+    .contactpageintro {
+
+        padding-top: 35px;
     }
 
 
