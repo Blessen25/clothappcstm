@@ -9,6 +9,7 @@ import AboutusPage from './screens/about/about.tsx';
 import ContactPage from './screens/contact/contact.tsx';
 import CollectionScreen from './screens/collection/collection.tsx';
 import { MenCollections } from './screens/collection/collections.tsx';
+import { Footer_Collection } from './components/footer/footer_collection.tsx';
 
 const App = () => {
   return (
@@ -52,6 +53,7 @@ const App = () => {
             <>
               <Header />
               <MenCollections />
+              <Footer_Collection />
             </>
           } />
 
