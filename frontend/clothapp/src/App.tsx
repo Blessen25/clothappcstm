@@ -8,6 +8,7 @@ import { Footer } from './components/footer/footer.tsx';
 import AboutusPage from './screens/about/about.tsx';
 import ContactPage from './screens/contact/contact.tsx';
 import CollectionScreen from './screens/collection/collection.tsx';
+import { MenCollections } from './screens/collection/collections.tsx';
 
 const App = () => {
   return (
@@ -50,6 +51,7 @@ const App = () => {
           <Route path='/collection/men' element={
             <>
               <Header />
+              <MenCollections />
             </>
           } />
 
