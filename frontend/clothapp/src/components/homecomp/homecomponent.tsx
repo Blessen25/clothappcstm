@@ -7,24 +7,24 @@ import ButtonTextOnly from "../button/button.tsx";
 import { comments } from "../../data.tsx";
 
 export const HomeIntropage = () => {
-    return(
+    return (
         <React.Fragment>
             <div className="homeintropageparent">
                 <div className="homeintropagechildone">
-                        <h1 className="h1text">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
-                        <p className="paratext">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-                        <a href="#">Shop Now</a>
-                        <div className="brandsproductscustomer">
-                            <Numberplustext number={"200"} text={"International Brand"} />
-                            <div className="borderline"></div>
-                            <Numberplustext number={"2,000"} text={"High-Quality Products"} />
-                            <div className="borderline"></div>
-                            <Numberplustext number={"30,000"} text={"Happy Customers"} />
-                        </div>
+                    <h1 className="h1text">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                    <p className="paratext">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+                    <a href="#">Shop Now</a>
+                    <div className="brandsproductscustomer">
+                        <Numberplustext number={"200"} text={"International Brand"} />
+                        <div className="borderline"></div>
+                        <Numberplustext number={"2,000"} text={"High-Quality Products"} />
+                        <div className="borderline"></div>
+                        <Numberplustext number={"30,000"} text={"Happy Customers"} />
+                    </div>
                 </div>
                 <div className="homeintropagechildtwo">
-                    <img src="assets/Images/Vector.png" alt="Vector one" className="vectorimgone"/>
-                    <img src="assets/Images/Vector.png" alt="Vector one" className="vectorimgtwo"/>
+                    <img src="assets/Images/Vector.png" alt="Vector one" className="vectorimgone" />
+                    <img src="assets/Images/Vector.png" alt="Vector one" className="vectorimgtwo" />
                 </div>
             </div>
         </React.Fragment>
@@ -32,8 +32,8 @@ export const HomeIntropage = () => {
 }
 
 
-export const Numberplustext:React.FC<numberplustextProps> = (Props) =>{
-    return(
+export const Numberplustext: React.FC<numberplustextProps> = (Props) => {
+    return (
         <>
             <div className="numberplustextdiv">
                 <h1>{Props.number}+</h1>
@@ -45,69 +45,69 @@ export const Numberplustext:React.FC<numberplustextProps> = (Props) =>{
 }
 
 export const Slidinglogo = () => {
-    return(
+    return (
         <>
             <div className="slidinglogoparent">
                 <div className="slidinglogochild">
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
 
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
 
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
 
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
 
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
 
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
-                    
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
 
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
 
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
 
-                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg"/>
-                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg"/>
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
+
+                    <img src="assets/Logo/Versacelogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Zaralogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Pradalogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Guccilogo.png" alt="logo" className="slidinglogoimg" />
+                    <img src="assets/Logo/Calvinklein.png" alt="logo" className="slidinglogoimg" />
                 </div>
             </div>
         </>
@@ -115,30 +115,30 @@ export const Slidinglogo = () => {
 }
 
 
-export const HomepageNewarrivals:React.FC<HomepageNewarrivalsProps> = (Props) =>{
-    return(
+export const HomepageNewarrivals: React.FC<HomepageNewarrivalsProps> = (Props) => {
+    return (
         <>
             <div className="newarrivalsparent">
                 <h1>{Props.text}</h1>
                 <div className="clothdetailsdiv">
                     {Props.clothdata?.map((item, index) => (
-                        <ClothdetailsCard key={index} imglink={item?.imglink} clothname={item?.clothname} star={item?.star} price={item?.price} offerprice={item?.offerprice}/>
+                        <ClothdetailsCard key={index} imglink={item?.imglink} clothname={item?.clothname} star={item?.star} price={item?.price} offerprice={item?.offerprice} />
                     ))}
                 </div>
                 <div className="buttoncenterdiv">
-                    <ButtonTextOnly buttonlabel="View All" fullwidth={false}/>
+                    <ButtonTextOnly buttonlabel="View All" fullwidth={false} route={Props.route} />
                 </div>
             </div>
         </>
     )
 }
 
-export const ClothdetailsCard:React.FC<ClothdetailsCardProps> = (Props) =>{
-    return(
+export const ClothdetailsCard: React.FC<ClothdetailsCardProps> = (Props) => {
+    return (
         <>
             <div className="clothcardcstm">
                 <div className="shirtimage">
-                    <img src={Props.imglink} alt="Shirt Image" className="shirtimagesrc"/>
+                    <img src={Props.imglink} alt="Shirt Image" className="shirtimagesrc" />
                 </div>
                 <p>{Props.clothname}</p>
                 <div className="stardiv">
@@ -149,7 +149,7 @@ export const ClothdetailsCard:React.FC<ClothdetailsCardProps> = (Props) =>{
                         <p>{Props.star}/5</p>
                     </div>
                 </div>
-                {Props.offerprice ? (<> 
+                {Props.offerprice ? (<>
                     <div className="pricediv">
                         <span>${Props.offerprice}</span>
                         <span className="priceoffer">${Props.price}</span>
@@ -166,94 +166,94 @@ export const ClothdetailsCard:React.FC<ClothdetailsCardProps> = (Props) =>{
     )
 }
 
-export const Propsstarsection:React.FC<PropsstarsectionProps> = (Props) =>{
-    return(
+export const Propsstarsection: React.FC<PropsstarsectionProps> = (Props) => {
+    return (
         <>
-        {Props.star === 5 && (
-            <>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-            </>
-        )}
-        {Props.star === 4 && (
-            <>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+            {Props.star === 5 && (
+                <>
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                </>
+            )}
+            {Props.star === 4 && (
+                <>
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
 
-            </>
-        )}
-        {Props.star === 3 && (
-            <>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                </>
+            )}
+            {Props.star === 3 && (
+                <>
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
 
-            </>
-        )}
-        {Props.star === 2 && (
-            <>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
+                </>
+            )}
+            {Props.star === 2 && (
+                <>
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
 
-            </>
-        )}
-        {Props.star === 1 && (
-            <>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-            </>
-        )}
-        
-        {Props.star === 0.5 && (
-            <>
-                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
-            </>
-        )}
+                </>
+            )}
+            {Props.star === 1 && (
+                <>
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                </>
+            )}
 
-        {Props.star === 1.5 && (
-            <>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+            {Props.star === 0.5 && (
+                <>
+                    <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon" />
+                </>
+            )}
 
-            </>
-        )}
-        {Props.star === 2.5 && (
-            <>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+            {Props.star === 1.5 && (
+                <>
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon" />
 
-            </>
-        )}
-        {Props.star === 3.5 && (
-            <>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+                </>
+            )}
+            {Props.star === 2.5 && (
+                <>
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon" />
 
-            </>
-        )}
-        {Props.star === 4.5 && (
-            <>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStar} className="starcstmicon"/>
-                <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon"/>
+                </>
+            )}
+            {Props.star === 3.5 && (
+                <>
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon" />
 
-            </>
-        )}
+                </>
+            )}
+            {Props.star === 4.5 && (
+                <>
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStar} className="starcstmicon" />
+                    <FontAwesomeIcon icon={faStarHalfAlt} className="starcstmicon" />
+
+                </>
+            )}
         </>
     )
 }
 
 export const BrowseClothSection = () => {
-    return(
+    return (
         <>
             <div className="browseclothdiv">
                 <h1>BROWSE BY DRESS STYLE</h1>
@@ -261,7 +261,7 @@ export const BrowseClothSection = () => {
                     <a href="#" className="diffsectionone">
                         <p className="diffsectiontext">Casual</p>
                     </a>
-                    <a href="#"  className="diffsectiontwo">
+                    <a href="#" className="diffsectiontwo">
                         <p className="diffsectiontext">Formal</p>
                     </a>
                     <a href="#" className="diffsectionthree">
@@ -277,46 +277,46 @@ export const BrowseClothSection = () => {
     )
 }
 
-export const HappyCustomerCmntSection:React.FC<HappyCustomerCmntSectionProps> = (props) => {
+export const HappyCustomerCmntSection: React.FC<HappyCustomerCmntSectionProps> = (props) => {
     const [index, setIndex] = useState(0);
     const itemsPerSlide = 4;
     const totalSlides = Math.ceil(comments.length / itemsPerSlide);
 
-    const nextSlide = () =>{
+    const nextSlide = () => {
         if (index / itemsPerSlide + 1 < totalSlides) {
             setIndex(index + itemsPerSlide);
-          }
+        }
     };
 
     const prevSlide = () => {
         if (index > 0) {
             setIndex(index - itemsPerSlide);
-          }
+        }
     }
 
     const sliderRef = useRef<HTMLDivElement>(null);
 
-    useEffect(()=>{
-        if(sliderRef.current){
+    useEffect(() => {
+        if (sliderRef.current) {
             let scrollAmount = 0;
             const speed = .5;
 
             const scrollSlider = () => {
-                if(sliderRef.current){
+                if (sliderRef.current) {
                     scrollAmount -= speed;
                     sliderRef.current.style.transform = `translateX(${scrollAmount}px)`;
 
-                if (Math.abs(scrollAmount) >= sliderRef.current.scrollWidth / 2) {
+                    if (Math.abs(scrollAmount) >= sliderRef.current.scrollWidth / 2) {
                         scrollAmount = 0;
-                  }
+                    }
                 }
 
                 requestAnimationFrame(scrollSlider);
             };
-          scrollSlider();  
+            scrollSlider();
         }
-    },[]);
-    return(
+    }, []);
+    return (
         <div className="happycustomerdiv">
             <div className="h1andslidericon">
                 <h1 className="h1customertext">{props.title}</h1>
@@ -328,40 +328,40 @@ export const HappyCustomerCmntSection:React.FC<HappyCustomerCmntSectionProps> = 
             <div className="commentscardparent">
                 <div className="slidercomponentdiv" ref={sliderRef}>
 
-                <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
-                <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."}/>
-                <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."}/>
-                <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."}/>
-                
-                <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
-                <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."}/>
-                <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."}/>
-                <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."}/>
-                
-                <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
-                <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."}/>
-                <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."}/>
-                <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."}/>
+                    <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
+                    <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."} />
+                    <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."} />
+                    <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."} />
 
-                <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
-                <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."}/>
-                <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."}/>
-                <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."}/>
+                    <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
+                    <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."} />
+                    <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."} />
+                    <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."} />
+
+                    <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
+                    <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."} />
+                    <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."} />
+                    <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."} />
+
+                    <CommentCardComp star={3.5} personname={"Sarah M."} description={"I'm blown away by the quality and style of the clothes I received from Shop.Cloth. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."} />
+                    <CommentCardComp star={4.5} personname={"Alex K."} description={"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.Cloth. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions."} />
+                    <CommentCardComp star={5} personname={"James L."} description={"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.Cloth. The selection of clothes is not only diverse but also on-point with the latest trends."} />
+                    <CommentCardComp star={3} personname={"Rayan V."} description={"Shopping for trendy yet comfortable outfits was always a hassle until I found Shop.Cloth. Their collection is not only stylish but also versatile, making it easy to find the perfect look for any occasion."} />
                 </div>
             </div>
         </div>
     )
 }
 
-export const CommentCardComp:React.FC<CommentCardCompProps> = (Props) =>{
-    return(
-            <div className="commentscarddiv">
-                    <div className="cmntstrscstm">
-                        <Propsstarsection star={Props.star} />
-                    </div>
-                    <p>{Props.personname}</p>
-                    <span>{Props.description}</span>
+export const CommentCardComp: React.FC<CommentCardCompProps> = (Props) => {
+    return (
+        <div className="commentscarddiv">
+            <div className="cmntstrscstm">
+                <Propsstarsection star={Props.star} />
             </div>
+            <p>{Props.personname}</p>
+            <span>{Props.description}</span>
+        </div>
     )
 }
 

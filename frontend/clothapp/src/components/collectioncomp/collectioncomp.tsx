@@ -11,7 +11,7 @@ export const CollectionintoComp = () => {
 
             <Headingwithtitleandhome headingtitle={"COLLECTIONS"} headername={"Collection"} />
             <div className="collectionintro">
-                <HomepageNewarrivals text={"Men’s Collection"} clothdata={newArrivalsData} />
+                <HomepageNewarrivals text={"Men’s Collection"} clothdata={newArrivalsData} route="/collection/men" />
                 <HomepageNewarrivals text={"Women’s Collection"} clothdata={newArrivalsData} />
                 <HomepageNewarrivals text={"Kids’ Collection"} clothdata={newArrivalsData} />
                 <HomepageNewarrivals text={"Streetwear Collection"} clothdata={newArrivalsData} />

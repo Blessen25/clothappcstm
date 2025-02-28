@@ -44,6 +44,16 @@ const App = () => {
               <Footer />
             </>
           } />
+
+          {/* Collecions Route */}
+
+          <Route path='/collection/men' element={
+            <>
+              <Header />
+            </>
+          } />
+
+
         </Routes>
       </Router>
     </>
