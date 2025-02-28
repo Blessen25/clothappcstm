@@ -399,10 +399,11 @@
     overflow: hidden;
     position: relative;
     justify-content: center;
+    padding: 10px 0px;
 
 }
 
-.slidercomponentdiv{
+.slidercomponentdiv {
     display: flex;
     gap: 20px;
     transition: transform 0.5s ease-in-out;
@@ -410,10 +411,10 @@
     /* animation: slideText 600s linear infinite; */
     width: max-content;
     transition: transform .1s linear;
-    
+
 }
 
-.commentscarddiv{
+.commentscarddiv {
 
     width: 450px;
     display: flex;
@@ -424,7 +425,7 @@
     border-radius: 10px;
 }
 
-.cmntstrscstm{
+.cmntstrscstm {
     width: 120px;
     height: 30px;
     display: flex;
@@ -432,7 +433,7 @@
 
 }
 
-.commentscarddiv p{
+.commentscarddiv p {
     font-size: 20px;
     font-weight: 800;
     white-space: nowrap;
@@ -440,7 +441,7 @@
     text-overflow: ellipsis;
 }
 
-.commentscarddiv span{
+.commentscarddiv span {
     text-align: justify;
     opacity: .5;
     font-size: 17px;
@@ -586,7 +587,7 @@
         justify-content: space-between;
     } */
 
-    .commentscarddiv{
+    .commentscarddiv {
         width: 400px;
     }
 
@@ -657,8 +658,8 @@
 
     }
 
-    .h1customertext{
-        
+    .h1customertext {
+
         font-size: 38px;
     }
 
@@ -797,15 +798,15 @@
         width: 60px;
     }
 
-    .cmntstrscstm{
+    .cmntstrscstm {
         width: 102px;
     }
 
-    .commentscarddiv p{
+    .commentscarddiv p {
         font-size: 18px;
     }
 
-    .commentscarddiv span{
+    .commentscarddiv span {
         font-size: 15px;
     }
 
@@ -981,18 +982,19 @@
         font-size: 14px;
     }
 
-    .commentscarddiv{
+    .commentscarddiv {
         width: 400px;
         gap: 10px;
     }
 
-    .commentscarddiv p{
+    .commentscarddiv p {
         font-size: 15px;
     }
 
-    .commentscarddiv span{
+    .commentscarddiv span {
         font-size: 12px;
     }
+
     .slidercomponentdiv {
         /* animation: slideText 1000s linear infinite; */
     }
@@ -1036,12 +1038,12 @@
         font-size: 8px;
     }
 
-    .commentscarddiv{
+    .commentscarddiv {
         width: 300px;
     }
 
-    .h1customertext{
-        
+    .h1customertext {
+
         font-size: 18px;
     }
 }
