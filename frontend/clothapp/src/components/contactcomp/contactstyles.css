@@ -1,16 +1,16 @@
-.contactpageintro{
+.contactpageintro {
 
     background-color: #f2f0f1;
     display: flex;
     gap: 20px;
 }
 
-.contactpageimgdiv{
+.contactpageimgdiv {
 
     width: 50%;
 }
 
-.contactpagereachusoutdiv{
+.contactpagereachusoutdiv {
 
     width: 50%;
     display: flex;
@@ -18,7 +18,7 @@
     gap: 15px;
 }
 
-.contactuscstmforms{
+.contactuscstmforms {
 
     width: 100%;
     display: flex;
@@ -27,7 +27,7 @@
 
 }
 
-.contactpageinputdiv{
+.contactpageinputdiv {
 
     width: 100%;
     display: flex;
@@ -38,41 +38,41 @@
     justify-content: space-between;
 }
 
-.contactpageinputcstm{
+.contactpageinputcstm {
 
     width: 100%;
     display: flex;
     gap: 40px;
-    
+
 }
 
-.inputtypediv{
+.inputtypediv {
     display: flex;
     flex-direction: column;
     width: 50%;
     gap: 10px;
 }
 
-.inputtypediv h1{
+.inputtypediv h1 {
     font-size: 18px;
     font-weight: 400;
 }
 
-.inputtypemessagediv h1{
+.inputtypemessagediv h1 {
     font-size: 18px;
     font-weight: 400;
 }
 
-.inputtypemessagediv{
-    
+.inputtypemessagediv {
+
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.inputtypemessagediv textarea{
-    
+.inputtypemessagediv textarea {
+
     width: 100%;
     border: 1px solid #6b6b6b;
     outline: none;
@@ -84,7 +84,7 @@
     padding: 10px;
 }
 
-.inputtypediv input{
+.inputtypediv input {
 
     height: 45px;
     border-radius: 5px;
@@ -94,7 +94,7 @@
     font-size: 15px;
 }
 
-.buttongetintouchcstm{
+.buttongetintouchcstm {
 
     max-width: 120px;
 }
@@ -104,69 +104,73 @@
     width: 100%;
     object-fit: cover;
     height: 100%;
+    aspect-ratio: 611/440;
+    border-radius: 5px;
 }
 
 
 @media screen and (max-width: 991px) {
 
-    .contactpageimgdiv{
+    .contactpageimgdiv {
         width: 100%;
     }
 
-    .contactpagereachusoutdiv{
+    .contactpagereachusoutdiv {
 
         width: 100%;
     }
 
-    .contactpageintro{ 
+    .contactpageintro {
 
         flex-wrap: wrap;
     }
+
+
 }
 
 @media screen and (max-width: 767px) {
-    
-    .inputtypediv h1 { 
+
+    .inputtypediv h1 {
 
         font-size: 16px;
     }
 
-    .inputtypediv input{
+    .inputtypediv input {
 
         font-size: 13px;
         height: 40px;
     }
 
-    .inputtypemessagediv h1{
+    .inputtypemessagediv h1 {
 
         font-size: 16px;
     }
 
-    .inputtypemessagediv textarea{
+    .inputtypemessagediv textarea {
 
         font-size: 13px;
     }
 }
 
 @media screen and (max-width: 575px) {
-    
-    .inputtypediv h1 { 
+
+    .inputtypediv h1 {
 
         font-size: 12px;
     }
 
-    .inputtypediv input{
+    .inputtypediv input {
 
         font-size: 10px;
         height: 35px;
     }
 
-    .inputtypemessagediv h1{
+    .inputtypemessagediv h1 {
 
         font-size: 12px;
     }
 
-    .inputtypemessagediv textarea{
+    .inputtypemessagediv textarea {
 
         font-size: 10px;
         height: 110px;
@@ -179,9 +183,9 @@
     }
 
     .inputtypediv {
-        
+
         width: 100%;
     }
-    
+
 
 }

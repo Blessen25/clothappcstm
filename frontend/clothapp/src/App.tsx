@@ -21,17 +21,18 @@ const App = () => {
               <Footer />
             </>
           } />
-          <Route path='/Aboutus' element={
+          <Route path='/aboutus' element={
             <>
               <Header />
               <AboutusPage />
               <Footer />
             </>
           } />
-          <Route path='/Contact' element={
+          <Route path='/contact' element={
             <>
               <Header />
               <ContactPage />
+              <Footer />
             </>
           } />
         </Routes>

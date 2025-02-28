@@ -26,9 +26,9 @@ const Header = () => {
                     </div>
                     <div className="headerchildsecond">
                         <a href="/" >Home</a>
-                        <a href="/Aboutus">About</a>
-                        <a href="/Contact">Contact</a>
-                        <a href="#">Product</a>
+                        <a href="/aboutus">About</a>
+                        <a href="/contact">Contact</a>
+                        <a href="#">Collections</a>
                     </div>
                     <div className="headerchildfourth">
                         <div className="headerchildthird">
@@ -72,9 +72,9 @@ const Header = () => {
                         <FontAwesomeIcon icon={faSearch} className="searchiconsidebarcstm" />
                     </div>
                     <a href="/" onClick={handleSidebarChange}>Home</a>
-                    <a href="/Aboutus" onClick={handleSidebarChange}>About</a>
-                    <a href="/Contact" onClick={handleSidebarChange}>Contact</a>
-                    <a href="#" onClick={handleSidebarChange}>Product</a>
+                    <a href="/aboutus" onClick={handleSidebarChange}>About</a>
+                    <a href="/contact" onClick={handleSidebarChange}>Contact</a>
+                    <a href="#" onClick={handleSidebarChange}>Collections</a>
                 </div>
             </>)}
 

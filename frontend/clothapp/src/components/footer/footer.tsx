@@ -49,9 +49,9 @@ export const Footer = () => {
                     <div className="footerbottomchildtwo">
                         <p>Pages</p>
                         <a href="/">Home</a>
-                        <a href="/Aboutus">About</a>
-                        <a href="/Contact">Contact</a>
-                        <a href="#">Product</a>
+                        <a href="/aboutus">About</a>
+                        <a href="/contact">Contact</a>
+                        <a href="#">Collections</a>
                     </div>
                     <div className="footerbottomchildtwo">
                         <p>HELP</p>
