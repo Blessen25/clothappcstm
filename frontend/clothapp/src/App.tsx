@@ -41,6 +41,7 @@ const App = () => {
             <>
               <Header />
               <CollectionScreen />
+              <Footer />
             </>
           } />
         </Routes>

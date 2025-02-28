@@ -2,10 +2,12 @@
 
     padding: 20px 40px;
     background-color: #f2f0f1;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+}
+
+.collectionmandiv {
+    width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -21,6 +23,5 @@
     .collectionintro {
 
         padding: 15px;
-        gap: 15px;
     }
 }
