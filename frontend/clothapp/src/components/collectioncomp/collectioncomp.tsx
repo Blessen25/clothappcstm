@@ -1,11 +1,16 @@
 import React from "react";
 import './collectionstyle.css';
+import { Headingwithtitleandhome } from "../aboutcomp/aboutcomp.tsx";
 
 export const CollectionintoComp = () => {
 
     return (
         <>
-            <h1>Collections</h1>
+
+            <Headingwithtitleandhome headingtitle={"COLLECTIONS"} headername={"Collection"} />
+            <div className="collectionintro">
+
+            </div>
         </>
     )
 }
