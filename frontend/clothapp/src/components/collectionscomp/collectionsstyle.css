@@ -1,0 +1,63 @@
+.collectionsintrodiv {
+
+    border: 2px solid black;
+    padding: 20px 40px;
+    background-color: #f2f0f1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.collectionschilddiv {
+
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pagenationdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prevButt {
+
+    border: none;
+    outline: none;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .collectionschilddiv {
+
+        justify-content: space-evenly;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .collectionsintrodiv {
+
+        padding: 20px;
+    }
+
+    .collectionschilddiv {
+
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .collectionsintrodiv {
+        padding: 15px;
+        gap: 20px;
+    }
+}

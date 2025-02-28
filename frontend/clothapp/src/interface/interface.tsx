@@ -15,6 +15,11 @@ export interface HomepageNewarrivalsProps {
     route?: string;
 }
 
+export interface CollectiondivMainCompProps {
+
+    collectionclothdata: ClothdetailsCardProps[];
+}
+
 
 export interface ClothdetailsCardProps {
     imglink: string;
