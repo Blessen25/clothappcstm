@@ -7,6 +7,7 @@ import Homefrontband from './components/headerbandsale.tsx';
 import { Footer } from './components/footer/footer.tsx';
 import AboutusPage from './screens/about/about.tsx';
 import ContactPage from './screens/contact/contact.tsx';
+import CollectionScreen from './screens/collection/collection.tsx';
 
 const App = () => {
   return (
@@ -33,6 +34,13 @@ const App = () => {
               <Header />
               <ContactPage />
               <Footer />
+            </>
+          } />
+
+          <Route path='/collection' element={
+            <>
+              <Header />
+              <CollectionScreen />
             </>
           } />
         </Routes>

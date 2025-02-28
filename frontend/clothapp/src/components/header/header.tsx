@@ -28,7 +28,7 @@ const Header = () => {
                         <a href="/" >Home</a>
                         <a href="/aboutus">About</a>
                         <a href="/contact">Contact</a>
-                        <a href="#">Collections</a>
+                        <a href="/collection">Collections</a>
                     </div>
                     <div className="headerchildfourth">
                         <div className="headerchildthird">
@@ -74,7 +74,7 @@ const Header = () => {
                     <a href="/" onClick={handleSidebarChange}>Home</a>
                     <a href="/aboutus" onClick={handleSidebarChange}>About</a>
                     <a href="/contact" onClick={handleSidebarChange}>Contact</a>
-                    <a href="#" onClick={handleSidebarChange}>Collections</a>
+                    <a href="/collection" onClick={handleSidebarChange}>Collections</a>
                 </div>
             </>)}
 
