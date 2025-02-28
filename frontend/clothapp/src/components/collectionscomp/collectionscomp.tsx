@@ -17,6 +17,81 @@ export const MenscollectionComp = () => {
     )
 }
 
+export const WomencollectionComp = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"WOMEN'S COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
+
+
+export const KidscollectionComp = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"KID'S COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
+
+export const StreetwearCollection = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"STREETWEAR COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
+
+
+export const PlusSizeCollection = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"PLUS SIZE COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
+
+
+export const BudgetFriendlyCollection = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"BUDGET FRIENDLY COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
+
+export const DenimCollection = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"DENIM COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
+
+export const CasualwearCollection = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"CASUAL WEAR COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
+
+
+
 export const CollectiondivMainComp: React.FC<CollectiondivMainCompProps> = (Props) => {
 
     const [currentPage, setCurrentPage] = useState(0);

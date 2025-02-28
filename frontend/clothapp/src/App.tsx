@@ -10,6 +10,7 @@ import ContactPage from './screens/contact/contact.tsx';
 import CollectionScreen from './screens/collection/collection.tsx';
 import { MenCollections } from './screens/collection/collections.tsx';
 import { Footer_Collection } from './components/footer/footer_collection.tsx';
+import { BudgetFriendlyCollection, CasualwearCollection, DenimCollection, KidscollectionComp, PlusSizeCollection, StreetwearCollection, WomencollectionComp } from './components/collectionscomp/collectionscomp.tsx';
 
 const App = () => {
   return (
@@ -57,7 +58,64 @@ const App = () => {
             </>
           } />
 
+          <Route path = '/collection/women' element={
+            <>
+              <Header />
+              <WomencollectionComp />
+              <Footer_Collection />
+            </>
+          } />
 
+          <Route path='/collection/kids' element ={
+            <>
+              <Header />
+              <KidscollectionComp />
+              <Footer_Collection />
+            </>
+          } />
+
+          <Route path='/collection/streetware' element= {
+            <>
+              <Header />
+              <StreetwearCollection />
+              <Footer_Collection />
+            </>
+          } />
+
+          <Route path='/collection/plussize' element= {
+            <>
+              <Header />
+              <PlusSizeCollection />
+              <Footer_Collection />
+            </>
+          } />
+
+          <Route path='/collection/budgetfriendly' element= {
+            
+            <>
+              <Header/>
+              <BudgetFriendlyCollection />
+              <Footer_Collection />
+            </>
+          } />
+
+          <Route path='/collection/denim' element={
+
+            <>
+              <Header />
+              <DenimCollection />
+              <Footer_Collection />
+            </>
+          }/>
+
+          <Route path='/collection/casualwear' element= {
+
+            <>
+              <Header />
+              <CasualwearCollection />
+              <Footer_Collection />
+            </>
+          }/>
         </Routes>
       </Router>
     </>
