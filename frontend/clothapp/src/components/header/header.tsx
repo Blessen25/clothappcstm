@@ -3,7 +3,7 @@ import './header.css'
 import { FaBars, FaRegUserCircle, FaSearch, } from "react-icons/fa";
 import { Search, ShoppingCart, } from "react-feather";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown, faArrowRight, faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
 
@@ -28,7 +28,7 @@ const Header = () => {
                         <a href="/" >Home</a>
                         <a href="/aboutus">About</a>
                         <a href="/contact">Contact</a>
-                        <a href="/collection">Collections</a>
+                        <a href="/collection" className="collectioncustomheader">Collections<FontAwesomeIcon icon={faArrowDown} className="collectionarrowicondown" /> </a>
                     </div>
                     <div className="headerchildfourth">
                         <div className="headerchildthird">

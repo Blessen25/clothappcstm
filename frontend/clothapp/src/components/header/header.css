@@ -41,6 +41,30 @@
     transition: all .7s;
 }
 
+.collectioncustomheader {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.collectionarrowicon {
+
+    font-size: 14px;
+}
+
+.collectionarrowicondown {
+
+    font-size: 14px;
+}
+
+.collectioncustomheader:hover {
+    .collectionarrowicondown {
+
+        font-size: 15px;
+    }
+}
+
 .headerchildsecond a::after {
     content: '';
     position: absolute;
