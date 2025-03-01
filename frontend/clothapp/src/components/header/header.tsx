@@ -28,7 +28,7 @@ const Header = () => {
                         <a href="/" >Home</a>
                         <a href="/aboutus">About</a>
                         <a href="/contact">Contact</a>
-                        <a href="/collection" className="collectioncustomheader">Collections<FontAwesomeIcon icon={faArrowDown} className="collectionarrowicondown" /> </a>
+                        <a href="/collection" className="collectioncustomheader">Collections</a>
                     </div>
                     <div className="headerchildfourth">
                         <div className="headerchildthird">
