@@ -258,16 +258,16 @@ export const BrowseClothSection = () => {
             <div className="browseclothdiv">
                 <h1>BROWSE BY DRESS STYLE</h1>
                 <div className="browsediffsectiondiv">
-                    <a href="#" className="diffsectionone">
+                    <a href="/collection/casualwear" className="diffsectionone">
                         <p className="diffsectiontext">Casual</p>
                     </a>
-                    <a href="#" className="diffsectiontwo">
+                    <a href="/collection/formalwear" className="diffsectiontwo">
                         <p className="diffsectiontext">Formal</p>
                     </a>
-                    <a href="#" className="diffsectionthree">
+                    <a href="/collection/partywear" className="diffsectionthree">
                         <p className="diffsectiontext">Party</p>
                     </a>
-                    <a href="#" className="diffsectionfour">
+                    <a href="/collection/gymwear" className="diffsectionfour">
                         <p className="diffsectiontext">Gym</p>
                     </a>
                 </div>

@@ -90,6 +90,36 @@ export const CasualwearCollection = () => {
     )
 }
 
+export const FormalwearCollection = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"FORMAL WEAR COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
+
+export const PartyWearCollection = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"PARTY WEAR COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
+
+
+export const GymCollection = () => {
+
+    return(
+    <>
+        <Headingwithtitleandhome headingtitle={"GYM WEAR COLLECTION"} headername={"Collections"} />
+        <CollectiondivMainComp collectionclothdata={MenCollectionsData}/>
+    </>
+    )
+}
 
 
 export const CollectiondivMainComp: React.FC<CollectiondivMainCompProps> = (Props) => {

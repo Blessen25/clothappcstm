@@ -10,7 +10,7 @@ import ContactPage from './screens/contact/contact.tsx';
 import CollectionScreen from './screens/collection/collection.tsx';
 import { MenCollections } from './screens/collection/collections.tsx';
 import { Footer_Collection } from './components/footer/footer_collection.tsx';
-import { BudgetFriendlyCollection, CasualwearCollection, DenimCollection, KidscollectionComp, PlusSizeCollection, StreetwearCollection, WomencollectionComp } from './components/collectionscomp/collectionscomp.tsx';
+import { BudgetFriendlyCollection, CasualwearCollection, DenimCollection, FormalwearCollection, GymCollection, KidscollectionComp, PartyWearCollection, PlusSizeCollection, StreetwearCollection, WomencollectionComp } from './components/collectionscomp/collectionscomp.tsx';
 
 const App = () => {
   return (
@@ -116,6 +116,31 @@ const App = () => {
               <Footer_Collection />
             </>
           }/>
+
+          <Route path='/collection/formalwear' element= {
+
+          <>
+            <Header />
+            <FormalwearCollection />
+            <Footer_Collection />
+          </>
+          }/>
+          <Route path='/collection/partywear' element= {
+
+            <>
+              <Header />
+              <PartyWearCollection />
+              <Footer_Collection />
+            </>
+            }/>
+            <Route path='/collection/gymwear' element= {
+
+            <>
+              <Header />
+              <GymCollection />
+              <Footer_Collection />
+            </>
+            }/>
         </Routes>
       </Router>
     </>
