@@ -30,6 +30,12 @@
     border: none;
     outline: none;
     font-size: 16px;
+    color: black;
+}
+
+.prevButt:disabled{
+
+    color: rgb(166, 166, 166);
 }
 
 .nextButt {
@@ -37,6 +43,12 @@
     border: none;
     outline: none;
     font-size: 16px;
+    color: black;
+}
+
+.nextButt:disabled{
+
+    color: rgb(166, 166, 166);
 }
 
 .paginationsquarediv {
@@ -49,6 +61,7 @@
     border-radius: 5px;
     transition: all .7s;
     font-size: 16px;
+    color: black;
 }
 
 .paginationsquarediv:hover {
