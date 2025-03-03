@@ -11,6 +11,7 @@ import CollectionScreen from './screens/collection/collection.tsx';
 import { MenCollections } from './screens/collection/collections.tsx';
 import { Footer_Collection } from './components/footer/footer_collection.tsx';
 import { BudgetFriendlyCollection, CasualwearCollection, DenimCollection, FormalwearCollection, GymCollection, KidscollectionComp, PartyWearCollection, PlusSizeCollection, StreetwearCollection, WomencollectionComp } from './components/collectionscomp/collectionscomp.tsx';
+import ProductDetailsPage from './screens/product_details/product_details.tsx';
 
 const App = () => {
   return (
@@ -139,6 +140,13 @@ const App = () => {
               <Header />
               <GymCollection />
               <Footer_Collection />
+            </>
+            }/>
+
+            <Route path='/productdetailspage' element={
+            <>
+              <Header />
+              <ProductDetailsPage />
             </>
             }/>
         </Routes>
