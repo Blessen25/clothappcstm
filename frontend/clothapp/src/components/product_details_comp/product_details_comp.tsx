@@ -20,6 +20,11 @@ export const ProductDetailsComp = () =>{
                             </div>
                             <span>4.5/5</span>
                         </div>
+                        <div className="productpricediv">
+                            <h1>Rs 220</h1>
+                            <h1 className="productofferprice">360</h1>
+                        </div>
+                        <p className="productdescriptiondiv smallparacstm">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
                     </div>
                 </div>
             </div>
