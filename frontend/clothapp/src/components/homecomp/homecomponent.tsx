@@ -13,7 +13,7 @@ export const HomeIntropage = () => {
                 <div className="homeintropagechildone">
                     <h1 className="h1text">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
                     <p className="paratext">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-                    <a href="#">Shop Now</a>
+                    <a href="/collection">Shop Now</a>
                     <div className="brandsproductscustomer">
                         <Numberplustext number={"200"} text={"International Brand"} />
                         <div className="borderline"></div>
@@ -151,13 +151,13 @@ export const ClothdetailsCard: React.FC<ClothdetailsCardProps> = (Props) => {
                 </div>
                 {Props.offerprice ? (<>
                     <div className="pricediv">
-                        <span>${Props.offerprice}</span>
-                        <span className="priceoffer">${Props.price}</span>
+                        <span>Rs {Props.offerprice}</span>
+                        <span className="priceoffer">Rs {Props.price}</span>
                     </div>
                 </>) : (
                     <>
                         <div className="pricediv">
-                            <span>${Props.price}</span>
+                            <span>Rs {Props.price}</span>
                         </div>
                     </>
                 )}

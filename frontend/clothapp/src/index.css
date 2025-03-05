@@ -1,7 +1,7 @@
-*{
+* {
 
-  margin: 0px ;
-  padding: 0px ;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   font-family: "Roboto", serif;
 }
@@ -9,30 +9,31 @@
 .mainheadingcstm {
 
   font-size: 50px;
+  font-weight: 900;
 }
 
-.mainparacstm{
+.mainparacstm {
 
   font-size: 17px;
   text-align: justify;
   opacity: .7;
 }
 
-.smallparacstm{
+.smallparacstm {
 
   font-size: 16px;
   text-align: justify;
   opacity: .7;
 }
 
-.maindivcstmeverypage{
-  
+.maindivcstmeverypage {
+
   padding: 20px 40px;
   width: 100%;
 }
 
 @media screen and (max-width: 991px) {
-  .smallparacstm{
+  .smallparacstm {
 
     font-size: 14px;
   }
@@ -44,44 +45,45 @@
 }
 
 @media screen and (max-width: 767px) {
-    .mainheadingcstm{
+  .mainheadingcstm {
 
-      font-size: 30px;
-    }
+    font-size: 30px;
+  }
 
-    .mainparacstm{
-      
-      font-size: 15px;
-    }
+  .mainparacstm {
 
-    .smallparacstm{
-  
-      font-size: 12px;
-    }
-    .maindivcstmeverypage{
-  
-      padding: 20px;
-    }
+    font-size: 15px;
+  }
+
+  .smallparacstm {
+
+    font-size: 12px;
+  }
+
+  .maindivcstmeverypage {
+
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 575px) {
-    .mainheadingcstm{
+  .mainheadingcstm {
 
-      font-size: 22px;
-    }
+    font-size: 22px;
+  }
 
-    .mainparacstm{
+  .mainparacstm {
 
-      font-size: 12px;
-    }
+    font-size: 12px;
+  }
 
-    .smallparacstm{
-  
-      font-size: 10px;
-    }
+  .smallparacstm {
 
-    .maindivcstmeverypage{
-  
-      padding: 15px;
-    }
+    font-size: 10px;
+  }
+
+  .maindivcstmeverypage {
+
+    padding: 15px;
+  }
 }
