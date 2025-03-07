@@ -10,7 +10,20 @@ export const ProductDetailsComp = () => {
             <div className="productdetailsintro">
                 <div className="productdetailschilddiv">
                     <div className="productdetailschildone">
-                        <img src="../assets/Images/browndress.png" className="productdetailsimg" />
+                        <div className="productdetail3imagediv">
+                            <div className="productfirstimagediv">
+
+                            </div>
+                            <div className="productfirstimagediv">
+
+                            </div>
+                            <div className="productfirstimagediv">
+
+                            </div>
+                        </div>
+                        <div className="productdetail1imagediv">
+                            <img src="../assets/Images/browndress.png" className="productdetailsimg" />
+                        </div>
                     </div>
                     <div className="productdetailschildtwo">
                         <h1 className="mainheadingcstm">ONE LIFE GRAPHIC T-SHIRT</h1>
