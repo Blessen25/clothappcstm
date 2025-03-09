@@ -33,20 +33,21 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
 }
 
 .productdetail1imagediv {
     width: 80%;
     border: 2px solid black;
     height: 100%;
+    
 }
 
 .productfirstimagediv {
 
     width: 100%;
-    border: 2px solid black;
-    min-height: 160px;
+    /* border: 2px solid black; */
+    min-height: 159px;
 }
 
 .productdetailschildtwo {
@@ -62,6 +63,7 @@
     height: 100%;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
 }
 
 .starsectionproductdetails {
@@ -86,6 +88,8 @@
     object-fit: contain;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .productpricediv {
@@ -122,6 +126,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 .smallsize{
 
@@ -147,7 +152,7 @@
 
     background-color: black;
     cursor: pointer;
-    
+
     p{
         color: white;
         opacity: 1;
