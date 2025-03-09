@@ -15,13 +15,12 @@
     width: 100%;
     border: 2px solid black;
     gap: 20px;
-    height: 600px;
+    height: 500px;
 }
 
 .productdetailschildone {
-    width: 40%;
+    width: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 5px;
 
@@ -29,7 +28,7 @@
 
 .productdetail3imagediv {
 
-    width: 36%;
+    width: 20%;
     border: 2px solid black;
     height: 100%;
     display: flex;
@@ -38,7 +37,7 @@
 }
 
 .productdetail1imagediv {
-    width: 64%;
+    width: 80%;
     border: 2px solid black;
     height: 100%;
 }
@@ -47,11 +46,11 @@
 
     width: 100%;
     border: 2px solid black;
-    min-height: 195px;
+    min-height: 160px;
 }
 
 .productdetailschildtwo {
-    width: 60%;
+    width: 50%;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -82,9 +81,16 @@
     opacity: .7;
 }
 
+.productdetailsleftdivimg{
+
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
 .productpricediv {
 
-    width: 220px;
+    width: 280px;
     display: flex;
     justify-content: space-between;
 
@@ -103,13 +109,51 @@
 
     width: 100%;
     display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
     opacity: .7;
     font-size: 15px;
 }
+
+.sizediv{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.smallsize{
+
+    width: 23%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #d7d7d7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .7s;
+}
+
+.smallsize p{
+    
+    color: #000;
+    opacity: .7;
+    font-size: 16px;
+}
+
+.smallsize:hover{
+
+    background-color: black;
+    cursor: pointer;
+    
+    p{
+        color: white;
+        opacity: 1;
+    }
+}
+
 
 @media screen and (max-width: 767px) {
     .productdetailsintro {
