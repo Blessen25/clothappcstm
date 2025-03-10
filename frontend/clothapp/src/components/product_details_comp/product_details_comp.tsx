@@ -55,8 +55,13 @@ export const ProductDetailsComp = () => {
                             </div>
                         </div>
                         <hr />
-                        <div className="">
+                        <div className="productdetailslastbuttondiv">
+                            <div className="subandaddnumberdiv">
 
+                            </div>
+                            <div className="detailsbuttondiv">
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
