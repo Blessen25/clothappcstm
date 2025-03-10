@@ -55,9 +55,7 @@ export const ProductDetailsComp = () => {
                             </div>
                         </div>
                         <hr />
-                        <div className="
-                        ]
-                        ]">
+                        <div className="">
 
                         </div>
                     </div>
