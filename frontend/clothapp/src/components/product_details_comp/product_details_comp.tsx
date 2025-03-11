@@ -39,7 +39,7 @@ export const ProductDetailsComp = () => {
                         </div>
                         <p className="productdescriptiondiv smallparacstm">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
                         <hr />
-                        <p className="smallparacstm">Choose Size</p>
+                        <p className="smallparacstm">Choose Size :</p>
                         <div className="sizediv">
                             <div className="smallsize">
                                 <p>Small</p>
@@ -57,10 +57,12 @@ export const ProductDetailsComp = () => {
                         <hr />
                         <div className="productdetailslastbuttondiv">
                             <div className="subandaddnumberdiv">
-
+                                <p>+</p>
+                                <p>1</p>
+                                <p>-</p>
                             </div>
                             <div className="detailsbuttondiv">
-                                
+                                Add to Cart
                             </div>
                         </div>
                     </div>

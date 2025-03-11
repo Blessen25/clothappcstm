@@ -174,8 +174,33 @@
     border: 2px solid black;
     height: 40px;
     font-size: 16px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.detailsbuttondiv{
+
+    width: 70%;
+    font-size: 10px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    transition: all 0.7s;
 }
 
+.detailsbuttondiv:hover{
+
+    background-color: #676767;
+    
+}
 
 @media screen and (max-width: 767px) {
     .productdetailsintro {
@@ -185,6 +210,10 @@
     }
 
     .subandaddnumberdiv {
+
+        font-size: 12px;
+    }
+    .detailsbuttondiv{
 
         font-size: 12px;
     }
@@ -199,6 +228,12 @@
     }
 
     .subandaddnumberdiv {
+
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .detailsbuttondiv{
 
         font-size: 10px;
         height: 30px;
