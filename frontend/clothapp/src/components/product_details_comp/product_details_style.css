@@ -1,7 +1,6 @@
 .productdetailsintro {
 
     padding: 50px 40px 20px 40px;
-    border: 2px solid black;
     width: 100%;
     background-color: #f2f0f1;
     display: flex;
@@ -13,7 +12,6 @@
 
     display: flex;
     width: 100%;
-    border: 2px solid black;
     gap: 20px;
     height: 500px;
 }
@@ -29,7 +27,6 @@
 .productdetail3imagediv {
 
     width: 20%;
-    border: 2px solid black;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -38,7 +35,6 @@
 
 .productdetail1imagediv {
     width: 80%;
-    border: 2px solid black;
     height: 100%;
     
 }
@@ -46,13 +42,11 @@
 .productfirstimagediv {
 
     width: 100%;
-    /* border: 2px solid black; */
     min-height: 159px;
 }
 
 .productdetailschildtwo {
     width: 50%;
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -163,7 +157,6 @@
 .productdetailslastbuttondiv{
 
     width: 100%;
-    border: 2px solid black;
     display: flex;
     gap: 20px ;
 }
@@ -171,7 +164,6 @@
 .subandaddnumberdiv{
 
     width: 30%;
-    border: 2px solid black;
     height: 40px;
     font-size: 16px;
     border-radius: 20px;
@@ -179,6 +171,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ebebeb;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
 }
 .detailsbuttondiv{
@@ -194,12 +188,17 @@
     background-color: black;
     color: white;
     transition: all 0.7s;
+    text-decoration: none;
 }
 
 .detailsbuttondiv:hover{
 
     background-color: #676767;
     
+}
+
+.faiconproductdetails{
+    font-size: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -217,6 +216,10 @@
 
         font-size: 12px;
     }
+    .faiconproductdetails{
+        font-size: 14px;
+    }
+    
 }
 
 
@@ -237,5 +240,8 @@
 
         font-size: 10px;
         height: 30px;
+    }
+    .faiconproductdetails{
+        font-size: 12px;
     }
 }

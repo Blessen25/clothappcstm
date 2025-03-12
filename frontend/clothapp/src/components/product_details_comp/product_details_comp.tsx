@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import './product_details_style.css';
 import { Propsstarsection } from "../homecomp/homecomponent.tsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
+
 
 export const ProductDetailsComp = () => {
 
+    const [totalquantity, setTotalquantity] = useState(1);
+
+    const handlePlusChange = () => {
+
+        setTotalquantity(totalquantity + 1)
+    }
+
+    const handleMinusChange = () => {
+
+        if (totalquantity > 0) {
+
+            setTotalquantity(totalquantity - 1)
+        }
+    }
     return (
 
         <>
@@ -57,13 +74,13 @@ export const ProductDetailsComp = () => {
                         <hr />
                         <div className="productdetailslastbuttondiv">
                             <div className="subandaddnumberdiv">
-                                <p>+</p>
-                                <p>1</p>
-                                <p>-</p>
+                                <FontAwesomeIcon icon={faPlus} className="faiconproductdetails" onClick={handlePlusChange}/>
+                                <p>{totalquantity}</p>
+                                <FontAwesomeIcon icon={faMinus} className="faiconproductdetails" onClick={handleMinusChange}/>
                             </div>
-                            <div className="detailsbuttondiv">
+                            <a href="#" className="detailsbuttondiv">
                                 Add to Cart
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
