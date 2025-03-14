@@ -13,7 +13,6 @@
     display: flex;
     width: 100%;
     gap: 20px;
-    height: 500px;
 }
 
 .productdetailschildone {
@@ -199,6 +198,80 @@
 
 .faiconproductdetails{
     font-size: 16px;
+}
+
+@media screen and (max-width: 1399px) {
+    .onelifegraphictext{
+
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .onelifegraphictext{
+
+        font-size: 34px;
+    }
+
+    .productpricediv h1{
+
+        font-size: 32px;
+    }
+
+    .productpricediv {
+
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .productdetailschilddiv{
+
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .productdetailschildone{
+
+        width: 100%;
+    }
+
+    .productdetailschildtwo{
+
+        width: 100%;
+    }
+
+    .onelifegraphictext{
+
+        font-size: 50px;
+    }
+
+    .productpricediv h1{
+
+        font-size: 44px;
+    }
+
+    .productpricediv {
+
+        width: 320px;
+    }
+    .subandaddnumberdiv {
+
+        width: 20%;
+    }
+    .detailsbuttondiv{
+
+        width: 80%;
+    }
+    .productdetail1imagediv{
+
+        height: 616px;
+    }
+    .productfirstimagediv{
+
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 767px) {

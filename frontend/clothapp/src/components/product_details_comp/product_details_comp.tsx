@@ -43,7 +43,7 @@ export const ProductDetailsComp = () => {
                         </div>
                     </div>
                     <div className="productdetailschildtwo">
-                        <h1 className="mainheadingcstm">ONE LIFE GRAPHIC T-SHIRT</h1>
+                        <h1 className="mainheadingcstm onelifegraphictext">ONE LIFE GRAPHIC T-SHIRT</h1>
                         <div className="starsectionproductdetailsparent">
                             <div className="starsectionproductdetails">
                                 <Propsstarsection star={5} />
