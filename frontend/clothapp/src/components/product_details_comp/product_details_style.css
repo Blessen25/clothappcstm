@@ -16,7 +16,7 @@
 }
 
 .productdetailschildone {
-    width: 50%;
+    height: 518px;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -25,7 +25,7 @@
 
 .productdetail3imagediv {
 
-    width: 20%;
+    width: 152px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -35,17 +35,17 @@
 .productdetail1imagediv {
     width: 80%;
     height: 100%;
-    
+
 }
 
 .productfirstimagediv {
 
-    width: 100%;
-    min-height: 159px;
+    width: 152px;
+    height: 167px;
 }
 
 .productdetailschildtwo {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,8 +53,8 @@
 }
 
 .productdetailsimg {
-    width: 100%;
-    height: 100%;
+    width: 444px;
+    height: 518px;
     object-fit: cover;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 10px;
@@ -77,9 +77,9 @@
     opacity: .7;
 }
 
-.productdetailsleftdivimg{
+.productdetailsleftdivimg {
 
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -115,14 +115,15 @@
     font-size: 15px;
 }
 
-.sizediv{
+.sizediv {
 
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.smallsize{
+
+.smallsize {
 
     width: 23%;
     height: 40px;
@@ -135,32 +136,32 @@
     transition: all .7s;
 }
 
-.smallsize p{
-    
+.smallsize p {
+
     color: #000;
     opacity: .7;
     font-size: 16px;
 }
 
-.smallsize:hover{
+.smallsize:hover {
 
     background-color: black;
     cursor: pointer;
 
-    p{
+    p {
         color: white;
         opacity: 1;
     }
 }
 
-.productdetailslastbuttondiv{
+.productdetailslastbuttondiv {
 
     width: 100%;
     display: flex;
-    gap: 20px ;
+    gap: 20px;
 }
 
-.subandaddnumberdiv{
+.subandaddnumberdiv {
 
     width: 30%;
     height: 40px;
@@ -174,7 +175,8 @@
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
 }
-.detailsbuttondiv{
+
+.detailsbuttondiv {
 
     width: 70%;
     font-size: 10px;
@@ -190,30 +192,30 @@
     text-decoration: none;
 }
 
-.detailsbuttondiv:hover{
+.detailsbuttondiv:hover {
 
     background-color: #676767;
-    
+
 }
 
-.faiconproductdetails{
+.faiconproductdetails {
     font-size: 16px;
 }
 
 @media screen and (max-width: 1399px) {
-    .onelifegraphictext{
+    .onelifegraphictext {
 
         font-size: 40px;
     }
 }
 
 @media screen and (max-width: 1199px) {
-    .onelifegraphictext{
+    .onelifegraphictext {
 
         font-size: 34px;
     }
 
-    .productpricediv h1{
+    .productpricediv h1 {
 
         font-size: 32px;
     }
@@ -224,55 +226,7 @@
     }
 }
 
-@media screen and (max-width: 991px) {
-    
-    .productdetailschilddiv{
 
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-
-    .productdetailschildone{
-
-        width: 100%;
-    }
-
-    .productdetailschildtwo{
-
-        width: 100%;
-    }
-
-    .onelifegraphictext{
-
-        font-size: 50px;
-    }
-
-    .productpricediv h1{
-
-        font-size: 44px;
-    }
-
-    .productpricediv {
-
-        width: 320px;
-    }
-    .subandaddnumberdiv {
-
-        width: 20%;
-    }
-    .detailsbuttondiv{
-
-        width: 80%;
-    }
-    .productdetail1imagediv{
-
-        height: 616px;
-    }
-    .productfirstimagediv{
-
-        height: 200px;
-    }
-}
 
 @media screen and (max-width: 767px) {
     .productdetailsintro {
@@ -285,14 +239,16 @@
 
         font-size: 12px;
     }
-    .detailsbuttondiv{
+
+    .detailsbuttondiv {
 
         font-size: 12px;
     }
-    .faiconproductdetails{
+
+    .faiconproductdetails {
         font-size: 14px;
     }
-    
+
 }
 
 
@@ -309,12 +265,13 @@
         height: 30px;
     }
 
-    .detailsbuttondiv{
+    .detailsbuttondiv {
 
         font-size: 10px;
         height: 30px;
     }
-    .faiconproductdetails{
+
+    .faiconproductdetails {
         font-size: 12px;
     }
 }
