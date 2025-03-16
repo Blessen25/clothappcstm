@@ -19,7 +19,7 @@ export const AboutIntroComp = () =>{
                 <AboutusOurStory />
                 <WhychooseusComp /> 
             </div>
-            <HappyCustomerCmntSection title="WHAT PEOPLE TELL ABOUT US" />
+            <HappyCustomerCmntSection title="CUSTOMER FEEDBACK" />
 
         </>
     )

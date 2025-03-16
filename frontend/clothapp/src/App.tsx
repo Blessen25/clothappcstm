@@ -147,6 +147,7 @@ const App = () => {
             <>
               <Header />
               <ProductDetailsPage />
+              <Footer_Collection />
             </>
             }/>
         </Routes>

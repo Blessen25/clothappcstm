@@ -244,7 +244,7 @@
 .pricediv span {
 
     max-width: 50%;
-    font-size: 30px;
+    font-size: 30px !important;
     font-weight: 600;
     overflow: hidden;
     white-space: nowrap;
@@ -468,6 +468,36 @@
 }
 
 
+.viewitemcstmdiv {
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+.viewitembuttoncstm {
+
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    min-width: 120px;
+    max-width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .7s;
+    font-size: 16px;
+}
+
+.viewitembuttoncstm:hover {
+
+    background-color: black;
+    color: white;
+}
 
 
 
@@ -759,7 +789,7 @@
 
 
     .pricediv span {
-        font-size: 26px;
+        font-size: 26px !important;
     }
 
     .browseclothdiv {
@@ -823,6 +853,16 @@
 
     .commentscarddiv span {
         font-size: 15px;
+    }
+
+    .viewitembuttoncstm{
+
+        font-size: 12px;
+    }
+
+    .viewitembuttoncstm {
+
+        min-width: 100px;
     }
 
 }
@@ -925,7 +965,7 @@
     }
 
     .pricediv span {
-        font-size: 16px;
+        font-size: 16px !important;
     }
 
     .newarrivalsparent {
@@ -1019,6 +1059,19 @@
     .slidercomponentdiv {
         /* animation: slideText 1000s linear infinite; */
     }
+
+    .viewitembuttoncstm {
+
+        font-size: 10px;
+        max-width: 100px;
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .viewitemcstmdiv{
+
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 470px) {
@@ -1066,7 +1119,7 @@
 
     .h1customertext {
 
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .priceoffer {

@@ -19,7 +19,7 @@
     height: 518px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
 
 }
 
@@ -202,30 +202,132 @@
     font-size: 16px;
 }
 
+
+.productdetailscustomerrev .h1andslidericon{
+
+    margin-top: 0px;
+}
+
+.productdetailscustomerrev .commentscardparent {
+
+    margin-top: 20px;
+}
+
+.productdetailspopularcstm h1 {
+
+    margin-top: 0px;
+}
+
+
 @media screen and (max-width: 1399px) {
     .onelifegraphictext {
 
-        font-size: 40px;
+        font-size: 39px;
     }
 }
 
 @media screen and (max-width: 1199px) {
     .onelifegraphictext {
 
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .productpricediv h1 {
 
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .productpricediv {
 
-        width: 220px;
+        width: 200px;
+    }
+    .subandaddnumberdiv{
+
+        width: 40%;
+    }
+    .detailsbuttondiv{
+        
+        width: 60%;
     }
 }
 
+@media screen and (max-width:991px) and (min-width: 767px) {
+    .productdetailsimg {
+
+        width: 330px;
+        height: 450px;
+    }
+
+    .productfirstimagediv{
+
+        width: 120px;
+        height: 145px;
+    }
+    .productdetail3imagediv{
+
+        width: 120px;
+    }
+
+    .productdetailschildone {
+
+        height: 450px;
+    }
+    .onelifegraphictext {
+
+        font-size: 25px;
+    }
+    .starsectionproductdetailsparent {
+
+        font-size: 13px;
+    }
+    .starcstmicon{
+        
+        font-size: 16px;
+    }
+    .starsectionproductdetailsparent {
+       
+        width: 170px;
+    }
+    .productpricediv h1{
+
+        font-size: 22px;
+    }
+    .productpricediv {
+
+        width: 160px;
+    }
+
+    .productdescriptiondiv {
+
+        font-size: 13px;
+    }
+
+    .smallsize p{
+        
+        font-size: 10px;
+    }
+    .smallsize {
+
+        height: 26px;
+    }
+
+    .detailsbuttondiv{
+
+        font-size: 12px;
+        height: 30px;
+    }
+    .subandaddnumberdiv {
+
+        height: 30px;
+        font-size: 12px;
+        padding: 0px 15px;
+    }
+    .faiconproductdetails {
+
+        font-size: 10px;
+    }
+
+}
 
 
 @media screen and (max-width: 767px) {
@@ -247,6 +349,19 @@
 
     .faiconproductdetails {
         font-size: 14px;
+    }
+    .productdetailschilddiv {
+
+        flex-wrap: wrap;
+    }
+    .productdetailschildone {
+
+        width: 100%;
+    }
+
+    .productdetailsimg{
+
+        width: 100%;
     }
 
 }
@@ -273,5 +388,101 @@
 
     .faiconproductdetails {
         font-size: 12px;
+    }
+
+    .productdetail3imagediv{
+        
+        width: 100%;
+        flex-direction: row;
+        height: 172px;
+    }
+    .productfirstimagediv {
+
+        width: 33%;
+    }
+    .productdetail1imagediv {
+        
+        width: 100%;
+    }
+
+    .productdetailsimg{
+
+        height: 480px;
+    }
+    .productdetailschildone {
+
+        flex-wrap: wrap;
+        height: 100%;
+        gap: 8px;
+        flex-direction: column-reverse;
+    }
+
+    .onelifegraphictext {
+
+        font-size: 24px;
+    }
+
+    .starsectionproductdetailsparent {
+
+        width: 154px;
+    }
+
+    .productpricediv h1{
+
+        font-size: 20px;
+    }
+    
+    .productdescriptiondiv{
+
+        font-size: 12px;
+    }
+    
+    .productpricediv {
+
+        width: 146px;
+    }
+
+    .smallsize {
+
+        height: 30px;
+    }
+
+    .smallsize p{
+
+        font-size: 11px;
+    }
+    
+    .faiconproductdetails{
+
+        font-size: 9px;
+    }
+    .starsectionproductdetailsparent {
+        font-size: 13px;
+    }
+    .productdetailschilddiv {
+
+        gap: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 426px){
+
+    .onelifegraphictext{
+
+        font-size: 22px;
+    }
+
+    .productdetailsimg {
+
+        height: 340px;
+    }
+    .productfirstimagediv {
+
+        height: 121px;
+    }
+    .productdetail3imagediv {
+
+        height: 121px;
     }
 }

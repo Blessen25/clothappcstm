@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import './product_details_style.css';
-import { Propsstarsection } from "../homecomp/homecomponent.tsx";
+import { HappyCustomerCmntSection, HomepageNewarrivals, Propsstarsection } from "../homecomp/homecomponent.tsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { topSellingData } from "../../data.tsx";
 
 
 export const ProductDetailsComp = () => {
@@ -85,6 +86,8 @@ export const ProductDetailsComp = () => {
                     </div>
                 </div>
             </div>
+            <HappyCustomerCmntSection title={"CUSTOMER REVIEWS"} classname="productdetailscustomerrev"/>
+            <HomepageNewarrivals text={"POPULAR COLLECTIONS"} clothdata={topSellingData} route="/collection" classname="productdetailspopularcstm"/>
         </>
     )
 }

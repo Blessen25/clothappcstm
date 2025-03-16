@@ -118,7 +118,7 @@ export const Slidinglogo = () => {
 export const HomepageNewarrivals: React.FC<HomepageNewarrivalsProps> = (Props) => {
     return (
         <>
-            <div className="newarrivalsparent">
+            <div className={`newarrivalsparent ${Props.classname}`}>
                 <h1>{Props.text}</h1>
                 <div className="clothdetailsdiv">
                     {Props.clothdata?.map((item, index) => (
@@ -161,6 +161,9 @@ export const ClothdetailsCard: React.FC<ClothdetailsCardProps> = (Props) => {
                         </div>
                     </>
                 )}
+                <div className="viewitemcstmdiv">
+                <a href="/productdetailspage" className="viewitembuttoncstm">View Cart</a>
+                </div>
             </div>
         </>
     )
@@ -317,7 +320,7 @@ export const HappyCustomerCmntSection: React.FC<HappyCustomerCmntSectionProps> =
         }
     }, []);
     return (
-        <div className="happycustomerdiv">
+        <div className={`happycustomerdiv ${props.classname}`}>
             <div className="h1andslidericon">
                 <h1 className="h1customertext">{props.title}</h1>
                 {/* <div className="slidericons">

@@ -11,15 +11,15 @@ export const CollectionintoComp = () => {
 
             <Headingwithtitleandhome headingtitle={"COLLECTIONS"} headername={"Collection"} />
             <div className="collectionintro">
-                <HomepageNewarrivals text={"Men’s Collection"} clothdata={newArrivalsData} route="/collection/men" />
-                <HomepageNewarrivals text={"Women’s Collection"} clothdata={newArrivalsData} route="/collection/women" />
-                <HomepageNewarrivals text={"Kids’ Collection"} clothdata={newArrivalsData} route="/collection/kids" />
-                <HomepageNewarrivals text={"Formal Wear Collection"} clothdata={newArrivalsData} route="/collection/formalwear" />
-                <HomepageNewarrivals text={"Casual Wear Collection"} clothdata={newArrivalsData} route="/collection/casualwear" />
-                <HomepageNewarrivals text={"Streetwear Collection"} clothdata={newArrivalsData} route="/collection/streetware" />
-                <HomepageNewarrivals text={"Plus Size Collection"} clothdata={newArrivalsData} route="/collection/plussize" />
-                <HomepageNewarrivals text={"Budget-Friendly Collection"} clothdata={newArrivalsData} route="/collection/budgetfriendly" />
-                <HomepageNewarrivals text={"Denim Collection"} clothdata={newArrivalsData} route="/collection/denim" />
+                <HomepageNewarrivals text={"MEN'S COLLECTION"} clothdata={newArrivalsData} route="/collection/men" />
+                <HomepageNewarrivals text={"WOMEN'S COLLECTION"} clothdata={newArrivalsData} route="/collection/women" />
+                <HomepageNewarrivals text={"KID'S COLLECTION"} clothdata={newArrivalsData} route="/collection/kids" />
+                <HomepageNewarrivals text={"FORMAL WEAR COLLECTION"} clothdata={newArrivalsData} route="/collection/formalwear" />
+                <HomepageNewarrivals text={"CASUAL WEAR COLLECTION"} clothdata={newArrivalsData} route="/collection/casualwear" />
+                <HomepageNewarrivals text={"STREETWEAR COLLECTION"} clothdata={newArrivalsData} route="/collection/streetware" />
+                <HomepageNewarrivals text={"PLUS SIZE COLLECTION"} clothdata={newArrivalsData} route="/collection/plussize" />
+                <HomepageNewarrivals text={"BUDGET-FRIENDLY COLLECTION"} clothdata={newArrivalsData} route="/collection/budgetfriendly" />
+                <HomepageNewarrivals text={"DENIM COLLECTION"} clothdata={newArrivalsData} route="/collection/denim" />
             </div>
         </>
     )
