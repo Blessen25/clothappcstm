@@ -8,7 +8,7 @@ const AddtoCart = () => {
                 <h1 className="mainheadingcstm">YOUR CART</h1>
                 <div className="cartamountanditemparent">
                     <div className="itemschild">
-
+                        <Itemscartdiv />
                     </div>
                     <div className="amountchild">
 
@@ -19,4 +19,16 @@ const AddtoCart = () => {
     )
 }
 
-export default AddtoCart
+const Itemscartdiv = () => {
+
+    return(
+        <>
+            <div className="itemcartdiv">
+              
+            </div>
+        </>
+    )
+}
+
+export { AddtoCart, Itemscartdiv }
+

@@ -28,6 +28,18 @@
     width: 35%;
 }
 
+.itemcartdiv {
+
+    border: 2px solid black;
+    display: flex;
+    height: 100px;
+}
+
+.itemschild {
+
+    padding: 15px;
+}
+
 @media screen and (max-width: 767px) {
 
     .addtocartintro {
