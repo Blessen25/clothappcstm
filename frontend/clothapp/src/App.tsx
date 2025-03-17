@@ -14,6 +14,7 @@ import { BudgetFriendlyCollection, CasualwearCollection, DenimCollection, Formal
 import ProductDetailsPage from './screens/product_details/product_details.tsx';
 import Coming_Soon from './components/comingsoon/comingsoon.tsx';
 import Comming_Soon from './components/comingsoon/comingsoon.tsx';
+import AddtoCart from './components/cart/cart.tsx';
 
 const App = () => {
   return (
@@ -157,6 +158,12 @@ const App = () => {
               <Header />
               <Comming_Soon />
               <Footer />
+            </>
+          } />
+          <Route path='/cart' element={
+            <>
+              <Header />
+              <AddtoCart />
             </>
           } />
         </Routes>

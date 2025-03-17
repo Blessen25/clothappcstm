@@ -1,0 +1,46 @@
+.addtocartintro {
+
+    padding: 50px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #f2f0f1;
+}
+
+.cartamountanditemparent {
+
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+
+}
+
+.itemschild {
+
+    border: 2px solid black;
+    width: 65%;
+}
+
+.amountchild {
+
+    border: 2px solid black;
+    width: 35%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .addtocartintro {
+
+        padding: 35px 20px 20px 20px;
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .addtocartintro {
+
+        padding: 25px 15px 15px 15px;
+    }
+}
