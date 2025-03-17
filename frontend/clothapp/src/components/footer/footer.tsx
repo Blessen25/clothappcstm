@@ -26,7 +26,7 @@ export const Footer = () => {
                 </div>
                 <div className="footerbottomdiv">
                     <div className="footerbottomchildone">
-                        <h1>SHOP.CLOTH</h1>
+                        <h1><a href="/" className="shopclothatagfootercstm">SHOP.CLOTH</a></h1>
                         <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
                         <div className="socialmedialogos">
                             <div className="twitterdiv">
@@ -55,25 +55,25 @@ export const Footer = () => {
                     </div>
                     <div className="footerbottomchildtwo">
                         <p>HELP</p>
-                        <a href="#">Customer Support</a>
-                        <a href="#">Delivery Details</a>
-                        <a href="#">Terms & Conditions</a>
-                        <a href="#">Privacy Policy</a>
+                        <a href="/comingsoon">Customer Support</a>
+                        <a href="/comingsoon">Delivery Details</a>
+                        <a href="/comingsoon">Terms & Conditions</a>
+                        <a href="/comingsoon">Privacy Policy</a>
 
                     </div>
                     <div className="footerbottomchildtwo">
                         <p>FAQ</p>
-                        <span><a href="#">Account</a></span>
-                        <a href="#">Manage Deliveries</a>
-                        <a href="#">Orders</a>
-                        <a href="#">Payments</a>
+                        <span><a href="/comingsoon">Account</a></span>
+                        <a href="/comingsoon">Manage Deliveries</a>
+                        <a href="/comingsoon">Orders</a>
+                        <a href="/comingsoon">Payments</a>
                     </div>
                     <div className="footerbottomchildtwo">
                         <p>RESOURCES</p>
-                        <a href="#">Free eBooks</a>
-                        <a href="#">Development Tutorial</a>
-                        <a href="#">How to - Blog</a>
-                        <a href="#">Youtube Playlist</a>
+                        <a href="/comingsoon">Free eBooks</a>
+                        <a href="/comingsoon">Development Tutorial</a>
+                        <a href="/comingsoon">How to - Blog</a>
+                        <a href="/comingsoon">Youtube Playlist</a>
                     </div>
                 </div>
                 <hr className="footerhrcstm" />

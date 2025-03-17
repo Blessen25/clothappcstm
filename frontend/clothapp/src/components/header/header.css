@@ -175,6 +175,18 @@
     font-weight: 900;
 }
 
+.headerchildfirst a {
+
+    text-decoration: none;
+    color: black;
+}
+
+.headerrespcontainer-cstmone a {
+
+    text-decoration: none;
+    color: #000;
+}
+
 .searchbardivsidebarcstm {
     display: none;
 }
@@ -353,7 +365,7 @@
     }
 
     .headerrespcontainer-cstmone {
-        width: 160px;
+        width: 165px;
     }
 
     .headerrespcontainer-cstmtwo {

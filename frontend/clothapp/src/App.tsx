@@ -12,6 +12,8 @@ import { MenCollections } from './screens/collection/collections.tsx';
 import { Footer_Collection } from './components/footer/footer_collection.tsx';
 import { BudgetFriendlyCollection, CasualwearCollection, DenimCollection, FormalwearCollection, GymCollection, KidscollectionComp, PartyWearCollection, PlusSizeCollection, StreetwearCollection, WomencollectionComp } from './components/collectionscomp/collectionscomp.tsx';
 import ProductDetailsPage from './screens/product_details/product_details.tsx';
+import Coming_Soon from './components/comingsoon/comingsoon.tsx';
+import Comming_Soon from './components/comingsoon/comingsoon.tsx';
 
 const App = () => {
   return (
@@ -59,7 +61,7 @@ const App = () => {
             </>
           } />
 
-          <Route path = '/collection/women' element={
+          <Route path='/collection/women' element={
             <>
               <Header />
               <WomencollectionComp />
@@ -67,7 +69,7 @@ const App = () => {
             </>
           } />
 
-          <Route path='/collection/kids' element ={
+          <Route path='/collection/kids' element={
             <>
               <Header />
               <KidscollectionComp />
@@ -75,7 +77,7 @@ const App = () => {
             </>
           } />
 
-          <Route path='/collection/streetware' element= {
+          <Route path='/collection/streetware' element={
             <>
               <Header />
               <StreetwearCollection />
@@ -83,7 +85,7 @@ const App = () => {
             </>
           } />
 
-          <Route path='/collection/plussize' element= {
+          <Route path='/collection/plussize' element={
             <>
               <Header />
               <PlusSizeCollection />
@@ -91,10 +93,10 @@ const App = () => {
             </>
           } />
 
-          <Route path='/collection/budgetfriendly' element= {
-            
+          <Route path='/collection/budgetfriendly' element={
+
             <>
-              <Header/>
+              <Header />
               <BudgetFriendlyCollection />
               <Footer_Collection />
             </>
@@ -107,49 +109,56 @@ const App = () => {
               <DenimCollection />
               <Footer_Collection />
             </>
-          }/>
+          } />
 
-          <Route path='/collection/casualwear' element= {
+          <Route path='/collection/casualwear' element={
 
             <>
               <Header />
               <CasualwearCollection />
               <Footer_Collection />
             </>
-          }/>
+          } />
 
-          <Route path='/collection/formalwear' element= {
+          <Route path='/collection/formalwear' element={
 
-          <>
-            <Header />
-            <FormalwearCollection />
-            <Footer_Collection />
-          </>
-          }/>
-          <Route path='/collection/partywear' element= {
+            <>
+              <Header />
+              <FormalwearCollection />
+              <Footer_Collection />
+            </>
+          } />
+          <Route path='/collection/partywear' element={
 
             <>
               <Header />
               <PartyWearCollection />
               <Footer_Collection />
             </>
-            }/>
-            <Route path='/collection/gymwear' element= {
+          } />
+          <Route path='/collection/gymwear' element={
 
             <>
               <Header />
               <GymCollection />
               <Footer_Collection />
             </>
-            }/>
+          } />
 
-            <Route path='/productdetailspage' element={
+          <Route path='/productdetailspage' element={
             <>
               <Header />
               <ProductDetailsPage />
               <Footer_Collection />
             </>
-            }/>
+          } />
+          <Route path='/comingsoon' element={
+            <>
+              <Header />
+              <Comming_Soon />
+              <Footer />
+            </>
+          } />
         </Routes>
       </Router>
     </>

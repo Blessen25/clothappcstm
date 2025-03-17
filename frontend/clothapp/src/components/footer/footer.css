@@ -1,10 +1,10 @@
-.footerparentdiv{
+.footerparentdiv {
     width: 100%;
     padding: 20px 40px;
     background-color: #f2f0f1;
 }
 
-.stayuptodatediv{
+.stayuptodatediv {
     width: 100%;
     height: 230px;
     background-color: black;
@@ -15,12 +15,13 @@
     justify-content: space-between;
 }
 
-.staytextdiv{
+.staytextdiv {
     width: 610px;
     display: flex;
     align-items: center;
-}   
-.stayemailandsubmitdiv{
+}
+
+.stayemailandsubmitdiv {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -28,18 +29,20 @@
     padding: 20px;
     align-items: center;
 }
-.stayemaildiv{
+
+.stayemaildiv {
     width: 100%;
     position: relative;
 }
-.envelopeicon{
+
+.envelopeicon {
     color: black;
     position: absolute;
     right: 15px;
     top: 12px;
 }
 
-.staytextdiv h1{
+.staytextdiv h1 {
     color: white;
     font-size: 50px;
     font-weight: 900;
@@ -47,7 +50,7 @@
     width: 600px;
 }
 
-.stayemailinput{
+.stayemailinput {
     width: 100%;
     height: 40px;
     padding: 20px;
@@ -58,7 +61,7 @@
     background-color: white;
 }
 
-.staysubmitbutton{
+.staysubmitbutton {
     width: 100%;
     height: 40px;
     border-radius: 50px;
@@ -68,12 +71,14 @@
     background-color: white;
     transition: all .7s;
 }
-.staysubmitbutton:hover{
+
+.staysubmitbutton:hover {
     background-color: #6b6b6b;
     box-shadow: inset 0px 70px 0px 0px #6b6b6b;
     color: white;
 }
-.footerbottomdiv{
+
+.footerbottomdiv {
     width: 100%;
     margin-top: 40px;
     padding: 10px 0px;
@@ -81,26 +86,26 @@
     justify-content: space-between;
 }
 
-.footerbottomchildone{
+.footerbottomchildone {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 260px;
 }
 
-.footerbottomchildtwo{
+.footerbottomchildtwo {
     width: 160px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.footerbottomchildtwo p{
+.footerbottomchildtwo p {
     font-size: 18px;
     font-weight: 600;
 }
 
-.footerbottomchildtwo a{
+.footerbottomchildtwo a {
     text-decoration: none;
     width: fit-content;
     color: #000000;
@@ -109,16 +114,16 @@
     transition: all .7s;
 }
 
-.footerbottomchildtwo a:hover{
+.footerbottomchildtwo a:hover {
     opacity: 1;
-    
+
 }
 
-.footerbottomchildtwo a:hover{
+.footerbottomchildtwo a:hover {
     opacity: 1;
 }
 
-.socialmedialogos{
+.socialmedialogos {
     width: 140px;
     height: 40px;
     display: flex;
@@ -126,28 +131,37 @@
     align-items: center;
 }
 
-.twitterdiv{
+.twitterdiv {
     position: relative;
 }
-.twitterlogoimg{
+
+.twitterlogoimg {
     position: absolute;
     top: 8px;
     left: 10px;
 }
-.footerbottomchildone p{
+
+.footerbottomchildone p {
     font-size: 15px;
     opacity: .7;
     text-align: justify;
 }
-.footerhrcstm{
+
+.footerhrcstm {
     margin-top: 20px;
 }
 
-.footerbottomchildone h1{
+.footerbottomchildone h1 {
     font-weight: 900;
 }
 
-.footercopyrightdiv{
+.shopclothatagfootercstm {
+
+    text-decoration: none;
+    color: black;
+}
+
+.footercopyrightdiv {
     margin-top: 20px;
     width: 100%;
     display: flex;
@@ -155,229 +169,233 @@
     align-items: center;
 }
 
-.footercopyrightdiv p{
+.footercopyrightdiv p {
     opacity: .6;
     font-size: 14px;
 }
-.footerpaymentcards{
+
+.footerpaymentcards {
     border: 2px solid black;
     width: 290px;
     height: 40px;
     display: flex;
     justify-content: space-between;
 }
+
 @media screen and (max-width: 1199px) {
-    .staytextdiv{
+    .staytextdiv {
         width: 490px;
     }
 
-    .staytextdiv h1{
+    .staytextdiv h1 {
         font-size: 40px;
     }
 
-    .stayemailandsubmitdiv{
+    .stayemailandsubmitdiv {
         width: 34%;
     }
 
-    .footerbottomchildone p{
+    .footerbottomchildone p {
         width: 95%;
     }
 }
 
 @media screen and (max-width: 991px) {
-    .staytextdiv{
+    .staytextdiv {
         width: 360px;
     }
 
-    .staytextdiv h1{
+    .staytextdiv h1 {
         font-size: 30px;
     }
 
-    .stayemailandsubmitdiv{
+    .stayemailandsubmitdiv {
         width: 40%;
     }
 
-    .footerbottomchildtwo{
+    .footerbottomchildtwo {
         width: 120px;
     }
-    
-    .footerbottomchildone{
+
+    .footerbottomchildone {
         width: 200px;
     }
 
-    .footerbottomchildone h1{
+    .footerbottomchildone h1 {
         font-size: 30px;
     }
 
-    .footerbottomchildone p{
+    .footerbottomchildone p {
         font-size: 14px;
     }
 
-    .footerbottomchildtwo p{
+    .footerbottomchildtwo p {
         font-size: 14px;
     }
 
-    .footerbottomchildtwo a{
+    .footerbottomchildtwo a {
         font-size: 12px;
     }
-    
+
 }
 
 
 @media screen and (max-width: 767px) {
-    .footerparentdiv{
+    .footerparentdiv {
         padding: 20px;
     }
 
-    .staytextdiv{
+    .staytextdiv {
         width: 100%;
     }
-    .stayuptodatediv{
+
+    .stayuptodatediv {
         height: 100%;
     }
-    .stayuptodatediv{
+
+    .stayuptodatediv {
         flex-wrap: wrap;
         gap: 10px;
     }
 
-    .stayemailandsubmitdiv{
+    .stayemailandsubmitdiv {
         width: 100%;
         padding: 0px;
         margin-top: 20px;
     }
 
-    .staytextdiv h1{
+    .staytextdiv h1 {
         font-size: 38px;
     }
 
-    .staysubmitbutton{
+    .staysubmitbutton {
         font-size: 12px;
     }
 
-    .footerbottomdiv{
+    .footerbottomdiv {
         flex-wrap: wrap;
     }
 
-    .footerbottomchildone{
+    .footerbottomchildone {
         width: 100%;
     }
 
-    .footerbottomchildone h1{
+    .footerbottomchildone h1 {
         font-size: 22px;
     }
 
-    .footerbottomchildtwo{
+    .footerbottomchildtwo {
         margin-top: 20px;
     }
 
-    .footerbottomchildone p{
+    .footerbottomchildone p {
         width: 100%;
     }
 
-    .footercopyrightdiv p{
+    .footercopyrightdiv p {
         font-size: 12px;
     }
-    
+
 
 }
 
 
 @media screen and (max-width: 575px) {
-    .footerparentdiv{
+    .footerparentdiv {
         padding: 15px;
     }
 
-    .stayuptodatediv{
+    .stayuptodatediv {
         margin-top: 15px;
         padding: 15px;
     }
 
-    .staytextdiv h1{
+    .staytextdiv h1 {
         font-size: 22px;
     }
 
-    .staysubmitbutton{
+    .staysubmitbutton {
         font-size: 10px;
         height: 30px;
     }
 
-    .stayemailinput{
+    .stayemailinput {
         height: 30px;
         font-size: 12px;
         padding: 15px;
     }
 
-    .stayemailinput::placeholder{
+    .stayemailinput::placeholder {
         font-size: 10px;
     }
 
-    .envelopeicon{
+    .envelopeicon {
         font-size: 12px;
         top: 9px;
     }
 
-    .stayemailandsubmitdiv{
+    .stayemailandsubmitdiv {
         margin-top: 10px;
     }
-    .footerbottomdiv{
+
+    .footerbottomdiv {
         margin-top: 15px;
     }
 
-    .footerbottomchildone h1{
+    .footerbottomchildone h1 {
         font-size: 16px;
     }
 
-    .footerbottomchildone p{
+    .footerbottomchildone p {
         font-size: 12px;
     }
 
-    .footerbottomchildtwo{
+    .footerbottomchildtwo {
         margin-top: 10px;
         width: 50%;
         gap: 20px;
         margin-bottom: 20px;
     }
 
-    
-    .footerbottomchildtwo p{
+
+    .footerbottomchildtwo p {
         font-size: 12px;
     }
-    
-    .footerbottomchildtwo a{
+
+    .footerbottomchildtwo a {
         font-size: 10px;
     }
 
-    .footerhrcstm{
+    .footerhrcstm {
         margin-top: 0px;
     }
 
-    .twitterroundimg{
+    .twitterroundimg {
         width: 25px;
     }
-    
-    .twitterlogoimg{
+
+    .twitterlogoimg {
         width: 11px;
         left: 8px;
     }
 
-    .facebooklogoimg{
+    .facebooklogoimg {
         width: 25px;
     }
 
-    .instalogoimg{
+    .instalogoimg {
         width: 25px;
     }
 
-    .githublogoimg{
+    .githublogoimg {
         width: 25px;
     }
 
-    .footercopyrightdiv p{
+    .footercopyrightdiv p {
         font-size: 10px;
     }
 
-    .footercopyrightdiv{
+    .footercopyrightdiv {
         margin-top: 10px;
     }
 }
-

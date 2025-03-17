@@ -22,7 +22,7 @@ const Header = () => {
             <section id="Header">
                 <div className="headerparent">
                     <div className="headerchildfirst">
-                        <h1>Shop.Cloth</h1>
+                        <h1><a href="/">SHOP.CLOTH</a></h1>
                     </div>
                     <div className="headerchildsecond">
                         <a href="/" >Home</a>
@@ -35,12 +35,12 @@ const Header = () => {
                             <input type="Search" className="searchbar" placeholder="Search For Products..." />
                             <Search className="searchiconcstmthird" />
                         </div>
-                        <a href="#"><ShoppingCart className="headericonclass" /></a>
-                        <a href="#"><FaRegUserCircle className="headericonclass" /></a>
+                        <a href='/comingsoon'><ShoppingCart className="headericonclass" /></a>
+                        <a href='/comingsoon'><FaRegUserCircle className="headericonclass" /></a>
                     </div>
                     <div className="headerrespcontainer-cstmone">
                         <FaBars className="fabarsicon" onClick={handleSidebarChange} />
-                        <h1 className="h1textcstm">Shop.Cloth</h1>
+                        <h1 className="h1textcstm"><a href="/">SHOP.CLOTH</a></h1>
                     </div>
                     {isSearchBarActive ? (
                         <>
