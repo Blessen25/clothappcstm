@@ -8,7 +8,9 @@ const AddtoCart = () => {
                 <h1 className="mainheadingcstm">YOUR CART</h1>
                 <div className="cartamountanditemparent">
                     <div className="itemschild">
-                        <Itemscartdiv />
+                        <div className="itemcartdiv">
+                            <Itemscartdiv />
+                        </div>
                     </div>
                     <div className="amountchild">
 
@@ -21,10 +23,21 @@ const AddtoCart = () => {
 
 const Itemscartdiv = () => {
 
-    return(
+    return (
         <>
-            <div className="itemcartdiv">
-              
+            <div className="itemdivparent">
+                <div className="imagedivparent">
+                    <img src="assets/Images/browndress.png" alt="" className="imagecstmchils" />
+                </div>
+                <div className="contentdivparent">
+                    <h1>ONE LIFE GRAPHIC T-SHIRT</h1>
+                    <p>Size : Large</p>
+                    <p>Quantity : 1</p>
+                    <div>
+                        <h1>RS 220</h1>
+
+                    </div>
+                </div>
             </div>
         </>
     )

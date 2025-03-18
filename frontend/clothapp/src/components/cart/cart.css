@@ -30,14 +30,48 @@
 
 .itemcartdiv {
 
-    border: 2px solid black;
     display: flex;
-    height: 100px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .itemschild {
 
     padding: 15px;
+}
+
+.itemdivparent {
+
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.imagedivparent {
+
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.imagecstmchils {
+
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.contentdivparent {
+
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 767px) {
