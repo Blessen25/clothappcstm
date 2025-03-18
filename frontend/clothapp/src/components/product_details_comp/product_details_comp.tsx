@@ -75,9 +75,9 @@ export const ProductDetailsComp = () => {
                         <hr />
                         <div className="productdetailslastbuttondiv">
                             <div className="subandaddnumberdiv">
-                                <FontAwesomeIcon icon={faPlus} className="faiconproductdetails" onClick={handlePlusChange}/>
-                                <p>{totalquantity}</p>
                                 <FontAwesomeIcon icon={faMinus} className="faiconproductdetails" onClick={handleMinusChange}/>
+                                <p>{totalquantity}</p>
+                                <FontAwesomeIcon icon={faPlus} className="faiconproductdetails" onClick={handlePlusChange}/>
                             </div>
                             <a href="#" className="detailsbuttondiv">
                                 Add to Cart

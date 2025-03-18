@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import './cart.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaMinus } from "react-icons/fa";
+import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
 
 const AddtoCart = () => {
     return (
@@ -23,7 +26,24 @@ const AddtoCart = () => {
 
 const Itemscartdiv = () => {
 
+    const [quantity, setQuantity] = useState(1);
+    const handlequantityminus = () => {
+
+        if (quantity > 0) {
+
+            setQuantity(prev => prev -1)
+        }
+
+    }
+
+    const handlequantityplus = () => {
+
+        setQuantity(prev => prev + 1)
+    }
+
     return (
+
+        
         <>
             <div className="itemdivparent">
                 <div className="imagedivparent">
@@ -32,10 +52,14 @@ const Itemscartdiv = () => {
                 <div className="contentdivparent">
                     <h1>ONE LIFE GRAPHIC T-SHIRT</h1>
                     <p>Size : Large</p>
-                    <p>Quantity : 1</p>
-                    <div>
+                    <p>Quantity : {quantity}</p>
+                    <div className="priceandquantitydiv">
                         <h1>RS 220</h1>
-
+                        <div className="quantitydivbtncstm">
+                            <FontAwesomeIcon icon={faMinus} className="faiconcartdetails" onClick={handlequantityminus}/>
+                            <p>{quantity}</p>
+                            <FontAwesomeIcon icon={faPlus} className="faiconcartdetails" onClick={handlequantityplus}/>
+                        </div>
                     </div>
                 </div>
             </div>
