@@ -162,7 +162,7 @@ export const ClothdetailsCard: React.FC<ClothdetailsCardProps> = (Props) => {
                     </>
                 )}
                 <div className="viewitemcstmdiv">
-                <a href="/productdetailspage" className="viewitembuttoncstm">View Cart</a>
+                    <a href="/productdetailspage" className="viewitembuttoncstm">View Product</a>
                 </div>
             </div>
         </>
