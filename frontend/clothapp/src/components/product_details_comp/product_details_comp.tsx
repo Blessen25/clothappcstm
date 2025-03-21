@@ -17,7 +17,7 @@ export const ProductDetailsComp = () => {
 
     const handleMinusChange = () => {
 
-        if (totalquantity > 0) {
+        if (totalquantity > 1) {
 
             setTotalquantity(totalquantity - 1)
         }
@@ -75,9 +75,9 @@ export const ProductDetailsComp = () => {
                         <hr />
                         <div className="productdetailslastbuttondiv">
                             <div className="subandaddnumberdiv">
-                                <FontAwesomeIcon icon={faMinus} className="faiconproductdetails" onClick={handleMinusChange}/>
+                                <FontAwesomeIcon icon={faMinus} className="faiconproductdetails" onClick={handleMinusChange} />
                                 <p>{totalquantity}</p>
-                                <FontAwesomeIcon icon={faPlus} className="faiconproductdetails" onClick={handlePlusChange}/>
+                                <FontAwesomeIcon icon={faPlus} className="faiconproductdetails" onClick={handlePlusChange} />
                             </div>
                             <a href="#" className="detailsbuttondiv">
                                 Add to Cart
@@ -86,8 +86,8 @@ export const ProductDetailsComp = () => {
                     </div>
                 </div>
             </div>
-            <HappyCustomerCmntSection title={"CUSTOMER REVIEWS"} classname="productdetailscustomerrev"/>
-            <HomepageNewarrivals text={"POPULAR COLLECTIONS"} clothdata={topSellingData} route="/collection" classname="productdetailspopularcstm"/>
+            <HappyCustomerCmntSection title={"CUSTOMER REVIEWS"} classname="productdetailscustomerrev" />
+            <HomepageNewarrivals text={"POPULAR COLLECTIONS"} clothdata={topSellingData} route="/collection" classname="productdetailspopularcstm" />
         </>
     )
 }

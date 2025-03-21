@@ -96,6 +96,11 @@
     padding: 0px 15px;
 }
 
+.quantitydivbtncstm p {
+
+    user-select: none;
+}
+
 .faiconcartdetails {
 
     font-size: 16px;
@@ -106,6 +111,13 @@
     width: 100%;
     height: 1px;
     background-color: #676767;
+}
+
+.amountdiv {
+
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
 }
 
 @media screen and (max-width: 767px) {

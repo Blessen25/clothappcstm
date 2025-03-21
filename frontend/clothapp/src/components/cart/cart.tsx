@@ -19,7 +19,7 @@ const cardData = [
 
         image: "assets/Images/browndress.png",
         title: "ONE LIFE GRAPHIC T-SHIRT",
-        size: "Large",
+        size: "Small",
         quantity: 1,
         price: 240,
     },
@@ -27,8 +27,8 @@ const cardData = [
 
         image: "assets/Images/browndress.png",
         title: "ONE LIFE GRAPHIC T-SHIRT",
-        size: "Large",
-        quantity: 1,
+        size: "Medium",
+        quantity: 3,
         price: 260,
     },
     {
@@ -69,7 +69,8 @@ const AddtoCart = () => {
                         </div>
                     </div>
                     <div className="amountchild">
-
+                        <div className="amountdiv">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,7 +83,7 @@ const Itemscartdiv: React.FC<ItemscartdivProps> = (Props) => {
     const [quantity, setQuantity] = useState(Props.quantity);
     const handlequantityminus = () => {
 
-        if (quantity > 0) {
+        if (quantity > 1) {
 
             setQuantity(prev => prev - 1)
         }

@@ -6,6 +6,11 @@
   font-family: "Roboto", serif;
 }
 
+.userselect_nonecstm {
+
+  user-select: none;
+}
+
 .mainheadingcstm {
 
   font-size: 50px;

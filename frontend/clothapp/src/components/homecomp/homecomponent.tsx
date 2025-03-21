@@ -322,7 +322,7 @@ export const HappyCustomerCmntSection: React.FC<HappyCustomerCmntSectionProps> =
     return (
         <div className={`happycustomerdiv ${props.classname}`}>
             <div className="h1andslidericon">
-                <h1 className="h1customertext">{props.title}</h1>
+                <h1 className="h1customertext userselect_nonecstm">{props.title}</h1>
                 {/* <div className="slidericons">
                        <FontAwesomeIcon icon={faArrowLeft} className={`slidericoncstm ${index === 0 ? "disabled" : ""}`} onClick={prevSlide} />
                        <FontAwesomeIcon icon={faArrowRight} className={`slidericoncstm ${index / itemsPerSlide + 1 >= totalSlides ? "disabled" : ""}`} onClick={nextSlide}/>
