@@ -15,7 +15,7 @@ export interface HomepageNewarrivalsProps {
     text: string;
     clothdata: ClothdetailsCardProps[];
     route?: string;
-    classname ?: string;
+    classname?: string;
 }
 
 export interface CollectiondivMainCompProps {
@@ -84,11 +84,20 @@ export interface AboutusthreefeaturesProps {
 export interface HappyCustomerCmntSectionProps {
 
     title: string;
-    classname ?: string;
+    classname?: string;
 }
 
 export interface HeadingwithtitleandhomeProps {
 
     headingtitle: string;
     headername: string;
+}
+
+export interface ItemscartdivProps {
+
+    image: string;
+    title: string;
+    size: string;
+    quantity: any;
+    price: any;
 }
