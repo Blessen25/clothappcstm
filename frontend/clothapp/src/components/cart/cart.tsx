@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './cart.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaMinus } from "react-icons/fa";
-import { faMinus, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faMinus, faPlus, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { ItemscartdivProps } from "../../interface/interface";
 
 
@@ -70,6 +70,23 @@ const AddtoCart = () => {
                     </div>
                     <div className="amountchild">
                         <div className="amountdiv">
+                            <h1>Order Summary</h1>
+                            <div className="totalsubtotalcstmdiv">
+                                    <div className="subtitlecstmdiv">
+                                        <p>Subtotal</p>
+                                        <h2>Rs 600</h2>
+                                    </div>
+                                    <div className="subtitlecstmdiv">
+                                        <p>Discount (-20%)</p>
+                                        <h2>Rs 600</h2>
+                                    </div>
+                                    <div className="subtitlecstmdiv">
+                                        <p>Delivery Fee</p>
+                                        <h2>Rs 600</h2>
+                                    </div>
+                                    <div className="border-cstm"></div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -103,7 +120,10 @@ const Itemscartdiv: React.FC<ItemscartdivProps> = (Props) => {
                     <img src={Props.image} alt="" className="imagecstmchils" />
                 </div>
                 <div className="contentdivparent">
-                    <h1>{Props.title}</h1>
+                    <div className="nameanddeletebutton"> 
+                       <h1>{Props.title}</h1>
+                       <FontAwesomeIcon icon={faTrash} className="trashcancstm"/>
+                    </div>
                     <p>Size : {Props.size}</p>
                     <p>Quantity : {quantity}</p>
                     <div className="priceandquantitydiv">
