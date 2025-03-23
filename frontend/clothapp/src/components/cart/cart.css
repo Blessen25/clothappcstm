@@ -143,6 +143,7 @@ body {
 
     color: red;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .totalsubtotalcstmdiv {
@@ -278,6 +279,73 @@ body {
     text-align: center;
 }
 
+@media screen and (min-width : 991px) and (max-width: 1199px) {
+    
+    .amountchild  {
+
+        width: 40%;
+    }
+
+    .itemschild {
+
+        width: 60%;
+    }
+    
+    .nameanddeletebutton h1 {
+
+        font-size: 22px;
+    }
+
+    .priceandquantitydiv h1 {
+
+        font-size: 20px;
+    }
+
+    .quantitydivbtncstm {
+
+        width: 160px;
+    }
+
+    .amountdiv h1{
+        font-size: 22px;
+    }
+
+    .subtitlecstmdiv h1 {
+
+        font-size: 20px;
+    }
+
+    .activatecoupentextinput {
+
+        width: 50%;
+    }
+    
+    .buttonactivatecoupencstm {
+
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .cartamountanditemparent {
+
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .amountchild {
+
+        width: 100%;
+    }
+
+    .itemschild {
+
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 767px) {
 
     .addtocartintro {
@@ -304,6 +372,31 @@ body {
     .buttonactivatecoupencstm {
 
         font-size: 12px;
+    }
+
+    .nameanddeletebutton h1{
+
+        font-size: 22px;
+    }
+
+    .contentdivparent p {
+
+        font-size: 15px;
+    }
+
+    .priceandquantitydiv h1 {
+
+        font-size: 20px;
+    }
+
+    .amountdiv h1 {
+
+        font-size: 22px;
+    }
+
+    .subtitlecstmdiv h1 {
+
+        font-size: 20px;
     }
 }
 
@@ -337,5 +430,99 @@ body {
     .buttonactivatecoupencstm {
 
         font-size: 10px;
+    }
+
+    .amountdiv h1 {
+
+        font-size: 16px;
+    }
+
+    .subtitlecstmdiv h1 {
+
+        font-size: 14px;
+    }
+
+    .subtitlecstmdiv p{
+
+        font-size: 14px;
+    }
+
+    .subtitlecstmdiv h2 {
+
+        font-size: 14px;
+    }
+    
+    .subtitlecstmdiv h3 {
+
+        font-size: 14px;
+    }
+
+    .amountdiv {
+
+        height: 330px;
+    }
+
+    .nameanddeletebutton h1 {
+
+        font-size: 16px;
+    }
+
+    .contentdivparent p {
+
+        font-size: 14px;
+    }
+
+    .priceandquantitydiv h1{
+
+        font-size: 14px;
+    }
+
+    .quantitydivbtncstm {
+
+        width: 120px;
+        height: 30px;
+    }
+
+    .quantitydivbtncstm p {
+
+        font-size: 10px;
+    }
+
+    .trashcancstm {
+        
+        font-size: 12px;
+    }
+
+    .imagecstmchils {
+
+        object-fit: contain;
+    }
+
+    .additemstocarthead {
+
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .itemdivparent {
+
+        flex-wrap: wrap;
+    }
+
+    .imagedivparent  {
+
+        width: 100%;
+        height: 290px;
+    }
+
+    .contentdivparent {
+
+        gap: 15px;
+    }
+
+    .imagecstmchils {
+
+        object-fit: cover;
     }
 }

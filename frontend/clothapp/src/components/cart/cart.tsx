@@ -123,7 +123,7 @@ const AddtoCart = () => {
                                     
                             </div>
                             {!activatecoupen && (
-                                <a href="#" className="buttonaddtocartcstm buttonaddtocartcstm2" onClick={handleActivateCoupen}>Add Discount Coupen</a>
+                                <a href="#" className="buttonaddtocartcstm buttonaddtocartcstm1" onClick={handleActivateCoupen}>Add Discount Coupen</a>
                             )}
                             {activatecoupen && (
                                 <div className="activatecoupen">
@@ -131,7 +131,7 @@ const AddtoCart = () => {
                                 <a href="#" className="buttonactivatecoupencstm">Add Discount</a>
                                 </div>
                             )}
-                            <a href="#" className="buttonaddtocartcstm buttonaddtocartcstm1">Buy Now</a>
+                            <a href="#" className="buttonaddtocartcstm buttonaddtocartcstm2">Buy Now</a>
                         </div>
                     </div>
                         </>
