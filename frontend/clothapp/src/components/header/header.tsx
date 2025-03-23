@@ -35,7 +35,7 @@ const Header = () => {
                             <input type="Search" className="searchbar" placeholder="Search For Products..." />
                             <Search className="searchiconcstmthird" />
                         </div>
-                        <a href='/comingsoon'><ShoppingCart className="headericonclass" /></a>
+                        <a href='/cart'><ShoppingCart className="headericonclass" /></a>
                         <a href='/comingsoon'><FaRegUserCircle className="headericonclass" /></a>
                     </div>
                     <div className="headerrespcontainer-cstmone">
@@ -49,7 +49,7 @@ const Header = () => {
                                     <input type="search" className="searchbarcstm" placeholder="Search For Products..." />
                                     <Search className="headericonclass searchbariconcstm" onClick={handleSearchBarChange} />
                                 </div>
-                                <a href="#"><ShoppingCart className="headericonclass" /></a>
+                                <a href="/cart"><ShoppingCart className="headericonclass" /></a>
                                 <a href="#"><FaRegUserCircle className="headericonclass" /></a>
                             </div>
                         </>
@@ -57,7 +57,7 @@ const Header = () => {
                         <>
                             <div className="headerrespcontainer-cstmsecond">
                                 <Search className="headericonclass searchbariconcustom" onClick={handleSearchBarChange} />
-                                <a href="#"><ShoppingCart className="headericonclass" /></a>
+                                <a href="/cart"><ShoppingCart className="headericonclass" /></a>
                                 <a href="#"><FaRegUserCircle className="headericonclass" /></a>
                             </div>
                         </>

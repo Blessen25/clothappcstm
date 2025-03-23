@@ -1,3 +1,7 @@
+body {
+
+    background-color: #f2f0f1;
+  }
 .addtocartintro {
 
     padding: 50px 40px 20px 40px;
@@ -189,27 +193,27 @@
     transition: all .7s;   
 }
 
-.buttonaddtocartcstm:nth-of-type(2){
+.buttonaddtocartcstm2{
 
     background-color: black;
     color: white;
     border: 1px solid black;
 }
 
-.buttonaddtocartcstm:nth-of-type(1){
+.buttonaddtocartcstm1{
 
     background-color: transparent;
     color: black;
     border: 1px solid black;
 }
 
-.buttonaddtocartcstm:nth-of-type(1):hover{
+.buttonaddtocartcstm1:hover{
 
     background-color: black;
     color: white;
 }
 
-.buttonaddtocartcstm:nth-of-type(2):hover{
+.buttonaddtocartcstm2:hover{
 
     background-color: transparent;
     color: black;
@@ -266,6 +270,12 @@
 .subtitlecstmdiv h3 {
 
     font-size: 18px;
+}
+
+.additemstocarthead {
+
+    font-size: 24px;
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {

@@ -95,9 +95,11 @@ export interface HeadingwithtitleandhomeProps {
 
 export interface ItemscartdivProps {
 
+    id : number ;
     image: string;
     title: string;
     size: string;
     quantity: any;
     price: any;
+    hasDeleted : () => void;
 }
