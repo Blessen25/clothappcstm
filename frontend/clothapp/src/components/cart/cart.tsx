@@ -45,6 +45,12 @@ const cardData = [
 
 
 const AddtoCart = () => {
+
+    const [activatecoupen, setActivateCoupen ] = useState(false)
+    const handleActivateCoupen = () => {
+
+        setActivateCoupen(!activatecoupen)
+    }
     return (
         <>
             <div className="addtocartintro">
@@ -85,8 +91,23 @@ const AddtoCart = () => {
                                         <h2>Rs 600</h2>
                                     </div>
                                     <div className="border-cstm"></div>
+                                    <div className="subtitlecstmdiv">
+                                        <h1>Total Price</h1>
+                                        <h3>Rs 1800</h3>
+                                    </div>
+                                    <div className="border-cstm"></div>
+                                    
                             </div>
-
+                            {!activatecoupen && (
+                                <a href="#" className="buttonaddtocartcstm" onClick={handleActivateCoupen}>Add Discount Coupen</a>
+                            )}
+                            {activatecoupen && (
+                                <div className="activatecoupen">
+                                <input type="text" className="activatecoupentextinput" placeholder="Add Coupen Code"/>
+                                <a href="#" className="buttonactivatecoupencstm">Add Discount</a>
+                                </div>
+                            )}
+                            <a href="#" className="buttonaddtocartcstm">Buy Now</a>
                         </div>
                     </div>
                 </div>

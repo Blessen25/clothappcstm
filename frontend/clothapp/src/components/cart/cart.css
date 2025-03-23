@@ -9,7 +9,6 @@
 
 .cartamountanditemparent {
 
-    border: 2px solid black;
     width: 100%;
     display: flex;
     gap: 20px;
@@ -18,7 +17,6 @@
 
 .itemschild {
 
-    border: 2px solid black;
     width: 65%;
 }
 
@@ -111,7 +109,7 @@
 .amountdiv {
 
     width: 100%;
-    height: 500px;
+    height: 405px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 20px;
@@ -145,8 +143,7 @@
 
 .totalsubtotalcstmdiv {
 
-    border: 2px solid black;
-    height: 300px;
+    height: 180px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -176,10 +173,100 @@
 .border-cstm {
 
     width: 100%;
-    background-color: #676767;
-    height: 1px;
+    border: 1px solid #676767;
 }
 
+.buttonaddtocartcstm {
+
+    height: 40px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: all .7s;   
+}
+
+.buttonaddtocartcstm:nth-of-type(2){
+
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.buttonaddtocartcstm:nth-of-type(1){
+
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.buttonaddtocartcstm:nth-of-type(1):hover{
+
+    background-color: black;
+    color: white;
+}
+
+.buttonaddtocartcstm:nth-of-type(2):hover{
+
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.none-cstm{
+
+    display: none;
+}
+
+.activatecoupen {
+
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    height: 40px;
+}
+
+.activatecoupentextinput {
+
+    width: 60%;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0px 15px;
+}
+
+.buttonactivatecoupencstm {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    transition: all .7s;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.buttonactivatecoupencstm:hover {
+
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.subtitlecstmdiv h1 {
+
+    font-size: 20px;
+}
+
+.subtitlecstmdiv h3 {
+
+    font-size: 18px;
+}
 
 @media screen and (max-width: 767px) {
 
@@ -193,6 +280,21 @@
 
         font-size: 14px;
     }
+
+    .buttonaddtocartcstm {
+
+        font-size: 12px;
+    }
+
+    .activatecoupentextinput {
+
+        font-size: 12px;
+    }
+
+    .buttonactivatecoupencstm {
+
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -205,5 +307,25 @@
     .faiconcartdetails {
 
         font-size: 9px;
+    }
+
+    .buttonaddtocartcstm {
+
+        font-size: 10px;
+        height: 30px;
+    }
+    .activatecoupen {
+
+        height: 30px;
+    }
+
+    .activatecoupentextinput {
+
+        font-size: 10px;
+    }
+
+    .buttonactivatecoupencstm {
+
+        font-size: 10px;
     }
 }
