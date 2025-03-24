@@ -302,17 +302,55 @@ body {
 .modalmaindiv {
 
     width: 600px;
-    height: 500px;
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .modalimgdiv {
 
     width: 100%;
-    border: 2px solid black;
+    height: 460px;
+}
+
+.hurraypiccstm {
+
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.modalmaindiv h1 {
+
+    font-size: 28px;
+    text-align: center;
+}
+
+.modalmaindiv a {
+
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    transition: all .7s;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.modalmaindiv a:hover {
+
+    background-color: black;
+    color: white;
 }
 
 @media screen and (min-width : 991px) and (max-width: 1199px) {
@@ -435,6 +473,20 @@ body {
         font-size: 20px;
     }
 
+    .modalmaindiv a {
+
+        font-size: 12px;
+    }
+
+    .modalmaindiv h1 {
+
+        font-size: 20px;
+    }
+
+    .modalmaindiv {
+
+        width: 450px;
+    }
 
 }
 
@@ -545,6 +597,27 @@ body {
     .modalmaindiv {
 
         padding: 15px;
+    }
+
+    .modalmaindiv a {
+
+        font-size: 10px;
+        height: 30px;
+    }
+
+    .modalmaindiv {
+
+        width: 290px;
+    }
+
+    .modalimgdiv {
+
+        height: 220px;
+    }
+
+    .modalmaindiv h1 {
+
+        font-size: 13px;
     }
 }
 

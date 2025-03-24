@@ -60,7 +60,15 @@ const AddtoCart = () => {
         setCartItems(prevItems => prevItems.filter((_, i) => i !== index));
     }
 
-    console.log("Cart items", cartItems)
+    const handleopenmodalchange = () => {
+
+        setModalOpen(false)
+    }
+
+    const handleOpenModalTrue = () => {
+
+        setModalOpen(true)
+    }
     return (
         <>
             <div className="containerdivcstm">
@@ -172,19 +180,26 @@ const AddtoCart = () => {
                                             <a href="#" className="buttonactivatecoupencstm">Add Discount</a>
                                         </div>
                                     )}
-                                    <a href="#" className="buttonaddtocartcstm buttonaddtocartcstm2">Buy Now</a>
+                                    <a href="#" className="buttonaddtocartcstm buttonaddtocartcstm2" onClick={handleOpenModalTrue}>Buy Now</a>
                                 </div>
                             </div>
                         </>)}
                     </div>
                 </div>
-                <div className="modalparentdivcstm">
-                    <div className="modalmaindiv">
-                        <div className="modalimgdiv">
-
+                {modalopen && (
+                    <>
+                        <div className="modalparentdivcstm">
+                            <div className="modalmaindiv">
+                                <div className="modalimgdiv">
+                                    <img src="../assets/Images/hurrayvector.jpg" alt="" className="hurraypiccstm" />
+                                </div>
+                                <h1>The payment has been done successfully!!!</h1>
+                                <a href="/" onClick={handleopenmodalchange}>Go to Home</a>
+                            </div>
                         </div>
-                    </div>
-                </div>
+
+                    </>
+                )}
             </div>
         </>
     )
