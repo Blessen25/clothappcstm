@@ -132,16 +132,6 @@ const AddtoCart = () => {
                                             <div className="border-cstm"></div>
 
                                         </div>
-                                        {!activatecoupen && (
-                                            <a href="#" className="buttonaddtocartcstm buttonaddtocartcstm1" onClick={handleActivateCoupen}>Add Discount Coupen</a>
-                                        )}
-                                        {activatecoupen && (
-                                            <div className="activatecoupen">
-                                                <input type="text" className="activatecoupentextinput" placeholder="Add Coupen Code" />
-                                                <a href="#" className="buttonactivatecoupencstm">Add Discount</a>
-                                            </div>
-                                        )}
-                                        <a href="#" className="buttonaddtocartcstm buttonaddtocartcstm2">Buy Now</a>
                                     </div>
                                 </div>
                             </>
