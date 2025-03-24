@@ -1,7 +1,8 @@
 body {
 
     background-color: #f2f0f1;
-  }
+}
+
 .addtocartintro {
 
     padding: 50px 40px 20px 40px;
@@ -9,6 +10,11 @@ body {
     flex-direction: column;
     gap: 30px;
     background-color: #f2f0f1;
+}
+
+.containerdivcstm {
+
+    position: relative;
 }
 
 .cartamountanditemparent {
@@ -191,37 +197,37 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    transition: all .7s;   
+    transition: all .7s;
 }
 
-.buttonaddtocartcstm2{
+.buttonaddtocartcstm2 {
 
     background-color: black;
     color: white;
     border: 1px solid black;
 }
 
-.buttonaddtocartcstm1{
+.buttonaddtocartcstm1 {
 
     background-color: transparent;
     color: black;
     border: 1px solid black;
 }
 
-.buttonaddtocartcstm1:hover{
+.buttonaddtocartcstm1:hover {
 
     background-color: black;
     color: white;
 }
 
-.buttonaddtocartcstm2:hover{
+.buttonaddtocartcstm2:hover {
 
     background-color: transparent;
     color: black;
     border: 1px solid black;
 }
 
-.none-cstm{
+.none-cstm {
 
     display: none;
 }
@@ -279,9 +285,39 @@ body {
     text-align: center;
 }
 
+.modalparentdivcstm {
+
+    width: 100%;
+    border: 2px solid black;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalmaindiv {
+
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+}
+
+.modalimgdiv {
+
+    width: 100%;
+    border: 2px solid black;
+}
+
 @media screen and (min-width : 991px) and (max-width: 1199px) {
-    
-    .amountchild  {
+
+    .amountchild {
 
         width: 40%;
     }
@@ -290,7 +326,7 @@ body {
 
         width: 60%;
     }
-    
+
     .nameanddeletebutton h1 {
 
         font-size: 22px;
@@ -306,7 +342,7 @@ body {
         width: 160px;
     }
 
-    .amountdiv h1{
+    .amountdiv h1 {
         font-size: 22px;
     }
 
@@ -319,7 +355,7 @@ body {
 
         width: 50%;
     }
-    
+
     .buttonactivatecoupencstm {
 
         width: 50%;
@@ -374,7 +410,7 @@ body {
         font-size: 12px;
     }
 
-    .nameanddeletebutton h1{
+    .nameanddeletebutton h1 {
 
         font-size: 22px;
     }
@@ -398,6 +434,8 @@ body {
 
         font-size: 20px;
     }
+
+
 }
 
 @media screen and (max-width: 575px) {
@@ -417,6 +455,7 @@ body {
         font-size: 10px;
         height: 30px;
     }
+
     .activatecoupen {
 
         height: 30px;
@@ -442,7 +481,7 @@ body {
         font-size: 14px;
     }
 
-    .subtitlecstmdiv p{
+    .subtitlecstmdiv p {
 
         font-size: 14px;
     }
@@ -451,7 +490,7 @@ body {
 
         font-size: 14px;
     }
-    
+
     .subtitlecstmdiv h3 {
 
         font-size: 14px;
@@ -472,7 +511,7 @@ body {
         font-size: 14px;
     }
 
-    .priceandquantitydiv h1{
+    .priceandquantitydiv h1 {
 
         font-size: 14px;
     }
@@ -489,7 +528,7 @@ body {
     }
 
     .trashcancstm {
-        
+
         font-size: 12px;
     }
 
@@ -502,6 +541,11 @@ body {
 
         font-size: 16px;
     }
+
+    .modalmaindiv {
+
+        padding: 15px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -510,7 +554,7 @@ body {
         flex-wrap: wrap;
     }
 
-    .imagedivparent  {
+    .imagedivparent {
 
         width: 100%;
         height: 290px;
